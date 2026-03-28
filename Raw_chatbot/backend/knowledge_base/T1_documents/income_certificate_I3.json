@@ -1,0 +1,37 @@
+{
+    "doc_id": "INC_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Alternative Documents for Income Certificate",
+        "hi": "आय प्रमाणपत्र हेतु वैकल्पिक दस्तावेज",
+        "mr": "उत्पन्न प्रमाणपत्रासाठी पर्यायी कागदपत्रे"
+    },
+    "content": {
+        "en": "If standard income documents are unavailable, a sworn affidavit and verification report from the local revenue authority may be accepted.",
+        "hi": "यदि मानक आय दस्तावेज उपलब्ध नहीं हैं, तो शपथ पत्र और स्थानीय राजस्व अधिकारी की रिपोर्ट स्वीकार की जा सकती है।",
+        "mr": "मानक उत्पन्न कागदपत्रे उपलब्ध नसल्यास प्रतिज्ञापत्र व स्थानिक महसूल अधिकाऱ्याचा अहवाल स्वीकारला जाऊ शकतो."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "alternative income proof",
+            "affidavit"
+        ],
+        "hi": [
+            "वैकल्पिक आय प्रमाण",
+            "शपथ पत्र"
+        ],
+        "mr": [
+            "पर्यायी उत्पन्न पुरावा",
+            "प्रतिज्ञापत्र"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "income_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

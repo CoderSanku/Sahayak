@@ -1,0 +1,68 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy:    #1A237E;
+  --blue:    #0048A8;
+  --saffron: #FF6B00;
+  --green:   #138808;
+  --purple:  #7C3AED;
+  --pink:    #DB2777;
+  --teal:    #0D9488;
+  --gray50:  #F9FAFB;
+  --gray100: #F3F4F6;
+  --gray200: #E5E7EB;
+  --gray400: #9CA3AF;
+  --gray500: #6B7280;
+  --gray700: #374151;
+  --gray900: #111827;
+  --white:   #ffffff;
+  --shadow:  0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.10);
+}
+
+body {
+  font-family: 'Baloo 2', 'Noto Sans Devanagari', sans-serif;
+  background: var(--gray50);
+  color: var(--gray900);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { cursor: pointer; font-family: inherit; }
+input, textarea, select { font-family: inherit; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--gray200); border-radius: 3px; }
+
+/* Status pill colours */
+.pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 3px 10px; border-radius: 20px;
+  font-size: 11px; font-weight: 700; white-space: nowrap;
+}
+.pill.pending   { background: #FFFBEB; color: #92400E; border: 1px solid #FDE68A; }
+.pill.approved  { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
+.pill.generated { background: #F0FDF4; color: #15803D; border: 1px solid #86EFAC; }
+.pill.rejected  { background: #FEF2F2; color: #B91C1C; border: 1px solid #FECACA; }
+.pill.reviewed  { background: #EFF6FF; color: #1D4ED8; border: 1px solid #BFDBFE; }
+.pill.resolved  { background: #F0FDF4; color: #15803D; border: 1px solid #86EFAC; }
+.pill.dismissed { background: #FEF2F2; color: #B91C1C; border: 1px solid #FECACA; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-in { animation: fadeIn 0.2s ease; }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.spinner {
+  width: 20px; height: 20px; border-radius: 50%;
+  border: 2px solid var(--gray200);
+  border-top-color: var(--blue);
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}

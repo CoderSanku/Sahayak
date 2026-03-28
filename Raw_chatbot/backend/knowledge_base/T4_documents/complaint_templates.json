@@ -1,0 +1,390 @@
+{
+    "complaints": [
+        {
+            "complaint_code": "C1",
+            "complaint_title": {
+                "en": "Delay in Certificate Issuance",
+                "hi": "प्रमाण पत्र जारी करने में विलंब",
+                "mr": "प्रमाणपत्र देण्यात विलंब"
+            },
+            "letter": {
+                "en": {
+                    "subject": "Regarding delay in issuance of {certificate_name}",
+                    "body": [
+                        "To,",
+                        "The Tehsildar,",
+                        "{office_address}",
+                        "",
+                        "Respected Sir/Madam,",
+                        "",
+                        "I would like to inform you that I applied for {certificate_name} on {application_date}. However, the certificate has not been issued till date.",
+                        "",
+                        "I kindly request you to look into the matter and take necessary action at the earliest.",
+                        "",
+                        "Thanking you,",
+                        "Yours faithfully,",
+                        "{applicant_name}",
+                        "{contact_number}"
+                    ]
+                },
+                "hi": {
+                    "subject": "{certificate_name} जारी करने में विलंब के संबंध में",
+                    "body": [
+                        "सेवा में,",
+                        "तहसीलदार महोदय/महोदया,",
+                        "{office_address}",
+                        "",
+                        "सादर निवेदन है कि मैंने {application_date} को {certificate_name} के लिए आवेदन किया था। लेकिन अभी तक प्रमाण पत्र जारी नहीं किया गया है।",
+                        "",
+                        "कृपया इस विषय पर आवश्यक कार्रवाई करने की कृपा करें।",
+                        "",
+                        "धन्यवाद।",
+                        "भवदीय,",
+                        "{applicant_name}",
+                        "{contact_number}"
+                    ]
+                },
+                "mr": {
+                    "subject": "{certificate_name} देण्यात विलंबाबाबत",
+                    "body": [
+                        "प्रति,",
+                        "तहसीलदार साहेब/साहेबा,",
+                        "{office_address}",
+                        "",
+                        "महोदय/महोदया,",
+                        "",
+                        "मी {application_date} रोजी {certificate_name} साठी अर्ज केला आहे. तथापि अद्याप प्रमाणपत्र मिळालेले नाही.",
+                        "",
+                        "कृपया या बाबीकडे लक्ष देऊन आवश्यक कार्यवाही करावी.",
+                        "",
+                        "धन्यवाद.",
+                        "आपला विश्वासू,",
+                        "{applicant_name}",
+                        "{contact_number}"
+                    ]
+                }
+            },
+            "email": {
+                "en": {
+                    "subject": "Delay in issuance of {certificate_name}",
+                    "body": [
+                        "Respected Sir/Madam,",
+                        "",
+                        "I applied for {certificate_name} on {application_date}, but it has not yet been issued.",
+                        "",
+                        "Kindly look into the matter.",
+                        "",
+                        "Regards,",
+                        "{applicant_name}",
+                        "{contact_number}"
+                    ]
+                },
+                "hi": {
+                    "subject": "{certificate_name} जारी करने में विलंब",
+                    "body": [
+                        "महोदय/महोदया,",
+                        "",
+                        "मैंने {application_date} को {certificate_name} के लिए आवेदन किया था, जो अभी लंबित है।",
+                        "",
+                        "कृपया आवश्यक कार्रवाई करें।",
+                        "",
+                        "सादर,",
+                        "{applicant_name}",
+                        "{contact_number}"
+                    ]
+                },
+                "mr": {
+                    "subject": "{certificate_name} देण्यात विलंब",
+                    "body": [
+                        "महोदय/महोदया,",
+                        "",
+                        "मी {application_date} रोजी {certificate_name} साठी अर्ज केला असून तो अद्याप प्रलंबित आहे.",
+                        "",
+                        "कृपया आवश्यक कार्यवाही करावी.",
+                        "",
+                        "आपला,",
+                        "{applicant_name}",
+                        "{contact_number}"
+                    ]
+                }
+            }
+        },
+        {
+            "complaint_code": "C2",
+            "complaint_title": {
+                "en": "Rejection Without Proper Reason",
+                "hi": "बिना उचित कारण के आवेदन अस्वीकृत",
+                "mr": "अर्ज अयोग्य कारणामुळे नामंजूर"
+            },
+            "letter": {
+                "en": {
+                    "subject": "Regarding rejection of {certificate_name}",
+                    "body": [
+                        "Respected Sir/Madam,",
+                        "",
+                        "My application for {certificate_name} has been rejected without a clear explanation.",
+                        "",
+                        "I request clarification and reconsideration of my application.",
+                        "",
+                        "Yours sincerely,",
+                        "{applicant_name}"
+                    ]
+                },
+                "hi": {
+                    "subject": "{certificate_name} आवेदन अस्वीकृति के संबंध में",
+                    "body": [
+                        "सादर निवेदन है कि मेरा {certificate_name} आवेदन बिना उचित कारण के अस्वीकृत कर दिया गया है।",
+                        "",
+                        "कृपया स्पष्टीकरण प्रदान करें।",
+                        "",
+                        "भवदीय,",
+                        "{applicant_name}"
+                    ]
+                },
+                "mr": {
+                    "subject": "{certificate_name} अर्ज नामंजुरी बाबत",
+                    "body": [
+                        "माझा {certificate_name} अर्ज कोणतेही स्पष्ट कारण न देता नामंजूर करण्यात आला आहे.",
+                        "",
+                        "कृपया पुनर्विचार करावा.",
+                        "",
+                        "आपला,",
+                        "{applicant_name}"
+                    ]
+                }
+            },
+            "email": {
+                "en": {
+                    "subject": "Unjustified rejection of application",
+                    "body": [
+                        "My application was rejected without proper justification.",
+                        "Kindly review the matter."
+                    ]
+                },
+                "hi": {
+                    "subject": "आवेदन अस्वीकृति",
+                    "body": [
+                        "मेरा आवेदन बिना उचित कारण के अस्वीकृत किया गया है।",
+                        "कृपया पुनः विचार करें।"
+                    ]
+                },
+                "mr": {
+                    "subject": "अर्ज नामंजुरी",
+                    "body": [
+                        "माझा अर्ज योग्य कारणांशिवाय नामंजूर करण्यात आला आहे.",
+                        "कृपया पुनर्विचार करावा."
+                    ]
+                }
+            }
+        },
+        {
+            "complaint_code": "C3",
+            "complaint_title": {
+                "en": "Incorrect Details in Certificate",
+                "hi": "प्रमाण पत्र में गलत विवरण",
+                "mr": "प्रमाणपत्रातील चुकीची माहिती"
+            },
+            "letter": {
+                "en": {
+                    "subject": "Correction required in {certificate_name}",
+                    "body": [
+                        "There are incorrect details in my issued certificate.",
+                        "I request correction at the earliest."
+                    ]
+                },
+                "hi": {
+                    "subject": "{certificate_name} में सुधार हेतु",
+                    "body": [
+                        "मेरे प्रमाण पत्र में गलत जानकारी है।",
+                        "कृपया सुधार करें।"
+                    ]
+                },
+                "mr": {
+                    "subject": "{certificate_name} दुरुस्ती बाबत",
+                    "body": [
+                        "माझ्या प्रमाणपत्रात चुकीची माहिती आहे.",
+                        "कृपया दुरुस्ती करावी."
+                    ]
+                }
+            },
+            "email": {
+                "en": {
+                    "subject": "Correction in certificate",
+                    "body": [
+                        "Please correct the issued certificate."
+                    ]
+                },
+                "hi": {
+                    "subject": "प्रमाण पत्र सुधार",
+                    "body": [
+                        "कृपया सुधार करें।"
+                    ]
+                },
+                "mr": {
+                    "subject": "प्रमाणपत्र दुरुस्ती",
+                    "body": [
+                        "कृपया दुरुस्ती करावी."
+                    ]
+                }
+            }
+        },
+        {
+            "complaint_code": "C4",
+            "complaint_title": {
+                "en": "Staff Misconduct",
+                "hi": "कार्यालय स्टाफ का दुर्व्यवहार",
+                "mr": "कार्यालयीन कर्मचाऱ्यांचे गैरवर्तन"
+            },
+            "letter": {
+                "en": {
+                    "subject": "Complaint regarding staff behavior",
+                    "body": [
+                        "I wish to report inappropriate behavior by office staff.",
+                        "{issue_details}"
+                    ]
+                },
+                "hi": {
+                    "subject": "कार्यालय स्टाफ के व्यवहार के संबंध में",
+                    "body": [
+                        "मैं कार्यालय स्टाफ के अनुचित व्यवहार की शिकायत करना चाहता/चाहती हूँ।",
+                        "{issue_details}"
+                    ]
+                },
+                "mr": {
+                    "subject": "कर्मचारी गैरवर्तन बाबत",
+                    "body": [
+                        "कार्यालयीन कर्मचाऱ्यांच्या गैरवर्तनाबाबत तक्रार करीत आहे.",
+                        "{issue_details}"
+                    ]
+                }
+            },
+            "email": {
+                "en": {
+                    "subject": "Staff misconduct",
+                    "body": [
+                        "Reporting staff misconduct.",
+                        "{issue_details}"
+                    ]
+                },
+                "hi": {
+                    "subject": "स्टाफ शिकायत",
+                    "body": [
+                        "स्टाफ दुर्व्यवहार की शिकायत।"
+                    ]
+                },
+                "mr": {
+                    "subject": "कर्मचारी तक्रार",
+                    "body": [
+                        "कर्मचारी गैरवर्तनाबाबत."
+                    ]
+                }
+            }
+        },
+        {
+            "complaint_code": "C5",
+            "complaint_title": {
+                "en": "Online Portal Issue",
+                "hi": "ऑनलाइन पोर्टल समस्या",
+                "mr": "ऑनलाइन पोर्टल समस्या"
+            },
+            "letter": {
+                "en": {
+                    "subject": "Issue faced on online portal",
+                    "body": [
+                        "I am facing technical issues while using the online portal.",
+                        "{issue_details}"
+                    ]
+                },
+                "hi": {
+                    "subject": "ऑनलाइन पोर्टल समस्या",
+                    "body": [
+                        "ऑनलाइन पोर्टल का उपयोग करते समय समस्या आ रही है।",
+                        "{issue_details}"
+                    ]
+                },
+                "mr": {
+                    "subject": "ऑनलाइन पोर्टल अडचण",
+                    "body": [
+                        "ऑनलाइन पोर्टल वापरताना अडचण येत आहे.",
+                        "{issue_details}"
+                    ]
+                }
+            },
+            "email": {
+                "en": {
+                    "subject": "Portal issue",
+                    "body": [
+                        "Facing portal issue.",
+                        "{issue_details}"
+                    ]
+                },
+                "hi": {
+                    "subject": "पोर्टल समस्या",
+                    "body": [
+                        "पोर्टल में समस्या।"
+                    ]
+                },
+                "mr": {
+                    "subject": "पोर्टल अडचण",
+                    "body": [
+                        "पोर्टल अडचण."
+                    ]
+                }
+            }
+        },
+        {
+            "complaint_code": "C6",
+            "complaint_title": {
+                "en": "General Grievance",
+                "hi": "सामान्य शिकायत",
+                "mr": "सामान्य तक्रार"
+            },
+            "letter": {
+                "en": {
+                    "subject": "General grievance",
+                    "body": [
+                        "{issue_details}",
+                        "",
+                        "Kindly take necessary action."
+                    ]
+                },
+                "hi": {
+                    "subject": "सामान्य शिकायत",
+                    "body": [
+                        "{issue_details}",
+                        "",
+                        "कृपया आवश्यक कार्रवाई करें।"
+                    ]
+                },
+                "mr": {
+                    "subject": "सामान्य तक्रार",
+                    "body": [
+                        "{issue_details}",
+                        "",
+                        "कृपया आवश्यक कार्यवाही करावी."
+                    ]
+                }
+            },
+            "email": {
+                "en": {
+                    "subject": "General grievance",
+                    "body": [
+                        "{issue_details}"
+                    ]
+                },
+                "hi": {
+                    "subject": "सामान्य शिकायत",
+                    "body": [
+                        "{issue_details}"
+                    ]
+                },
+                "mr": {
+                    "subject": "सामान्य तक्रार",
+                    "body": [
+                        "{issue_details}"
+                    ]
+                }
+            }
+        }
+    ]
+}

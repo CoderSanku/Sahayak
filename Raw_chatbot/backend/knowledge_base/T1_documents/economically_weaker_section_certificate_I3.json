@@ -1,0 +1,23 @@
+{
+    "doc_id": "EWS_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Alternative Documents for EWS Certificate",
+        "hi": "EWS प्रमाणपत्र हेतु वैकल्पिक दस्तावेज",
+        "mr": "EWS प्रमाणपत्रासाठी पर्यायी कागदपत्रे"
+    },
+    "content": {
+        "en": "If income or residence documents are partially unavailable, supporting affidavits and revenue verification reports may be reviewed.",
+        "hi": "यदि आय या निवास दस्तावेज आंशिक रूप से उपलब्ध हों, तो शपथ पत्र और राजस्व सत्यापन रिपोर्ट पर विचार किया जा सकता है।",
+        "mr": "उत्पन्न किंवा निवास कागदपत्रे अंशतः उपलब्ध असल्यास प्रतिज्ञापत्र व महसूल पडताळणी अहवाल विचारात घेतले जाऊ शकतात."
+    },
+    "language": "en",
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "economically_weaker_section_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

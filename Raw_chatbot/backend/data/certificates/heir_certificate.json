@@ -1,0 +1,92 @@
+{
+    "certificate_id": "heir_certificate",
+    "certificate_name": {
+        "en": "Heir Certificate",
+        "hi": "उत्तराधिकारी प्रमाण पत्र",
+        "mr": "वारस प्रमाणपत्र"
+    },
+    "documents": {
+        "mandatory": [
+            {
+                "doc_id": "mill_worker_proof",
+                "name": {
+                    "en": "Mill Worker Proof",
+                    "hi": "मिल कामगार प्रमाण",
+                    "mr": "मिल कामगार पुरावा"
+                }
+            },
+            {
+                "doc_id": "mhada_house_proof",
+                "name": {
+                    "en": "MHADA House Proof",
+                    "hi": "म्हाडा आवास प्रमाण",
+                    "mr": "म्हाडा घर पुरावा"
+                }
+            },
+            {
+                "doc_id": "pan_card",
+                "name": {
+                    "en": "PAN Card",
+                    "hi": "पैन कार्ड",
+                    "mr": "पॅन कार्ड"
+                }
+            },
+            {
+                "doc_id": "government_gazette_name_change",
+                "name": {
+                    "en": "Government Gazette (Name Change / Married Heirs)",
+                    "hi": "सरकारी राजपत्र (नाम परिवर्तन / विवाहित उत्तराधिकारी)",
+                    "mr": "शासकीय राजपत्र (नाव बदल / विवाहित वारस)"
+                }
+            },
+            {
+                "doc_id": "applicant_affidavit",
+                "name": {
+                    "en": "Applicant Affidavit",
+                    "hi": "आवेदक का शपथ पत्र",
+                    "mr": "अर्जदाराचे प्रतिज्ञापत्र"
+                }
+            },
+            {
+                "doc_id": "newspaper_public_notice",
+                "name": {
+                    "en": "Newspaper Public Notice",
+                    "hi": "समाचार पत्र में सार्वजनिक सूचना",
+                    "mr": "वृत्तपत्रातील सार्वजनिक सूचना"
+                }
+            },
+            {
+                "doc_id": "gram_revenue_officer_inquiry_report",
+                "name": {
+                    "en": "Gram Revenue Officer Inquiry Report",
+                    "hi": "ग्राम राजस्व अधिकारी जांच प्रतिवेदन",
+                    "mr": "ग्राम महसूल अधिकारी चौकशी अहवाल"
+                }
+            }
+        ],
+        "required": [],
+        "optional": []
+    },
+    "issuing_authority": {
+        "en": "Tehsildar Office",
+        "hi": "तहसीलदार कार्यालय",
+        "mr": "तहसीलदार कार्यालय"
+    },
+    "suggestions": {
+        "processing_time": {
+            "en": "Processing time is usually 7–14 working days.",
+            "hi": "प्रोसेसिंग समय आमतौर पर 7–14 कार्य दिवस होता है।",
+            "mr": "प्रक्रिया कालावधी साधारणतः 7–14 कार्य दिवस असतो."
+        },
+        "sample_application": {
+            "en": "Would you like to see a sample application format?",
+            "hi": "क्या आप नमूना आवेदन देखना चाहेंगे?",
+            "mr": "आपण नमुना अर्ज पाहू इच्छिता का?"
+        },
+        "appeal_process": {
+            "en": "You may file an appeal at the Tehsildar office.",
+            "hi": "आप तहसीलदार कार्यालय में अपील कर सकते हैं।",
+            "mr": "आपण तहसीलदार कार्यालयात अपील करू शकता."
+        }
+    }
+}

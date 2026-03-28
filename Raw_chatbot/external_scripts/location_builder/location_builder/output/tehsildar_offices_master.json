@@ -1,0 +1,5705 @@
+{
+  "metadata": {
+    "state": "Maharashtra",
+    "department": "Tehsildar Office",
+    "total_centers": 178
+  },
+  "offices": [
+    {
+      "office_id": "borivali_east_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali_east",
+        "name": {
+          "en": "Borivali East",
+          "mr": "बोरिवली पूर्व"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Prashant Chandrakant Pawar",
+          "mr": "प्रशांत चंद्रकांत पवार"
+        },
+        "address": {
+          "en": "Carter Road No 8 Near Ramdev Peer Mandir Borivali East Mumbai 400066",
+          "mr": "कार्टर रोड क्रमांक ८, रामदेव पीर मंदिर जवळ, बोरिवली पूर्व मुंबई ४०००६६"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Psy9u4eQPbcXtkov5",
+        "contact_number": "9930802507",
+        "email_id": "prashapawar.gmail.com",
+        "lat": 19.2187187,
+        "lng": 72.8654856
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "DAHISAR",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHRI RAM SATSANG SAMITI (AMIT TIWARI)",
+          "mr": "श्री राम सत्संग समिती (अमित तिवारी)"
+        },
+        "address": {
+          "en": "OFF W E HIGHWAY NR SHAILENDRA SCHOOL SHAILENDRA NAGAR",
+          "mr": "ऑफ वी हायवे NR शैलेंद्र स्कूल शैलेंद्र नगर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/X1xe8pABfUSALmQk6",
+        "contact_number": "9768461858",
+        "email_id": "amittiwari155.gmail.com",
+        "lat": 19.2249227,
+        "lng": 72.8831528
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "BORIVALI",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Atish Naikwade",
+          "mr": "आतिश नाईकवाडे"
+        },
+        "address": {
+          "en": "SHOP NO 5 INDIRA NAGAR, OPP TCS COMPANY, BORIVALI EAST,400066 KULUPWADI ROAD",
+          "mr": "दुकान क्रमांक ५ इंदिरा नगर, टीसीएस कंपनीसमोर, बोरिवली पूर्व, ४०००६६ कुलूपवाडी रोड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/dsa5XHC42Xo887mn9",
+        "contact_number": "9702146367",
+        "email_id": "atishnaikwade22.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "ANDHERI",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Puja Paresh Gujar",
+          "mr": "पूजा परेश गुजर"
+        },
+        "address": {
+          "en": "SHOP NO. 1, GARDEN VIEW HOS. SOC., D.N. ROAD, NEAR NAVRANG CENIMA, ANDHERI WEST",
+          "mr": "दुकान क्र. 1, गार्डन व्ह्यू HOS. एसओसी., डीएन रोड, नवरंग सेनिमा जवळ, अंधेरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/f1aKNTYfpxXmEgLVA",
+        "contact_number": "9892750477",
+        "email_id": "advpoojagajjar.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "vakola_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "vakola",
+        "name": {
+          "en": "VAKOLA",
+          "mr": "वाकोला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "JAYSHREE SHANKAR MUDLIAR",
+          "mr": "जयश्री शंकर मुदलियार"
+        },
+        "address": {
+          "en": "SHOP NO 1 MANTHAN PLAZA BMC MARKET,VAKOLA SANTACRUZ EAST",
+          "mr": "दुकान क्रमांक 1 मंथन प्लाझा बीएमसी मार्केट, वाकोला सांताक्रूझ पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/UFGwUbYvQJdey2XR9",
+        "contact_number": "9867174286",
+        "email_id": "jayshreemudliar5.gmail.com",
+        "lat": 19.1342142,
+        "lng": 72.8130035
+      }
+    },
+    {
+      "office_id": "andheri_west_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri_west",
+        "name": {
+          "en": "ANDHERI WEST",
+          "mr": "अंधेरी पश्चिम"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MEGHNA SHAILESH BAROT",
+          "mr": "मेघना शैलेश बारोट"
+        },
+        "address": {
+          "en": "SAHELEE CYBER, HARISH PREMISES NEAR AMRUT ROOP SANGAM STORE, NEAR ANDHERI RAILWAY STATION ANDHERI WEST,400058",
+          "mr": "सहेली सायबर, हरीश परिसर अमृत रूप संगम स्टोअर जवळ, अंधेरी रेल्वे स्टेशन जवळ, अंधेरी पश्चिम, 400058"
+        },
+        "geo_tag": "https://maps.app.goo.gl/52r5xqoDFecffgxUA",
+        "contact_number": "9833192324 / 9167923622",
+        "email_id": "barot.meghna.gmail.com",
+        "lat": 19.1193118,
+        "lng": 72.8458691
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Nehal Jayantilal Thadeshwar",
+          "mr": "नेहल जयंतीलाल थडेश्वर"
+        },
+        "address": {
+          "en": "OFFICE NO. 20, GROUND FLOOR MONA SHOPPING CENTRE NEAR NAVRANG CINEMA OFF ICICI BANK ANDHERI WEST",
+          "mr": "कार्यालय क्रमांक २०, ग्राउंड फ्लोअर मोना शॉपिंग सेंटर, आयसीआयसीआय बँक अंधेरी पश्चिमेकडील नवरंग सिनेमाजवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/QQhVo93dVLteYvUF6",
+        "contact_number": "9324499901",
+        "email_id": "nehalthadeshwar.live.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "andheri_east_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri_east",
+        "name": {
+          "en": "ANDHERI EAST",
+          "mr": "अंधेरी पूर्व"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ZAVERCHANDRA LALBHAI BAROT",
+          "mr": "झवरचंद्र लालभाई बारोट"
+        },
+        "address": {
+          "en": "SAHELEE GRAPHICS, M V ROAD, NEAR ANDHERI RAILWAY STATION NEAR ANDHERI METRO STATION ANDHERI EAST",
+          "mr": "सहेली ग्राफिक्स, एमव्ही रोड, अंधेरी रेल्वे स्टेशन जवळ अंधेरी मेट्रो स्टेशन जवळ अंधेरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/uzsAiXjmLoY6LtVr5",
+        "contact_number": "9324502760 / 9167923622",
+        "email_id": "barotshailesh.gmail.com",
+        "lat": 19.1190605,
+        "lng": 72.8481917
+      }
+    },
+    {
+      "office_id": "khar_east_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "khar_east",
+        "name": {
+          "en": "kHAR EAST",
+          "mr": "खार पूर्व"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sachin Gajanan Thorat",
+          "mr": "सचिन गजानन थोरात"
+        },
+        "address": {
+          "en": "Janadhar Foundation, Service Road, Khar East,400051 7 Shreenath Kumbhar Chawl Towards andheri side bus stop Khar East",
+          "mr": "जनाधार फाउंडेशन, सर्व्हिस रोड, खार पूर्व, 400051 7 श्रीनाथ कुंभार चाळ अंधेरी साइड बस स्टॉप खार पूर्व दिशेने"
+        },
+        "geo_tag": "https://maps.app.goo.gl/6ogCgMvUmjgsd3F8A",
+        "contact_number": "8082713879",
+        "email_id": "sachingthorat61.gmail.com",
+        "lat": 19.06792,
+        "lng": 72.8436658
+      }
+    },
+    {
+      "office_id": "bandra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "bandra",
+        "name": {
+          "en": "BANDRA",
+          "mr": "बांद्रा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NAVNATH SHIVLING KHARATMAL",
+          "mr": "नवनाथ शिवलिंग खरातमल"
+        },
+        "address": {
+          "en": "NIRANKARI ONLINE SERVICE AND STATIONERY, ROOM NO 1A CHAWL NO 54, BANDRA EAST,400051 SHOP NO 01 SHOP NO 01 CHAWL NO 54 SANT DYANESHWAR NAGAR BEHIND GOVT COLONY BANDRA EAST",
+          "mr": "निरंकारी ऑनलाइन सेवा आणि स्टेशनरी, खोली क्रमांक 1A चाळ क्रमांक 54, वांद्रे पूर्व, 400051 दुकान क्रमांक 01 शॉप क्रमांक 01 चाळ क्रमांक 54 संत ज्ञानेश्वर नगर भौंडच्या मागे"
+        },
+        "geo_tag": "https://maps.app.goo.gl/vUCEeUsDttPiUhXz7",
+        "contact_number": "9833862504",
+        "email_id": "print241218.gmail.com",
+        "lat": 19.0930333,
+        "lng": 72.8182657
+      }
+    },
+    {
+      "office_id": "bandra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "bandra",
+        "name": {
+          "en": "Bandra",
+          "mr": "वांद्रे"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Mahesh Ganesh Yadav",
+          "mr": "महेश गणेश यादव"
+        },
+        "address": {
+          "en": "digital hub 1 HARFUL GUPTA CHAWL MAROL NAKA NAVPADA, ANDHERI-KURLA ROAD Near Waterstone Hotel Andheri East",
+          "mr": "डिजिटल हब १ हार्फुल गुप्ता चाळ मरोल नाका नवपाडा, अंधेरी-कुर्ला रोड वॉटरस्टोन हॉटेल जवळ अंधेरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/zbQFmRnUJpZr5tvdA",
+        "contact_number": "7039958807",
+        "email_id": "digitalhub59.gmail.com",
+        "lat": 19.0930333,
+        "lng": 72.8182657
+      }
+    },
+    {
+      "office_id": "powai_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "powai",
+        "name": {
+          "en": "Powai",
+          "mr": "पवई"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shyam Krishachandra Maurya ",
+          "mr": " श्याम कृष्णचंद्र मौर्य"
+        },
+        "address": {
+          "en": "NICE COMPUTER INSTITUTE SHOP NO 7 TARA B WING SAKI VIHAR ROAD OPP L&T GATE NO 7 POWAI",
+          "mr": "नाईस कॉम्प्युटर इन्स्टिट्यूट शॉप नंबर ७ तारा बिंग साकी विहार रोड एल अँड टी गेट नंबर ७ पवई समोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/dm8WSgK8dmNetHMKA",
+        "contact_number": "9820638997",
+        "email_id": "nicecomputers.gmail.com",
+        "lat": 19.1221906,
+        "lng": 72.8888439
+      }
+    },
+    {
+      "office_id": "manglewadi_santacruz_west_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "manglewadi_santacruz_west",
+        "name": {
+          "en": "Manglewadi Santacruz West",
+          "mr": "मांगलेवाडी सांताक्रूझ पश्चिम"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SUNITA DATTA SHINDE",
+          "mr": "सुनिता दत्ता शिंदे"
+        },
+        "address": {
+          "en": "KRISHNA ENTERPRISES MANGELWADI JUHU TARA ROAD NEXT TO MAKER KUNDAN GARDEN SANTACRUZ WEST",
+          "mr": "कृष्णा एंटरप्राइजेस मांगेलवाडी जुहू तारा रोड मेकर कुंदन गार्डन सांताक्रूझ पश्चिमेकडे"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Ep3ePJbeWR1oR5TAA",
+        "contact_number": "9766943066",
+        "email_id": "krishent2021.gmail.com",
+        "lat": 19.085931,
+        "lng": 72.826277
+      }
+    },
+    {
+      "office_id": "khar_east_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "khar_east",
+        "name": {
+          "en": "KHAR EAST",
+          "mr": "खार पूर्व"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHYAMLAL GHANSHYAM PARDESHI",
+          "mr": "श्यामलाल घनश्याम परदेशी"
+        },
+        "address": {
+          "en": "Old Maruti Temple Shukla Chawl Nirmal Nagar Police Officer Khar East",
+          "mr": "जुने मारुती मंदिर शुक्ल चाळ निर्मल नगर पोलीस अधिकारी खार पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/2jTgWnQmFZDiyCMv5",
+        "contact_number": "9867922940",
+        "email_id": "pardeshishyamlal.gmail.com",
+        "lat": 19.085956,
+        "lng": 72.8185522
+      }
+    },
+    {
+      "office_id": "varsova_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "varsova",
+        "name": {
+          "en": "VARSOVA",
+          "mr": "वरसोवा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Divyashri Dholay",
+          "mr": "दिव्यश्री ढोले"
+        },
+        "address": {
+          "en": "Sankalp Siddhi Trust G9,Ground Floor, G7 Mall, Seven Bunglows, JP Road Near Versova Metro Station, Versova",
+          "mr": "संकल्प सिद्धी ट्रस्ट G9, तळमजला, G7 मॉल, सात बंगले, वर्सोवा मेट्रो स्टेशन जवळ जेपी रोड, वर्सोवा"
+        },
+        "geo_tag": "https://maps.app.goo.gl/biiSGk4bbQKpn7raA",
+        "contact_number": "9892255752",
+        "email_id": "dholaydivya.gmail.com",
+        "lat": 19.1121443,
+        "lng": 72.8404735
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Swarajya Seva Pratishthan Trust (Mahesh Manohar Farkase)",
+          "mr": "स्वराज्य सेवा प्रतिष्ठान ट्रस्ट (महेश मनोहर फरकासे)"
+        },
+        "address": {
+          "en": "Shop No 8, vaishnavi heights balaji hospital back side Sun rise tower malad west",
+          "mr": "दुकान क्रमांक ८, वैष्णवी हाइट्स बालाजी हॉस्पिटल, सन राईज टॉवर, मालाड पश्चिमेकडील मागील बाजूस"
+        },
+        "geo_tag": "https://maps.app.goo.gl/GEvCesaVsrSV1rdh9",
+        "contact_number": "9821591132",
+        "email_id": "swarajyasevapt.gmail.com",
+        "lat": 19.1905923,
+        "lng": 72.8269833
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Alam Shaikh",
+          "mr": "आलम शेख"
+        },
+        "address": {
+          "en": "Adarsh janseva mandal, akurli road, opp banarasi hotel, hanuman nagar, kandivali east, mum 400101",
+          "mr": "आदर्श जनसेवा मंडळ, आकुर्ली रोड, बनारसी हॉटेल समोर, हनुमान नगर, कांदिवली पूर्व, मम ४००१०१"
+        },
+        "geo_tag": "https://maps.app.goo.gl/vYVCtEXUKqm7HicHA",
+        "contact_number": "9028130129",
+        "email_id": "alamshaikh077.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "malvani_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malvani",
+        "name": {
+          "en": "Malvani",
+          "mr": "मालवणी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Abdul kadam Memon",
+          "mr": "अब्दुल कदम मेमन"
+        },
+        "address": {
+          "en": "PMC 259 Syulerd colony Gate no 6 malvani malad west",
+          "mr": "पीएमसी २५९ स्युलर्ड कॉलनी गेट क्रमांक ६ मालवणी मालाड पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/DhkPMYw35UTybX6KA",
+        "contact_number": "9930853837",
+        "email_id": "e-wordldholiday11.gmail.com",
+        "lat": 19.1845037,
+        "lng": 72.8177985
+      }
+    },
+    {
+      "office_id": "malavani_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malavani",
+        "name": {
+          "en": "Malavani",
+          "mr": "मालवणी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ABBAD MUHAMMAD KHALIL KHAN",
+          "mr": "अब्दुल मुहम्मद खलील खान"
+        },
+        "address": {
+          "en": "Shop no 15pbt 55 gate no 7 malvani Malad West",
+          "mr": "दुकान क्रमांक १५ पीबीटी ५५ गेट क्रमांक ७ मालवणी मालाड पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/gkMBneAqcEWt3rAb6",
+        "contact_number": "9833739496",
+        "email_id": "abduljpm2.gmail.com",
+        "lat": 19.1845138,
+        "lng": 72.8177985
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vaibhav Sampat Sasane",
+          "mr": "वैभव संपत ससाणे"
+        },
+        "address": {
+          "en": "Akurli sahayog soc. mhada colony Akurli road kadivali east",
+          "mr": "आकुर्ली सहयोग सो. म्हाडा कॉलनी आकुर्ली रोड कादिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/X63rAvonmLdtrqwVA",
+        "contact_number": "7738365358",
+        "email_id": "vabhav.sasane358.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Yogesh Kandalgaonkar",
+          "mr": "योगेश कांदळगावकर"
+        },
+        "address": {
+          "en": "Shop No.3 Manshi Tower CHS near Utkarsha Vidya Mandir Malad E 97",
+          "mr": "उत्कर्ष विद्या मंदिर मालाड इ ९७ जवळ शॉप क्र.३ मानशी टॉवर सीएचएस"
+        },
+        "geo_tag": "https://maps.app.goo.gl/seRBCvD1FbpiHCMJA",
+        "contact_number": "9821125014",
+        "email_id": "yk9821125014.gmail.com",
+        "lat": 19.1891119,
+        "lng": 72.8537478
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vishal Krishna Sawarkar",
+          "mr": "विशाल कृष्ण सावरकर"
+        },
+        "address": {
+          "en": "Vishal PrinterKarav village Malad East",
+          "mr": "विशाल प्रिंटरकरव गाव, मालाड पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/VZ1MSTNd16BcLwia6",
+        "contact_number": "9967651533",
+        "email_id": "vishal.k.sawarkar.gmail.com",
+        "lat": 19.189137,
+        "lng": 72.846023
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vijay Krisha Sawarkar",
+          "mr": "विजय कृष्ण सावरकर"
+        },
+        "address": {
+          "en": "Badrinath Estate 2 laxman nagar policechowli kumarvillage Malad",
+          "mr": "बद्रीनाथ इस्टेट 2 लक्ष्मण नगर पोलीसचौली कुमारगाव मालाड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/rJQQSY47p7Pg4w989",
+        "contact_number": "9869451572",
+        "email_id": "chandavijay315.gmail.com",
+        "lat": 19.1857853,
+        "lng": 72.8612242
+      }
+    },
+    {
+      "office_id": "vileparle_east_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "vileparle_east",
+        "name": {
+          "en": "VILEPARLE EAST",
+          "mr": "व्हिलेपार्ल पूर्व"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Ajay Nagbhai Patel",
+          "mr": "अजय नागभाई पटेल"
+        },
+        "address": {
+          "en": "MAHA-E-SEVA CENTER, A/2,SAURABH SOCIETY, BACK OF SAIKRIPA TAILOR, SHAHAJI RAJE MARG, NEAR BHUTA SCHOOL, VILEPARLE (EAST), MUMBAI",
+          "mr": "महा-ई-सेवा केंद्र, A/2, सौरभ सोसायटी, साईकृपा टेलरच्या मागे, शहाजी राजे मार्ग, भूटा शाळेजवळ, विलेपार्ले (पूर्व), मुंबई"
+        },
+        "geo_tag": "https://maps.app.goo.gl/qHgAR36YhcvKbbYD9",
+        "contact_number": "9987216625",
+        "email_id": "ajaypatel7519.gmail.com",
+        "lat": 19.1859341,
+        "lng": 72.7813981
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Ravi B Shukla",
+          "mr": "रवी बी शुक्ला"
+        },
+        "address": {
+          "en": "Lakhna varth chawl janupada vaibhavnagar thakur village kandivali east 400101",
+          "mr": "लखना वरथ चाळ जानुपाडा वैभवनगर ठाकूर गाव कांदिवली पूर्व ४००१०१"
+        },
+        "geo_tag": "https://maps.app.goo.gl/hxtvPoETCpdDLTj4A",
+        "contact_number": "8779251043",
+        "email_id": "ravishukla.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Harkeshsingh Virendrasingh Rajavat",
+          "mr": "हरकेशसिंग वीरेंद्रसिंग राजावत"
+        },
+        "address": {
+          "en": "78a Rani sati marg opposite passport office malad east 400097",
+          "mr": "७८अ राणी सती मार्ग, पासपोर्ट ऑफिस समोर, मालाड पूर्व, ४०००९७"
+        },
+        "geo_tag": "https://maps.app.goo.gl/nyn5N5XK3BCZq5cU7",
+        "contact_number": "9892390230",
+        "email_id": "shubhrajconsultancy.gmail.com",
+        "lat": 19.1834124,
+        "lng": 72.8526309
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "VINOD RAJARAM BOLAKE",
+          "mr": "विनोद राजराम बोलके"
+        },
+        "address": {
+          "en": "9 Jai Bhavani road Malkani Estat kasam baug malad east 400097",
+          "mr": "9 जय भवानी रोड मलकानी इस्टेट कसम बाग मालाड पूर्व 400097"
+        },
+        "geo_tag": "https://maps.app.goo.gl/BVhzePxVQfoWKC3p9",
+        "contact_number": "8689909936",
+        "email_id": "vishushilwant1122.gmail.com",
+        "lat": 19.1834225,
+        "lng": 72.8526309
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Prashant Ashok Salaskar",
+          "mr": "प्रशांत अशोक साळसकर"
+        },
+        "address": {
+          "en": "6 Kumar chaw gokul nagar akurli road sai baba mandir new kandivali East",
+          "mr": "6 कुमार चाळ गोकुळ नगर आकुर्ली रोड साई बाबा मंदिर नवीन कांदिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/mDJSkRkMworhmz9L9",
+        "contact_number": "9969388305",
+        "email_id": "prashant_12786.yahoo.co.in",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Pramod Jayanth Maurya",
+          "mr": "प्रमोद जयंत मौर्य"
+        },
+        "address": {
+          "en": "Aanad chaw gokul nagar kadivali east",
+          "mr": "आनाद चाळ गोकुळ नगर कादिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/LgUUxTLeL2cP9zuq9",
+        "contact_number": "9892123693",
+        "email_id": "PramodMaurya6221.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Ravindra Uttam Gawai",
+          "mr": "रवींद्र उत्तम गवई"
+        },
+        "address": {
+          "en": "03 om shant socity sing estate road no 1 thakur village kandivali east",
+          "mr": "03 ओम शांत सोसायटी सिंग इस्टेट रोड नं 1 ठाकूर गाव कांदिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/wvdSZYEusodd9x8Q7",
+        "contact_number": "8268429196",
+        "email_id": "vanitaravi30.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "PRABHAKAR GOVIND DAMBAL",
+          "mr": "प्रभाकर गोविंद डंबाळ"
+        },
+        "address": {
+          "en": "6 Universal Indl. Estate J P Road Near Wadia High School Opp Andheri Sports Complex",
+          "mr": "६ युनिव्हर्सल इंडस्ट्रियल इस्टेट, जेपी रोड, वाडिया हायस्कूल जवळ, अंधेरी स्पोर्ट्स कॉम्प्लेक्स समोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/R4rDj1Rg3A6WuSPX8",
+        "contact_number": "9819289725",
+        "email_id": "prabhakar.dambal.rediffmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Ganesh Yashwant Desai",
+          "mr": "गणेश यशवंत देसाई"
+        },
+        "address": {
+          "en": "TABELA NO.5, OLD NAGARDAS ROAD, NEAR BHUTA HIGH SCHOOL, ANDHERI EAST, MUMBAI400069",
+          "mr": "तबेला नं. 5, जुना नागरदास रोड, भूटा हायस्कूल जवळ, अंधेरी पूर्व, मुंबई400069"
+        },
+        "geo_tag": "https://maps.app.goo.gl/9TdMH52Ek9HXLN4C7",
+        "contact_number": "9867840233",
+        "email_id": "pajay2007.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Umang Mahesh Shah",
+          "mr": "उमंग महेश शाह"
+        },
+        "address": {
+          "en": "7 awasthy chawl mathuradas road near vanja wadi kamala nagar bhagat colony kadivali west 400067",
+          "mr": "7 अवस्थी चाळ मथुरादास रोड वांजा वाडी जवळ कमला नगर भगत कॉलनी कादिवली पश्चिम 400067"
+        },
+        "geo_tag": "https://maps.app.goo.gl/FRVzD6Vhm3YEXx9J7",
+        "contact_number": "8767101021",
+        "email_id": "yashtravelscomm.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "DEVESH HASMUKHLAL GAGLANI",
+          "mr": "देवेश हसमुखलाल गगलानी"
+        },
+        "address": {
+          "en": "Shop no 3 adarsh shanti nagar adarsh garden behind Malad West",
+          "mr": "मालाड पश्चिमच्या मागे दुकान क्रमांक 3 आदर्श शांती नगर आदर्श बाग"
+        },
+        "geo_tag": "https://maps.app.goo.gl/LsE4mWN7DYpon3XE9",
+        "contact_number": "9320063912",
+        "email_id": "kinnariimpex.gmail.com",
+        "lat": 19.2033172,
+        "lng": 72.8327654
+      }
+    },
+    {
+      "office_id": "santacruz_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "santacruz",
+        "name": {
+          "en": "Santacruz",
+          "mr": "सांताक्रूझ"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MOHD KALIM MOHD SHAMIM KHAN",
+          "mr": "मोहम्मद कलीम मोहम्मद शमीम खान"
+        },
+        "address": {
+          "en": "shop no 2 Dr.baba saheb ambedkar road opp samudra hotel khar  west",
+          "mr": "दुकान क्रमांक 2 डॉ.बाबा साहेब आंबेडकर रोड समुद्र हॉटेल समोर खार पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/TWVJN5R3ZzY22GQM8",
+        "contact_number": "9833367444",
+        "email_id": "khankaleem124.gmail.com",
+        "lat": 19.0682696,
+        "lng": 72.82755
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "ANDHERI",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ALTAF SHAFIQ SHAIKH",
+          "mr": "अल्ताफ शफीक शेख"
+        },
+        "address": {
+          "en": "Amirah Seva Kendra shop no 4 kaveri so tape vilage kaveri so tape vilage dadabhai cross road no 1 bhavans Collage",
+          "mr": "अमीराह सेवा केंद्र दुकान क्रमांक 4 कावेरी सो टेप विलागे कावेरी सो टेप विलागे दादाभाई क्रॉस रोड नं 1 भवन्स कोलाज"
+        },
+        "geo_tag": "https://maps.app.goo.gl/5XVofNdPEY38wBDBA",
+        "contact_number": "8485825560",
+        "email_id": "s.a.shaikh4646.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "VARSHA MAHESH VISPUTE",
+          "mr": "वर्षा महेश विस्पुट"
+        },
+        "address": {
+          "en": "Aaple Sarkar Seva Kendra, 1 N.P. Amle Chawl Gaondevi Dongri Cama Road, Andheri West Opposite Raju Ration Shop Andheri",
+          "mr": "आपले सरकार सेवा केंद्र, 1 न.प. आमले चाळ गावदेवी डोंगरी कामा रोड, अंधेरी पश्चिम राजू रेशन शॉप समोर अंधेरी"
+        },
+        "geo_tag": "https://maps.app.goo.gl/gdjkdtuJyZMruvTQA",
+        "contact_number": "9224756101",
+        "email_id": "visputevarshamahesh.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "DEVESH HASMUKHLAL GAGLANI",
+          "mr": "देवेश हसमुखलाल गगलानी"
+        },
+        "address": {
+          "en": "Shop no 3 adarsh shanti nagar adarsh gardan behind Malad",
+          "mr": "मालाडच्या मागे दुकान क्रमांक 3 आदर्श शांती नगर आदर्श उद्यान"
+        },
+        "geo_tag": "https://maps.app.goo.gl/5B9VHNQwoLc1H6va7",
+        "contact_number": "9320063912",
+        "email_id": "kinnariimpex.gmail.com",
+        "lat": 19.1281586,
+        "lng": 72.7956991
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RUCHI SAROJ JAISWAL",
+          "mr": "रुची सरोज जयस्वाल"
+        },
+        "address": {
+          "en": "Shop No 11 Atul tower mathuadas ext road kandivali west",
+          "mr": "दुकान क्रमांक ११ अतुल टॉवर मथुआदास एक्स्ट्रा रोड कांदिवली पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/dgi3tdgXo1JjvF7u8",
+        "contact_number": "7039420256",
+        "email_id": "ruchisarojgupta.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Kiran Kumar Udravrapu",
+          "mr": "किरण कुमार उद्राव्रपू"
+        },
+        "address": {
+          "en": "Shop No 5 Jaldarshan bldg near pillai international school gorai 2 Borivali west 400092",
+          "mr": "पिल्लई इंटरनॅशनल स्कूल गोराई 2 बोरिवली पश्चिम 400092 जवळ दुकान क्रमांक 5 जलदर्शन इमारत"
+        },
+        "geo_tag": "https://maps.app.goo.gl/A626oqxsUxpMVYSJA",
+        "contact_number": "9029701161",
+        "email_id": "u_kkumar.yahoo.co.in",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHANAWAZ MEHBOOB SHAIKH",
+          "mr": "शानवाज मेहबूब शेख"
+        },
+        "address": {
+          "en": "apple sakar seva kendra 1 juhu lane gillbert hill rodad near farooqia masjid andheri west",
+          "mr": "सफरचंद साकार सेवा केंद्र 1 जुहू लेन गिलबर्ट हिल रोडाड जवळ फारुकिया मस्जिद अंधेरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/YgKaHUJGwDzs9uEZA",
+        "contact_number": "8082544597",
+        "email_id": "shanawazshaikh714.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ROSHAN RAMAVATAR KUMAVAT",
+          "mr": "रोशन रामावतार कुमावत"
+        },
+        "address": {
+          "en": "Shop no5 plot no 42 Aashirwad cooperative housing society ltd shivkrupa chs gorivali borivali west 400092",
+          "mr": "दुकान क्रमांक ५ प्लॉट क्रमांक ४२ आशीर्वाद सहकारी गृहनिर्माण संस्था लिमिटेड शिवकृपा सीएचएस गोरिवली बोरिवली पश्चिम ४००९२"
+        },
+        "geo_tag": "https://maps.app.goo.gl/KdxBVEBFB3etb7fn9",
+        "contact_number": "9769585593",
+        "email_id": "srkroshan.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "bandra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "bandra",
+        "name": {
+          "en": "BANDRA",
+          "mr": "बांद्रा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Prakash Magar",
+          "mr": "प्रकाश मगर"
+        },
+        "address": {
+          "en": "AAPLE SARKAR SEVA KENDRA, 8, AKRUTI SRA BLDG NO 2, ABASAHEB SHINDE MARG, NEAR GANDHINAGAR, SHASTRI NAGAR, BANDRA EAST",
+          "mr": "आपले सरकार सेवा केंद्र, 8, आकृती SRA BLDG नं 2, आबासाहेब शिंदे मार्ग, गांधीनगर जवळ, शास्त्री नगर, वांद्रे पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Nb2HrqHB63mwEnro7",
+        "contact_number": "9867831210",
+        "email_id": "prakashmagar454.gmail.com",
+        "lat": 19.0930333,
+        "lng": 72.8182657
+      }
+    },
+    {
+      "office_id": "bandra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "bandra",
+        "name": {
+          "en": "BANDRA",
+          "mr": "बांद्रा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Mohd Aarif Faruki",
+          "mr": "मोहम्मद आरिफ फारुकी"
+        },
+        "address": {
+          "en": "AASHIRWAD SHOP NEAR BANDRA COURT BANDRA EAST 51 ",
+          "mr": " आशीर्वाद दुकान बांद्रा कोर्ट जवळ वांद्रे पूर्व 51"
+        },
+        "geo_tag": "https://maps.app.goo.gl/4A7NJodv7T4dxqSf6",
+        "contact_number": "8268104096",
+        "email_id": "samreenfarooqui88.gmail.com",
+        "lat": 19.0930333,
+        "lng": 72.8182657
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "ANDHERI",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Jitendra Konde",
+          "mr": "जितेंद्र कोंडे"
+        },
+        "address": {
+          "en": "SHOP NO 3 PARAS BULDING NEAR ANDHERI TAHSIL OFFICE D N ROAD ANDHERI WEST",
+          "mr": "दुकान क्रमांक ३ पारस बुल्डिंग, अंधेरी तहसील ऑफिस जवळ, डीएन रोड, अंधेरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/8Znz2uono6RoDwnr7",
+        "contact_number": "9820786457",
+        "email_id": "jitukonde786.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Melwin Fernandes",
+          "mr": "मेल्विन फर्नांडिस"
+        },
+        "address": {
+          "en": "Shop no 6 Shanti Niketa Kandarpada circule Dahisar west 400068",
+          "mr": "दुकान क्रमांक 6 शांती निकेता कंदरपाडा सर्कल दहिसर पश्चिम 400068"
+        },
+        "geo_tag": "https://maps.app.goo.gl/4ZBHbmCvQArpdgmX6",
+        "contact_number": "9821262077",
+        "email_id": "melwinarts.gmail.com",
+        "lat": 19.2556877,
+        "lng": 72.8507354
+      }
+    },
+    {
+      "office_id": "vileparle_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "vileparle",
+        "name": {
+          "en": "VILEPARLE",
+          "mr": "व्हिलेपार्ले"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Bablu Paswan",
+          "mr": "बबलू पासवान"
+        },
+        "address": {
+          "en": "ONLINE SERVICE CENTER PRIME MALL S.V.ROAD ALFA MARKET IRLA, VILE PARLE WEST",
+          "mr": "ऑनलाइन सेवा केंद्र प्राइम मॉल स्व्रोड अल्फा मार्केट इर्ला, विलेपार्ले वेस्ट"
+        },
+        "geo_tag": "https://maps.app.goo.gl/cDvqd3cqThyZRDkD8",
+        "contact_number": "7506434501",
+        "email_id": "onlineservice651.gmail.com",
+        "lat": 19.1102757,
+        "lng": 72.8354135
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NAMDEV HARIBHAU BANSODE",
+          "mr": "नामदेव हरिभाऊ बांसोड"
+        },
+        "address": {
+          "en": "AARYA INVESTMENTS AND MULTISERVICES SHOP NO. B/8 GANESH PRASAD CHS L M ROAD OPP. SHAGUN HOTEL NAVAGAON DAHISAR WEST",
+          "mr": "आर्य इन्व्हेस्टमेंट्स अँड मल्टीसर्व्हिसेस शॉप नंबर बी/८ गणेश प्रसाद सीएचएस एलएम रोड ओपीपी शगुन हॉटेल नवगाव दहिसर पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/4xDhs5sX2zC1FaKw5",
+        "contact_number": "9594322220",
+        "email_id": "namdevbansode.gmail.com",
+        "lat": 19.2552289,
+        "lng": 72.8489555
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Jayram Parab",
+          "mr": "जयराम परब"
+        },
+        "address": {
+          "en": "RAINBOW FOUNDATION SHOP NO 2, SUKHADHAM NIWAS SHIV VALLABH CROSS ROAD OPP 2ND GATE OF HARSHGIRI APARTMENT RAWALPADA, DAHISAR EAST",
+          "mr": "रेनबो फाउंडेशन दुकान क्रमांक २, सुखधाम निवास शिव वल्लभ क्रॉस रोड हर्षगिरी अपार्टमेंटच्या दुसऱ्या गेटसमोर, रावळपाडा, दहिसर पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/gHa2KeubUga5hbCLA",
+        "contact_number": "9773526949",
+        "email_id": "jayparab27.gmail.com",
+        "lat": 19.2552289,
+        "lng": 72.8489555
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Kanchan Totre",
+          "mr": "कांचन तोत्रे"
+        },
+        "address": {
+          "en": "Shop no7 s.k.rd dnyaneshwarnagar rawalpada dahisar east 400068",
+          "mr": "दुकान क्रमांक 7 skrd ज्ञानेश्वरनगर रावळपाडा दहिसर पूर्व 400068"
+        },
+        "geo_tag": "https://maps.app.goo.gl/FJSUFj3jtPyfc5WdA",
+        "contact_number": "7045355778",
+        "email_id": "sandeep8452.gmail.com",
+        "lat": 19.2552289,
+        "lng": 72.8489555
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar  ",
+          "mr": " दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ISHA ISHWAR RATHOD",
+          "mr": "ईशा ईश्वर राठोड"
+        },
+        "address": {
+          "en": "Shop no 15 N.J.Park Building no2 Rawalpada Dahisar  ",
+          "mr": " दुकान क्रमांक १५ एनजेपार्क इमारत क्रमांक २ रावळपाडा दहिसर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bCWc8cbCpxdAMKv2A",
+        "contact_number": "7900001643",
+        "email_id": "balajieservices10.gmail.com",
+        "lat": 19.2249227,
+        "lng": 72.8831528
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MANISHA BHARAT HELKAR",
+          "mr": "मनीषा भारत हेलकर"
+        },
+        "address": {
+          "en": "Shop no 1 Chavan chawl sawarpada opposite shani mandir borivali east 400066",
+          "mr": "दुकान क्रमांक 1 चव्हाण चाळ सावरपाडा शनि मंदिर समोर बोरिवली पूर्व 400066"
+        },
+        "geo_tag": "https://maps.app.goo.gl/ajQFPWB3w2q2NujP7",
+        "contact_number": "9594709335",
+        "email_id": "manishahelkar18.gmail.com",
+        "lat": 19.2552289,
+        "lng": 72.8489555
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Deepali Majlekar",
+          "mr": "दीपाली मजलेकर"
+        },
+        "address": {
+          "en": "SURVE CHAWL SHOP NO.3 NEAR NEW FISH MARKET KAJUPADA BORIVALI EAST",
+          "mr": "काजुपाडा बोरिवली पूर्व नवीन मासळी मार्केट जवळ सुर्वे चाळ दुकान क्र.3"
+        },
+        "geo_tag": "https://maps.app.goo.gl/QWdokoLjQeUQM1TG9",
+        "contact_number": "9820206642",
+        "email_id": "aarya984.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "oshivara_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "oshivara",
+        "name": {
+          "en": "Oshivara",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ARJUN MUNNALAL CHAURASIA",
+          "mr": "अर्जुन मुन्नालाल चौरसिया"
+        },
+        "address": {
+          "en": "BHARAT COMMUNICATION SHOP NO 1 BEHRAM BAUG JOGESHWARI WEST",
+          "mr": "भारत कम्युनिकेशन शॉप क्रमांक १ बेहराम बाग जोगेश्वरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/wVF6pfTxxo9UU7EV7",
+        "contact_number": "9967831768",
+        "email_id": "arjunchrs0.gmail.com",
+        "lat": 19.1460649,
+        "lng": 72.8362567
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RUSHIKESH JAYWANT RANE",
+          "mr": "ऋषिकेश जयवंत राणे"
+        },
+        "address": {
+          "en": "shop no 5 panchvati dham apt Shiv Vallabh Road ashokvan nr sai baba temple dahisar east",
+          "mr": "दुकान क्रमांक 5 पंचवटी धाम उपयुक्त शिव वल्लभ रोड अशोकवन न. साई बाबा मंदिर दहिसर पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/QJpyQnkYKHHWtot9A",
+        "contact_number": "7900001643",
+        "email_id": "rushikesh.rane143.gmail.com",
+        "lat": 19.2491555,
+        "lng": 72.8615232
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ASHUTOSH ANIL AHIRE",
+          "mr": "आशुतोष अनिल अहिरे"
+        },
+        "address": {
+          "en": "SMIT ENTERPRISES CHOUDHARI CHAWL, HARISHCHANDRA MAHAJAN MARG, OVARI PADA, DAHISAR (EAST), MUMBAI-400068",
+          "mr": "स्मित एंटरप्राइजेस चौधरी चाळ, हरिश्चंद्र महाजन मार्ग, ओवरी पाडा, दहिसर (पूर्व), मुंबई-४००६८"
+        },
+        "geo_tag": "https://maps.app.goo.gl/p3Ez5VwsukSWx9mG7",
+        "contact_number": "9594375465",
+        "email_id": "ashutosh1087.gmail.com",
+        "lat": 19.2449172,
+        "lng": 72.8604601
+      }
+    },
+    {
+      "office_id": "mogra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "mogra",
+        "name": {
+          "en": "MOGRA",
+          "mr": "मोग्रा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ASIF USMANBHAI MALKANI",
+          "mr": "असिफ उस्मानभाई मलकानी"
+        },
+        "address": {
+          "en": "AAPPLE SARKAR SEVA KENDRA GOV OF MAHARASHTRA KUNJ NIWAS BANDIWALI HILL ROAD OPP MALKANI EASTATE JOGESHWARI WEST",
+          "mr": "आपल सरकार सेवा केंद्र महाराष्ट्र कुंज निवास बांदिवली हिल रोड मलकानी ईस्टेट जोगेश्वरी पश्चिम समोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/dsGpwRsnPvkgtZC27",
+        "contact_number": "7977033145",
+        "email_id": "aumalkani.gmail.com",
+        "lat": 19.1284504,
+        "lng": 72.8554211
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "Goregaon",
+          "mr": "गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sandip M Sawant",
+          "mr": "संदीप एम सावंत"
+        },
+        "address": {
+          "en": "48 ward D, Dindoshi BMC Colaony, Goregaon (E)",
+          "mr": "४८ वॉर्ड ड, दिंडोशी बीएमसी कोलनी, गोरेगाव (पूर्व)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/HbjZY3vf9qN32V2TA",
+        "contact_number": "9821030841",
+        "email_id": "sandip4dec.gmail.com",
+        "lat": 19.1321391,
+        "lng": 72.8080554
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "MAJAS",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "DASHARATH ULGA KURADE",
+          "mr": "दशरथ उल्गा कुराडे"
+        },
+        "address": {
+          "en": "SHOP M/S TAJ AUTO DEAL jawar manjil bandra plot nai basti nr khwaja darbar hotel JOGESHWARI EAST",
+          "mr": "शॉप मेसर्स ताज ऑटो डील जवार मंजिल वांद्रे प्लॉट नई बस्ती एनआर ख्वाजा दरबार हॉटेल जोगेश्वरी ईस्ट"
+        },
+        "geo_tag": "https://maps.app.goo.gl/rq4GrrViEUNjMG767",
+        "contact_number": "8879012027",
+        "email_id": "dasharathkurade21.gmail.com",
+        "lat": 19.1412542,
+        "lng": 72.8426023
+      }
+    },
+    {
+      "office_id": "oshivra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "oshivra",
+        "name": {
+          "en": "OSHIVRA",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "K G N ENTERPRISES",
+          "mr": "केजीएन एंटरप्रायझेस"
+        },
+        "address": {
+          "en": "SHOP NO 2, VIKAS NAGAR VEERA DESAI ROAD BEHRAM BAUG JOGESHWARI WEST",
+          "mr": "दुकान क्रमांक २, विकास नगर वीरा देसाई रोड बेहराम बाग जोगेश्वरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/qbGodcGZXCrx8PVH6",
+        "contact_number": "8080517711",
+        "email_id": "SHAIKHZAMEER999.GMAIL.COM",
+        "lat": 19.1412743,
+        "lng": 72.8426023
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "GOREGAON ",
+          "mr": " गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SALIM NASEER SHAIKH",
+          "mr": "सलीम नसीर शेख"
+        },
+        "address": {
+          "en": "BLDG NO. 12 SHOP NO. 06 PRIYADARSHANI SRA CHS  SHANTI NIKETAN S.P.P.L.  NEAR MANTRI PARK DINDOSHI GOREGAON EAST MUMBAI 400065",
+          "mr": "BLDG क्र. 12 दुकान क्र. 06 प्रियदर्शनी एसआरए सीएचएस शांती निकेतन एसपीपीएल मंत्री पार्क दिंडोशी गोरेगाव पूर्व मुंबई 400065 जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/gwzCZsHxxjrMtLVB6",
+        "contact_number": "9867531105",
+        "email_id": "salim.s1706.gmail.com",
+        "lat": 19.1413238,
+        "lng": 72.8271526
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "GOREGAON ",
+          "mr": " गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Balraj Borkar",
+          "mr": "बलराज बोरकर"
+        },
+        "address": {
+          "en": "Shop no-3B, ground  flr, chandiwala blog, j.p nagar, road no-1, Goregaon  east",
+          "mr": "दुकान क्रमांक-३बी, ग्राउंड फ्लोर, चांदीवाला ब्लॉग, जेपी नगर, रोड क्रमांक-१, गोरेगाव पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/XGnkgGxsZHASziD36",
+        "contact_number": "9869141134 / 9619036236",
+        "email_id": "balraj.borkar.gmail.com",
+        "lat": 19.1414026,
+        "lng": 72.8271526
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "Goregaon",
+          "mr": "गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Soniya Vijay Dabholkar",
+          "mr": "सोनिया विजय दाभोलकर"
+        },
+        "address": {
+          "en": "Royal Plam, Mayur Nagar Arey Colony, Goregaon (East)",
+          "mr": "रॉयल प्लाम, मयूर नगर अरे कॉलनी, गोरेगाव (पूर्व)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/CFr6b58ZSMXRgViNA",
+        "contact_number": "7506049942",
+        "email_id": "soniyadabholkar.gmail.com",
+        "lat": 19.1512017,
+        "lng": 72.8856493
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shital Desai",
+          "mr": "शितल देसाई"
+        },
+        "address": {
+          "en": "SHOP NO 7 damodar krupa buli,  HORIZON HOMES, road no 2 LIBERTY GARDEN, MALAD WEST MUMBAI 64",
+          "mr": "दुकान क्रमांक ७ दामोदर कृपा बुली, होरायझन होम्स, रोड क्रमांक २ लिबर्टी गार्डन, मालाड पश्चिम मुंबई ६४"
+        },
+        "geo_tag": "https://maps.app.goo.gl/LHxnqwVd9U2SKH526",
+        "contact_number": "9892137987",
+        "email_id": "galaxycomputereducation96.gmail.com",
+        "lat": 19.2451758,
+        "lng": 72.8298629
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "MALAD",
+          "mr": "मलाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MAHESH VISHWANATH ADKAR",
+          "mr": "महेश विश्वनाथ आडकर"
+        },
+        "address": {
+          "en": "SARASWATI CHAVAN HAWALDAR CHAWL SHOP NO 1 CHINCHOLI BANDAR MARG, MALAD MALAD WEST",
+          "mr": "सरस्वती चव्हाण हवालदार चाळ दुकान क्रमांक 1 चिंचोली बंदर मार्ग, मालाड मालाड पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/g8VznzYhbwPQN3Hs6",
+        "contact_number": "8169661800 / 9870313642",
+        "email_id": "maheshadkar11.gmail.com",
+        "lat": 19.1790774,
+        "lng": 72.8378686
+      }
+    },
+    {
+      "office_id": "kandivali_west_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali_west",
+        "name": {
+          "en": "KANDIVALI WEST",
+          "mr": "कांदिवली पश्चिम"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Deepak Ramchandra Parve",
+          "mr": "दीपक रामचंद्र पारवे"
+        },
+        "address": {
+          "en": "3/3/D-41 VDYACHAL CHAS SECT 3 CHARKOP KANDIVALI WEST",
+          "mr": "३/३/डी-४१ व्याचल चास संप्रदाय ३ चारकोप कांदिवली पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/WSDVcqjvjtRxADRR9",
+        "contact_number": "9322858240",
+        "email_id": "PARVEDEEPAK.GMAIL.COM",
+        "lat": 19.179132,
+        "lng": 72.819844
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "majas",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Purushottam Baburao Jalgaonkar",
+          "mr": "पुरुषोत्तम बाबुराव जळगावकर"
+        },
+        "address": {
+          "en": "Laxmi Cable Network 3/21 Sarvoday Nagar, MHB Colony Hema Industries Jogeshwari East",
+          "mr": "लक्ष्मी केबल नेटवर्क 3/21 सर्वोदय नगर, MHB कॉलनी हेमा इंडस्ट्रीज जोगेश्वरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/JyL2DgMtv3hCExJm9",
+        "contact_number": "9820783063",
+        "email_id": "purushottamjalgaonkar24.gmail.com",
+        "lat": 19.1387723,
+        "lng": 72.8471691
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "DAHISAR",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sudhir Udaybhan Singh",
+          "mr": "सुधीर उदयभान सिंग"
+        },
+        "address": {
+          "en": "SHOP NO 1, RAMANI COMPOUND, ANAND NAGAR, DAHISAR EAST",
+          "mr": "दुकान क्रमांक १, रमणी कंपाऊंड, आनंद नगर, दहिसर पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/te2CV5Q7zKVkp7au9",
+        "contact_number": "9969661346",
+        "email_id": "sudhirthakur1988.yahoo.in",
+        "lat": 19.2552289,
+        "lng": 72.8489555
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "R K Khosla",
+          "mr": "आरके खोसला"
+        },
+        "address": {
+          "en": "Shop no 4  Indraneel CHSI Sector 2 charkhop kandivali west mumabi",
+          "mr": "दुकान क्रमांक 4 इंद्रनील CHSI सेक्टर 2 चारखोप कांदिवली पश्चिम मुंबई"
+        },
+        "geo_tag": "https://maps.app.goo.gl/efugoD1ivjUwSsVB7",
+        "contact_number": "9820383975",
+        "email_id": "sanjogrkk.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "oshivara_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "oshivara",
+        "name": {
+          "en": "OSHIVARA",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sachin Dange",
+          "mr": "सचिन डांगे"
+        },
+        "address": {
+          "en": "SHOP NO 18 B WING GROUND FLOOR SARVODYA BULDING BEHRAM BAG JOGESHWARI WEST",
+          "mr": "दुकान क्रमांक 18 बी विंग तळमजला सर्वोद्य इमारत बेहराम बाग जोगेश्वरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/oJzRAhA4MT5WGmN98",
+        "contact_number": "9322128583",
+        "email_id": "sachin24karat.gmail.com",
+        "lat": 19.1389913,
+        "lng": 72.8445638
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "GOREGAON",
+          "mr": "गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Lata Bharat Ghorpade",
+          "mr": "लता भरत घोरपडे"
+        },
+        "address": {
+          "en": "f2/24 BMC COLONY OPP BMC SCHOOL SANTOSH NAGAR DINDOSHI, GOREGAON EAST.",
+          "mr": "f2/24 बीएमसी कॉलनी, बीएमसी स्कूल, संतोष नगर, दिंडोशी, गोरेगाव पूर्व."
+        },
+        "geo_tag": "https://maps.app.goo.gl/ZumZyGBHUVjZ2PFp8",
+        "contact_number": "7045374723/ 7021558342",
+        "email_id": "lataghorpade1.gmail.com",
+        "lat": 19.1709341,
+        "lng": 72.8691126
+      }
+    },
+    {
+      "office_id": "oshivra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "oshivra",
+        "name": {
+          "en": "OSHIVRA",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RAGINI AGRAHARI",
+          "mr": "रागिनी अग्राहरी"
+        },
+        "address": {
+          "en": "PRITAM ASSOCIATES 61 NAVSHAKTI NAGAR JOGESHWARI WEST BEHRAM BAUG",
+          "mr": "प्रीतम असोसिएट्स 61 नवशक्ती नगर जोगेश्वरी पश्चिम बेहराम बाग"
+        },
+        "geo_tag": "https://maps.app.goo.gl/voEa4rjm2zPyBgDz9",
+        "contact_number": "9324329286",
+        "email_id": "raginiagrahari1999.gmail.com",
+        "lat": 19.145355,
+        "lng": 72.8310768
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RAKESHKUMAR KISHORILAL GUPTA ",
+          "mr": " राकेशकुमार किशोरीलाल गुप्ता"
+        },
+        "address": {
+          "en": "Shop no 4 Bulid no 62, ekta nagar, near bhoomi mark kandivali west",
+          "mr": "दुकान क्रमांक 4 बुलीड नं 62, एकता नगर, भूमी मार्क जवळ कांदिवली पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/9MFJBkhGJKFdNBfcA",
+        "contact_number": "9819911950",
+        "email_id": "ashirwadmts.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "oshivara_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "oshivara",
+        "name": {
+          "en": "oshivara",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KRISHAN KUMAR SIYARAM MAURYA",
+          "mr": "कृष्ण कुमार सियाराम मौर्य"
+        },
+        "address": {
+          "en": "Asisih Studio Shop No 1 Gaikwad Chawl Behram Baug Patelwadi Adarsh Nagar Jogeshwari West",
+          "mr": "असिह स्टुडिओ शॉप नंबर १ गायकवाड चाळ बेहराम बाग पटेलवाडी आदर्श नगर जोगेश्वरी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/75aTranrr2XSV9k57",
+        "contact_number": "8097681915",
+        "email_id": "AsisihStudioShopNo1GaikwadChawlBehramBaugPatelwadiAdarshNagarJogeshwariWest",
+        "lat": 19.1411798,
+        "lng": 72.8359591
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "MAJAS",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sayali Narayan Sawant",
+          "mr": "सायली नारायण सावंत"
+        },
+        "address": {
+          "en": " Astitva Foundation, Laxmi Wadi, New Shyam Nagar, Near Unni Krishnan B.M.C. Garden Opp. Kokan Hospital Jogeshwari - East",
+          "mr": " अस्तित्व फाउंडेशन, लक्ष्मी वाडी, न्यू श्याम नगर, उन्नी कृष्णन बीएमसी गार्डन समोर. कोकण हॉस्पिटल जोगेश्वरी - पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/B1797hmLZvryJk1j7",
+        "contact_number": "8452814437",
+        "email_id": "sayalisawant123.yahoo.com",
+        "lat": 19.1359903,
+        "lng": 72.8618307
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "MAJAS",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vikrant Shingre",
+          "mr": "विक्रांत शिंगरे"
+        },
+        "address": {
+          "en": "Maha E Seva Kendra SHOP NO 4 DASHRATH SINHA ESTATE GUMPHA ROAD JOGESHWARI EAST",
+          "mr": "महा ई सेवा केंद्र दुकान क्रमांक ४ दशरथ सिन्हा इस्टेट गुंफा रोड जोगेश्वरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/VqgMiVvz6EPztYW88",
+        "contact_number": "9004762655",
+        "email_id": "vikrant.shingre.gmail.com",
+        "lat": 19.1395529,
+        "lng": 72.8538655
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "MAJAS",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shahaji Sawant",
+          "mr": "शहाजी सावंत"
+        },
+        "address": {
+          "en": "Maha E Seva Kendra SIA LIVE TECHNOLOGIES SHOP NO 3 BLDG NO 2 OM SHREE GANESH CHS SHYAM NAGAR OPP SAIBABA TEMPLE JOGESHWARI EAST",
+          "mr": "महा ई सेवा केंद्र SIA LIVE TECHNOLOGIES SHOP नं 3 BLDG नं 2 ओम श्री गणेश छ. श्याम नगर साईबाबा मंदिर समोर जोगेश्वरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/xpPMuXtUGMQzBQx47",
+        "contact_number": "8080390712",
+        "email_id": "SAI.LIVE.IN",
+        "lat": 19.1358127,
+        "lng": 72.8585764
+      }
+    },
+    {
+      "office_id": "andheri_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "andheri",
+        "name": {
+          "en": "ANDHERI",
+          "mr": "अंधेरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SWAPNIL SUHAS KADAM",
+          "mr": "स्वप्निल सुहास कदम"
+        },
+        "address": {
+          "en": "Maha E Seva Kendra G-25, Sai Datt CHS N S Phadke Marg Near Swami Samarth temple Saiwadi",
+          "mr": "महा ई सेवा केंद्र G-25, साई दत्त सीएचएस एन एस फडके मार्ग स्वामी समर्थ मंदिराजवळ साईवाडी"
+        },
+        "geo_tag": "https://maps.app.goo.gl/g2a8dQwFr4ZRRGd36",
+        "contact_number": "9870115246",
+        "email_id": "swapnilkadam888.gmail.com",
+        "lat": 19.1196976,
+        "lng": 72.8464205
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "MAJAS",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SUSHIL ASHOK BALID",
+          "mr": "सुशील अशोक बलिद"
+        },
+        "address": {
+          "en": "5/B, Rajman Niwas Ramwadi J V Link Road Behind Ramwadi Bus Stop Jogeshwari East",
+          "mr": "5/B, राजमान निवास रामवाडी JV लिंक रोड रामवाडी बस स्टॉपच्या मागे जोगेश्वरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/rfBuhNt3Cdn12TXZ9",
+        "contact_number": "9821861461",
+        "email_id": "susshilbalid.gmail.com",
+        "lat": 19.1392411,
+        "lng": 72.8567172
+      }
+    },
+    {
+      "office_id": "oshivra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "oshivra",
+        "name": {
+          "en": "OSHIVRA",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "WORLD MOBILE CENTRE",
+          "mr": "वर्ल्ड मोबाईल सेंटर"
+        },
+        "address": {
+          "en": "Maha E Seva Kendra WORLD MOBILE CENTRE 6,LALJI CHAWL RAGHVENDRA MANDIR ROAD, OPP BHAVNA JEWELLERS, AJIT GLASS,JOGESHWARI WEST,",
+          "mr": "महा ई सेवा केंद्र वर्ल्ड मोबाईल सेंटर 6, लालजी चाळ राघवेंद्र मंदिर रोड, भावना ज्वेलर्स समोर, अजित ग्लास, जोगेश्वरी पश्चिम,"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bpc2LX3bnDqKZD7g8",
+        "contact_number": "9702451590",
+        "email_id": "jagdishsharmamns[at]gmail.com",
+        "lat": 19.1469661,
+        "lng": 72.822259
+      }
+    },
+    {
+      "office_id": "oshivra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "oshivra",
+        "name": {
+          "en": "OSHIVRA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "WORLD MOBILE CENTRE",
+          "mr": "विजय क्रीडा मंडळ"
+        },
+        "address": {
+          "en": "Maha E Seva Kendra WORLD MOBILE CENTRE 6,LALJI CHAWL RAGHVENDRA MANDIR ROAD, OPP BHAVNA JEWELLERS, AJIT GLASS,JOGESHWARI WEST,",
+          "mr": "विजय क्रीडा मंडळ सायहिल, टीप्रोड, भांडुप पश्चिम विजय क्रीडा मंडळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bpc2LX3bnDqKZD7g8",
+        "contact_number": "9702451590",
+        "email_id": "jagdishsharmamns[at]gmail.com",
+        "lat": 19.1469661,
+        "lng": 72.822259
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "ओशिवरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vijay Krida mandal",
+          "mr": "वर्ल्ड मोबाईल सेंटर"
+        },
+        "address": {
+          "en": "VIJAY KRIDA MANDAL SAIHILL,T.P.ROAD,BHANDUP WEST VIJAY KRIDA MANDAL",
+          "mr": "महा ई सेवा केंद्र वर्ल्ड मोबाईल सेंटर 6, लालजी चाळ राघवेंद्र मंदिर रोड, भावना ज्वेलर्स समोर, अजित ग्लास, जोगेश्वरी पश्चिम,"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bpc2LX3bnDqKZD7g8",
+        "contact_number": "9833158944/8291980327",
+        "email_id": "vijaykrida[at]gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vijay Krida mandal",
+          "mr": "विजय क्रीडा मंडळ"
+        },
+        "address": {
+          "en": "VIJAY KRIDA MANDAL SAIHILL,T.P.ROAD,BHANDUP WEST VIJAY KRIDA MANDAL",
+          "mr": "विजय क्रीडा मंडळ सायहिल, टीप्रोड, भांडुप पश्चिम विजय क्रीडा मंडळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bpc2LX3bnDqKZD7g8",
+        "contact_number": "9833158944/8291980327",
+        "email_id": "vijaykrida[at]gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "vikroli_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vikroli",
+        "name": {
+          "en": "VIKROLI",
+          "mr": "विक्रोळी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KAVITA DNYANESH ALDAR",
+          "mr": "कविता ज्ञानेश अल्दार"
+        },
+        "address": {
+          "en": "Ram Kamal Typing & Computer Institute D-17/8 BMC colony Road no .02 Parksite vikhroli west-40079",
+          "mr": "राम कमल टायपिंग अँड कॉम्प्युटर इन्स्टिट्यूट डी-१७/८ बीएमसी कॉलनी रोड क्र.०२ पार्कसाईट विक्रोळी पश्चिम-४००७९"
+        },
+        "geo_tag": "https://maps.app.goo.gl/BQeWwAs6gkXfUfWPA",
+        "contact_number": "9222116732",
+        "email_id": "ramkamal1727[at]gmail.com",
+        "lat": 19.1063848,
+        "lng": 72.9109322
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "PRAMOD SOPAN GAIKWAD",
+          "mr": "प्रमोद सोपान गायकवाड"
+        },
+        "address": {
+          "en": "SHOP NO 28/B PATELWADI Asalfa Village GHATKOPAR",
+          "mr": "दुकान क्रमांक २८/बी पटेलवाडी असल्फा गाव घाटकोपर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/ejcDfmJEbnoFAuhEA",
+        "contact_number": "9004178477",
+        "email_id": "pramodgaikwad172.gmail.com",
+        "lat": 19.0910241,
+        "lng": 72.8917815
+      }
+    },
+    {
+      "office_id": "ghakopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghakopar",
+        "name": {
+          "en": "GHAKOPAR",
+          "mr": "घाकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Dipak Gaikwad",
+          "mr": "दीपक गायकवाड"
+        },
+        "address": {
+          "en": "SHOP NO 1 RAM NAGINA TIWARI CHAWL ASLPHA GHATKOPAR LINK ROAD NEAR JAMBUL PADA BUS STOP ASALPHA VILLAGE GHATKOPAR WEST",
+          "mr": "दुकान क्रमांक 1 राम नगीना तिवारी चाळ असल्फा घाटकोपर लिंक रोड जांभूळ पाडा बस स्टॉप जवळ असल्फा गाव घाटकोपर पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/6QykEFcDgJmgVWuQ6",
+        "contact_number": "84249338606",
+        "email_id": "dipakgaikwad007.gmail.com",
+        "lat": 19.0910641,
+        "lng": 72.8917815
+      }
+    },
+    {
+      "office_id": "kondivita_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "kondivita",
+        "name": {
+          "en": "KONDIVITA",
+          "mr": "कोंडिविटा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vinay Kumar Pandey",
+          "mr": "विनय कुमार पांडे"
+        },
+        "address": {
+          "en": "anchal enterprises shop no 9 subash nagar shuklA CHAWL NO 2 MIDC old morden english school MIDC ANDHERI E",
+          "mr": "आंचल एंटरप्राइजेस दुकान क्रमांक 9 सुभाष नगर शुक्ल चाळ क्रमांक 2 एमआयडीसी जुनी मॉर्डन इंग्लिश स्कूल एमआयडीसी अंधेरी ई"
+        },
+        "geo_tag": "https://maps.app.goo.gl/UB49nF621q64SgWY9",
+        "contact_number": "9320842513",
+        "email_id": "vinaypandey8722[at]gmail.com",
+        "lat": 19.112413,
+        "lng": 72.8710949
+      }
+    },
+    {
+      "office_id": "mulund_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mulund",
+        "name": {
+          "en": "MULUND",
+          "mr": "मुलुंड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Goutam Gemavat",
+          "mr": "गौतम गेमावत"
+        },
+        "address": {
+          "en": "SHREE LAXMI SERVICES A-3,SALPADEVI SADAN CHS P.K.ROAD NEAR SAI DHAM MULUND (WEST)",
+          "mr": "श्री लक्ष्मी सेवा ए-३, सालदेवी सदन सीएचएस पक्रोड जवळ साई धाम मुलुंड (पश्चिम)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/dG4LUrPVSr6M66Ew7",
+        "contact_number": "9322233009",
+        "email_id": "goutamgemavat.gmail.com",
+        "lat": 19.1659216,
+        "lng": 72.9409462
+      }
+    },
+    {
+      "office_id": "govandi_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "govandi",
+        "name": {
+          "en": "GOVANDI",
+          "mr": "गोवंदी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sunny Bhosale",
+          "mr": "सनी भोसले"
+        },
+        "address": {
+          "en": "Royal Enterprises Plot no. 44, S11 Bajiprabhu Deshpande Road Near Shivajinagar Post Office",
+          "mr": "रॉयल एंटरप्रायजेस प्लॉट क्रमांक ४४, एस११ बाजीप्रभू देशपांडे रोड, शिवाजीनगर पोस्ट ऑफिस जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/NfMZKrudbtkX2Hvd6",
+        "contact_number": "9221225614",
+        "email_id": "sunnybhosale227.gmail.com",
+        "lat": 19.1660705,
+        "lng": 72.8611201
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "MANKHURD",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sunil Mane",
+          "mr": "सुनील माने"
+        },
+        "address": {
+          "en": "AAPLE SARKAR SEVA KENDRA SHOP NO 7 JYOTIRLING NAGAR NEAR DATTA MANDIR , MANKHURD WEST",
+          "mr": "आपले सरकार सेवा केंद्र दुकान क्रमांक ७ ज्योतिर्लिंग नगर दत्त मंदिराजवळ, मानखुर्द पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/ot9GGttigVJrxB5g6",
+        "contact_number": "9594517642",
+        "email_id": "SUNILMN471.GMAIL.COM",
+        "lat": 19.0505233,
+        "lng": 72.930725
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "MANKHURD",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "FAYAZ KHALIL SHAIKH",
+          "mr": "फयाज खलील शेख"
+        },
+        "address": {
+          "en": "FS Tours Travels Plot No-20,Line No-Q,Shop No-1 Road No-3 Near Hari Masjid Shivaji Nagar,Govandi",
+          "mr": "एफएस टूर्स ट्रॅव्हल्स प्लॉट क्रमांक-२०, लाइन क्रमांक-क्यू, दुकान क्रमांक-१ रोड क्रमांक-३ हरी मस्जिद शिवाजी नगर जवळ, गोवंडी"
+        },
+        "geo_tag": "https://maps.app.goo.gl/pi18aZA23i8WGhQQA",
+        "contact_number": "9221255784",
+        "email_id": "FASHAIKH80.GMAIL.COM",
+        "lat": 19.0505458,
+        "lng": 72.9217128
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vinay Ramdhani Gupta",
+          "mr": "विनय रामधनी गुप्ता"
+        },
+        "address": {
+          "en": "Amar Nagar W.T.Patil Marg Amar Nagar W.T.Patil Marg Opp Dukes Company Opp Dukes Company chembur Chembur\n",
+          "mr": " अमर नगर डब्ल्यूटीपाटील मार्ग अमर नगर डब्ल्यूटीपाटील मार्ग ड्यूक्स कंपनी समोर ड्यूक्स कंपनी चेंबूर चेंबूर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/orUFEURQJ1anuYXi8",
+        "contact_number": "9321317031",
+        "email_id": "vinaygupta395.gmail.com",
+        "lat": 19.0667913,
+        "lng": 72.8895944
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MANOJ BHIKAJI PHONDEKAR",
+          "mr": "मनोज भिकाजी फोंडेकर"
+        },
+        "address": {
+          "en": "Nalanda veday vihar chow DAMU NAGAR OPP SWAMI RATION SHOP KANDIVALI EAST",
+          "mr": "नालंदा वेदाय विहार चाळ दामू नगर स्वामी रेशन शॉप समोर कांदिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Pk3MhgtHxfhLiETv7",
+        "contact_number": "9892670974",
+        "email_id": "manojphondekar22.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NILESH DATTARAM GAWADE",
+          "mr": "निलेश दत्ताराम गावडे"
+        },
+        "address": {
+          "en": "SHREE ENTERPRISES SHOP NO-9 W T PATIL MARG NEAR DUKES COMPANY GOVANDI\n",
+          "mr": "श्री एंटरप्रायझेस दुकान क्रमांक-९, ड्यूक्स कंपनी गोवंडी जवळ, डब्ल्यूटी पाटील मार्ग"
+        },
+        "geo_tag": "https://maps.app.goo.gl/DPuZ6ufDQUmATNQy6",
+        "contact_number": "9320022297",
+        "email_id": "cscshree18[at]gmail.com",
+        "lat": 19.0733955,
+        "lng": 72.8832792
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "PRASHANT SUBEDAR SINGH",
+          "mr": "प्रशांत सुबेदार सिंह"
+        },
+        "address": {
+          "en": "Ramsukha CHAWL GAONDEVI RD,KAJUPADA POISAR KANDIVALI EAST",
+          "mr": "रामसुखा चाळ गावदेवी आरडी, काजूपाडा पोईसर कांदिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/AstQpxwYCPrDMRHd7",
+        "contact_number": "8652660330",
+        "email_id": "prashant9967955841.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "MANKHURD",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": " Sandip More",
+          "mr": " संदीप मोरे"
+        },
+        "address": {
+          "en": "V N PURAV MARG MANKHURD 43",
+          "mr": "व्हीएन पुराव मार्ग मानखुर्द ४३"
+        },
+        "geo_tag": "https://maps.app.goo.gl/EGrDr6HTuH8iriuY9",
+        "contact_number": "8108743683",
+        "email_id": "sandymore3683.gmail.com",
+        "lat": 19.0429985,
+        "lng": 72.9260083
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "KANDIVALI",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ANIL MEHILAL GUPTA",
+          "mr": "अनिल मेहिलाल गुप्ता"
+        },
+        "address": {
+          "en": "Shoop NO 1, CHAWL NO 12, SHIV SHAKTI COMPOUND, OPP SHIV TEMPLE, SHIV MANDIR ROAD KANDIVALI WEST",
+          "mr": "दुकान क्रमांक १, चाळ क्रमांक १२, शिवशक्ती कंपाऊंड, शिव मंदिरासमोर, शिवमंदिर रोड कांदिवली पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bbJYqHiGSTSyoz7u5",
+        "contact_number": "9967163637",
+        "email_id": "anilgupta1439.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "govandi_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "govandi",
+        "name": {
+          "en": "GOVANDI",
+          "mr": "गोवंदी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Devendra Gupta",
+          "mr": "देवेंद्र गुप्ता"
+        },
+        "address": {
+          "en": "D K GUPTA AND ASSOCIATE SHOP NO9 RAMAN MAMA NAGAR BAIGANWADI SIGNAL NEAR AQSA HOTEL BAIGANWADI GOVANDI\n",
+          "mr": " डीके गुप्ता आणि सहयोगी दुकान क्रमांक 9 रमन मामा नगर बैगनवाडी सिग्नल अक्सा हॉटेलजवळ बैगनवाडी गोवंडी"
+        },
+        "geo_tag": "https://maps.app.goo.gl/1gMSQ3ScUjdfZbFu7",
+        "contact_number": "9224773204",
+        "email_id": "guptajiassociate[at]gmail.com",
+        "lat": 19.2049257,
+        "lng": 72.7686329
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "Goregaon",
+          "mr": "गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SANDEEP KASHIRAM SAKPAL",
+          "mr": "संदीप काशीराम सकपाळ"
+        },
+        "address": {
+          "en": "AAPLE SARKAR SEVA KENDRA UNIT NO. 3, AAREY MILK COLONY GOREGAON - EAST",
+          "mr": "आपले सरकार सेवा केंद्र युनिट क्र. 3, आरे मिल्क कॉलनी गोरेगाव - पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/X3P41nnu5ohYJhvH8",
+        "contact_number": "9221592216",
+        "email_id": "smsforservice.yahoo.com",
+        "lat": 19.1607688,
+        "lng": 72.8636216
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "BHANDUP",
+          "mr": "भांडूप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sangeeta Vaibhav Jambekar",
+          "mr": "संगीता वैभव जांबेकर"
+        },
+        "address": {
+          "en": "MAHA E SEVA KENDRA, 1/11, F.L.Sutari Chawl, Sai Nagar, Near C.G.S Colony Road, Bhandup (E), Mumbai No-400042\n",
+          "mr": " महा ई सेवा केंद्र, 1/11, FLSutari चाळ, साई नगर, CGS कॉलनी रोड जवळ, भांडुप (E), मुंबई नंबर-400042"
+        },
+        "geo_tag": "https://maps.app.goo.gl/xRCuqtPx78DpNY5A7",
+        "contact_number": "9867341497",
+        "email_id": "sam1313jam.gmail.com",
+        "lat": 19.1414168,
+        "lng": 72.9306011
+      }
+    },
+    {
+      "office_id": "goregaon_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "goregaon",
+        "name": {
+          "en": "Goregaon",
+          "mr": "गोरेगाव"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RAKESH NAMDEV RATHOD",
+          "mr": "राकेश नामदेव राठोड"
+        },
+        "address": {
+          "en": "Jai Bhavani Customer Service Centre Shop no. 81, Shiv Darshan Nagar Seva Sangh, Gen. A. K. Vaidya Marg Near Ware High School Santosh Nagar, Goregaon (E)",
+          "mr": "जय भवानी ग्राहक सेवा केंद्र दुकान क्र. 81, शिव दर्शन नगर सेवा संघ, जनरल ए के वैद्य मार्ग वेअर हायस्कूल संतोष नगर जवळ, गोरेगाव (पू)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/vNDLCXe6q9xo6zGC7",
+        "contact_number": "8779768807",
+        "email_id": "rakeshrathod3585.gmail.com",
+        "lat": 19.1701425,
+        "lng": 72.8607158
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "MANKHURD",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MEERA MOHIDDIN IBRAHIM",
+          "mr": "मीरा मोहिद्दीन इब्राहिम"
+        },
+        "address": {
+          "en": "G-SECTOR, G1-LINE, SHOP NO 13, CHEETA CAMP, TROMBAY, MUMBAI - 400088",
+          "mr": "जी-सेक्टर, जी१-लाइन, दुकान क्रमांक १३, चित्ता कॅम्प, ट्रॉम्बे, मुंबई - ४०००८८"
+        },
+        "geo_tag": "https://maps.app.goo.gl/3zwbeF452wqXkh8d7",
+        "contact_number": "9768931681",
+        "email_id": "mohiddin71.gmail.com",
+        "lat": 19.037563,
+        "lng": 72.9455617
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "PRAMOD PANDURANG GHAG",
+          "mr": "प्रमोद पांडुरंग घाग"
+        },
+        "address": {
+          "en": "32, chintamani vikas society new link road dahanu karwadi Kandivali",
+          "mr": "32, चिंतामणी विकास सोसायटी नवीन लिंक रोड डहाणू करवाडी कांदिवली"
+        },
+        "geo_tag": "https://maps.app.goo.gl/mgpc7tYCvGgMYqJA9",
+        "contact_number": "9022487317",
+        "email_id": "pramodghag1980.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vijay Kanan Kaundar",
+          "mr": "विजय कानन कौंडर"
+        },
+        "address": {
+          "en": "SHOP NO 5 sri sai association SOCY EKSAR JOGGERS PARK EKSAR ROAD devidas lane BORIVALI WEST",
+          "mr": "शॉप नंबर 5 श्री साई असोसिएशन सोसायटी एकसर जॉगर्स पार्क एकसर रोड देविदास लेन बोरिवली पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/DJ7rok3yPJdPKY4KA",
+        "contact_number": "9221600371",
+        "email_id": "vijaykaundar.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "BHAVNA BAABU BARIYA",
+          "mr": "भावना बाबू बारिया"
+        },
+        "address": {
+          "en": "Shop No - 10 & 11 Muncipal Market, cs road, bank of baroda dahisar",
+          "mr": "दुकान क्रमांक - १० आणि ११ महानगरपालिका मार्केट, सीएस रोड, बँक ऑफ बडोदा दहिसर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/1m9W2pQLsqMBrTA37",
+        "contact_number": "7718900592",
+        "email_id": "dahisarmahaesevakendra.gmail.com",
+        "lat": 19.2552289,
+        "lng": 72.8489555
+      }
+    },
+    {
+      "office_id": "powai_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "powai",
+        "name": {
+          "en": "Powai",
+          "mr": "पवई"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NAVEENKUMAR JETHARAM MALI",
+          "mr": "नवीनकुमार जेठाराम माळी"
+        },
+        "address": {
+          "en": "Mahalaxmi Digital CSC Center Bldg no 21/B/005 Sangharsh nagar chandivali Farm road near Sai baba Mandir Andheri East\n",
+          "mr": " महालक्ष्मी डिजिटल सीएससी सेंटर इमारत क्रमांक २१/बी/००५ संघर्ष नगर चांदिवली फार्म रोड साई बाबा मंदिर अंधेरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/tJ7Xy5fFgQt4Z5Ut5",
+        "contact_number": "9022702251",
+        "email_id": "mahalaxmibc9702.gmail.com",
+        "lat": 19.1125926,
+        "lng": 72.8575678
+      }
+    },
+    {
+      "office_id": "vidyavihar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vidyavihar",
+        "name": {
+          "en": "VIDYAVIHAR",
+          "mr": "विद्याविहार"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sanket Ghodekar",
+          "mr": "संकेत घोडेकर"
+        },
+        "address": {
+          "en": "GRAHAK SUVIDHA KENDRA SHOP NO.1,BAZIL VILLA OPP NEELKANTH CORPORATE PARK VIDYAVIHAR WEST MUMBAI-400086\n",
+          "mr": " ग्राहक सुविधा केंद्र दुकान क्र. 1, बाझील विला समोर नीलकंठ कॉर्पोरेट पार्क विद्याविहार पश्चिम मुंबई-400086"
+        },
+        "geo_tag": "https://maps.app.goo.gl/564Ruj8V1WWeZ5PWA",
+        "contact_number": "9702106570",
+        "email_id": "ghodekarsanket.gmail.com",
+        "lat": 19.0793103,
+        "lng": 72.8908352
+      }
+    },
+    {
+      "office_id": "powai_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "powai",
+        "name": {
+          "en": "Powai",
+          "mr": "पवई"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Giridhar Sonawane",
+          "mr": "गिरीधर सोनवणे"
+        },
+        "address": {
+          "en": "Basker Academic Foundation 10/G/006, Gajanan Society Sangharsh Nagar, Chandivali Farm Road Opp Pawar Public School Chandivali\n",
+          "mr": " बास्कर अकादमिक फाउंडेशन 10/G/006, गजानन सोसायटी संघर्ष नगर, चांदिवली फार्म रोड पवार पब्लिक स्कूल समोर चांदिवली"
+        },
+        "geo_tag": "https://maps.app.goo.gl/SzDebsAoriNXWRPf7",
+        "contact_number": "9820341144",
+        "email_id": "snlchandivall2018.gmail.com",
+        "lat": 19.1114331,
+        "lng": 72.9017161
+      }
+    },
+    {
+      "office_id": "govandi_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "govandi",
+        "name": {
+          "en": "govandi",
+          "mr": "गोवंडी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NITIN RAMESH MAKRE",
+          "mr": "नितीन रमेश मकरे"
+        },
+        "address": {
+          "en": "Shree Vallabh Enterprise Sadashiv Bhoir House, Govandi Village, Near Monginis Cake Shop, Govandi\n",
+          "mr": " श्री वल्लभ एंटरप्राईज सदाशिव भोईर हाऊस, गोवंडी गाव, मोंगीनीस केक शॉप जवळ, गोवंडी"
+        },
+        "geo_tag": "https://maps.app.goo.gl/eRxUVLXTVRXFQRLdA",
+        "contact_number": "8080007796",
+        "email_id": "nitinmakre21.gmail.com",
+        "lat": 19.1115146,
+        "lng": 72.8630914
+      }
+    },
+    {
+      "office_id": "govndi_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "govndi",
+        "name": {
+          "en": "GOVNDI",
+          "mr": "गोवंडी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Asha Vinod Gupta",
+          "mr": "आशा विनोद गुप्ता"
+        },
+        "address": {
+          "en": "SHANKAR MALI CHAWL NEAR MUNICIPAL SCHOOL GOVANDI\n",
+          "mr": " शंकर माळी चाळ नगरपालिका शाळा गोवंडी जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/2uMmEhCMvjcnZuUaA",
+        "contact_number": "9022393918",
+        "email_id": "pritam3918.gmail.com",
+        "lat": 19.0593617,
+        "lng": 72.9150992
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shubham Ramlal Shahani",
+          "mr": "शुभम रामलाल शहानी"
+        },
+        "address": {
+          "en": "Shop no 5 goyal traid center shantivan borivali East",
+          "mr": "शॉप नंबर 5 गोयल ट्रेड सेंटर शांतीवन बोरिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/8jJevJ9t7LAAJKGB7",
+        "contact_number": "9987139930 / 8097026760",
+        "email_id": "shubhamsahani0.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shubham Ramlal Shahani",
+          "mr": "शुभम रामलाल शहानी"
+        },
+        "address": {
+          "en": "Shop no 13 goyal traid center, vina society, shantivan borivali east",
+          "mr": "दुकान क्रमांक १३ गोयल ट्रेड सेंटर, विणा सोसायटी, शांतीवन बोरिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/7BC7YZBjGqQsuYKn7",
+        "contact_number": "8097026760",
+        "email_id": "tcicyber.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "kandivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "kandivali",
+        "name": {
+          "en": "Kandivali",
+          "mr": "कांदिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SUKUMAR PUSHPARAJ SWAMY",
+          "mr": "सुकुमार पुष्पराज स्वामी"
+        },
+        "address": {
+          "en": "SKY INFOTECH, SHOP NO 3, SAI HEAVEN CHS, GAONDEVI ROAD, POISAR, KANDIVALI WEST, MUMBAI ",
+          "mr": " स्काय इन्फोटेक, शॉप नं 3, साई हेवन सीएचएस, गावदेवी रोड, पोईसर, कांदिवली पश्चिम, मुंबई"
+        },
+        "geo_tag": "https://maps.app.goo.gl/QCeCzWiGfB5cJeZe8",
+        "contact_number": "9870452204",
+        "email_id": "skyinfotechcyber.gmail.com",
+        "lat": 19.2150334,
+        "lng": 72.8630202
+      }
+    },
+    {
+      "office_id": "dahisar_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "dahisar",
+        "name": {
+          "en": "Dahisar",
+          "mr": "दहिसर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RAMASHRAY RAMKARAN CHAUHAN",
+          "mr": "रामाश्रय रामकरण चौहान"
+        },
+        "address": {
+          "en": "Janani Eseva Kendra Shop No 8, Hiral Splendour Tower Ketkipada Road Near Diamond Industrial Estate Dahisar East",
+          "mr": "जननी सेवा केंद्र दुकान क्रमांक 8, हिरल स्प्लेंडर टॉवर केतकीपाडा रोड डायमंड इंडस्ट्रियल इस्टेट जवळ दहिसर पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/tgwPDDQvnjRg1yr6A",
+        "contact_number": "8433848444",
+        "email_id": "ramy.chauhan.gmail.com",
+        "lat": 19.2566334,
+        "lng": 72.8711578
+      }
+    },
+    {
+      "office_id": "powai_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "powai",
+        "name": {
+          "en": "Powai",
+          "mr": "पवई"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KIRTI SUMIT HANDORE",
+          "mr": "कीर्ती सुमित हंडोरे"
+        },
+        "address": {
+          "en": "BODHI ENTERPRISES GROUP NO 1 I I T MAIN GATE NEAR POWAI ENGLISH SCHOOL RAMABAI AMBEDKAR NAGAR\n",
+          "mr": "बोधी एंटरप्राइजेस ग्रुप नंबर 1 आयआयटी मेन गेट जवळ पवई इंग्लिश स्कूल रमाबाई आंबेडकर नगर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/YktLramzeh7JmYPi7",
+        "contact_number": "8108993166",
+        "email_id": "kirtihandore756[at]gmail.com",
+        "lat": 19.1251269,
+        "lng": 72.9018901
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "PHOOLCHAND MUNNILAL JAISWAR",
+          "mr": "फूलचंद मुन्नीलाल जयस्वार"
+        },
+        "address": {
+          "en": "1/1 SHANTI SEVA SADAN 90 FEET ROAD NETAJI NAGAR KHADI 13 SAKI NAKA KURLA WEST",
+          "mr": "1/1 शांती सेवा सदन 90 फीट रोड नेताजी नगर खाडी 13 साकी नाका कुर्ला पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/B9R3C2s3M13pu7Vt7",
+        "contact_number": "9838287920",
+        "email_id": "phoolchandj5.gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shankar dashrath Lanke",
+          "mr": "शंकर दशरथ लंके"
+        },
+        "address": {
+          "en": "RAJLAXMI TRAVAL BLDG NO.66, SHOP NO.03 DHANANJAY CHS, OPP AMRPALI LADIES HOSTEL, NEAR MUNCIPAL SCHOOL TILAK NAGAR, CHEMBUR\n",
+          "mr": " राजलक्ष्मी ट्रॅव्हल बिल्डींग नं.66, दुकान क्र.03 धनंजय सीएचएस, आम्रपाली महिला वसतिगृहासमोर, नगर शाळेजवळ, टिळक नगर, चेंबूर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/kzMUCGyRHZqSZPDB6",
+        "contact_number": "9004228095",
+        "email_id": "sdlanke[at]rediffmail.com",
+        "lat": 19.0667913,
+        "lng": 72.8895944
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "FIROZ USMANBHAI MALKANI",
+          "mr": "फिरोज उस्मानभाई मलकानी"
+        },
+        "address": {
+          "en": "Shop No - 21 Patel Shoping Center , Sainath Road, Malad ( West ) - 400064",
+          "mr": "दुकान क्रमांक - 21 पटेल शॉपिंग सेंटर, साईनाथ रोड, मालाड (पश्चिम) - 400064"
+        },
+        "geo_tag": "https://maps.app.goo.gl/jD9HVZsLWaeKswcUA",
+        "contact_number": "8779245664",
+        "email_id": "aumalkani.gmail.com",
+        "lat": 19.1892783,
+        "lng": 72.8455113
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sujit Shinde",
+          "mr": "सुजित शिंदे"
+        },
+        "address": {
+          "en": "GRACE ELECTRONICS AZIZ BAUG RC MARG MAHUL ROAD\n",
+          "mr": " ग्रेस इलेक्ट्रॉनिक्स अझीझ बाग आरसी मार्ग माहुल रोड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/47mUxn6f6uULch7H7",
+        "contact_number": "9029933770",
+        "email_id": "graceelectronics.kurla.gmail.com",
+        "lat": 19.069242,
+        "lng": 72.8872419
+      }
+    },
+    {
+      "office_id": "malad_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "malad",
+        "name": {
+          "en": "Malad",
+          "mr": "मालाड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NILOFAR FIROZ MALKANI",
+          "mr": "निलोफर फिरोज मलकानी"
+        },
+        "address": {
+          "en": "Shop no 28 patel shopping center ground floor malad west",
+          "mr": "दुकान क्रमांक २८ पटेल शॉपिंग सेंटर, ग्राउंड फ्लोअर, मालाड पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/CjRHDTpyw86JBPCy7",
+        "contact_number": "7977033145",
+        "email_id": "maladcsc.gmail.com",
+        "lat": 19.1888025,
+        "lng": 72.8466425
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "Ghatkopar ",
+          "mr": " घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Ganesh Kale",
+          "mr": "गणेश काळे"
+        },
+        "address": {
+          "en": "Room No.1, Budhaji Patil Chawl, Sudhakar Parsekar Chowk, R B Kadam Marg, Near Hanuman Mandir, Barvenagar, Bhatwadi, Ghatkopar W\n",
+          "mr": " खोली क्र.१, बुधाजी पाटील चाळ, सुधाकर पार्सेकर चौक, आर.बी.कदम मार्ग, हनुमान मंदिराजवळ, बर्वेनगर, भटवाडी, घाटकोपर प."
+        },
+        "geo_tag": "https://maps.app.goo.gl/z2A5vpG5gmahPFn98",
+        "contact_number": "9870257640",
+        "email_id": "ganesh.kale01.gmail.com",
+        "lat": 19.0930991,
+        "lng": 72.8947154
+      }
+    },
+    {
+      "office_id": "borivali_tehsildar",
+      "taluka": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "village": {
+        "id": "borivali",
+        "name": {
+          "en": "Borivali",
+          "mr": "बोरिवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sanjay Savla",
+          "mr": "संजय सावला"
+        },
+        "address": {
+          "en": "Shop no 5 Sukarwadi ST depo near M G Road No 9 Near S T Depo Sukarwadi, Borivali East\n",
+          "mr": " एमजी रोड क्रमांक ९ जवळील दुकान क्रमांक ५, सुकरवाडी एसटी डेपो, सुकरवाडी एसटी डेपो जवळ, बोरिवली पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/b87XJd29rCKztQ9U8",
+        "contact_number": "9322061987",
+        "email_id": "arihant2013.gmail.com",
+        "lat": 19.229068,
+        "lng": 72.8573628
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "ghatkopar",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KISHOR GURUNATH KUNKAVLEKAR",
+          "mr": "किशोर गुरुनाथ कुंकवलेकर"
+        },
+        "address": {
+          "en": "MASK ENTERPRISES 1/7 SURAKSHA NAGAR KATODI PADA ROAD BHATWADI BARVE NAGAR NEAR JALARAM TEMPLE\n",
+          "mr": " मास्क एंटरप्राइजेस 1/7 सुरक्षा नगर काटोडी पाडा रोड भटवाडी बर्वे नगर जलाराम मंदिराजवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bhzqsGq9MHmjsSMT8",
+        "contact_number": "9819935766",
+        "email_id": "mask032017.gmail.com",
+        "lat": 19.0968045,
+        "lng": 72.9028194
+      }
+    },
+    {
+      "office_id": "chanvali_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chanvali",
+        "name": {
+          "en": "CHANVALI",
+          "mr": "चाणवली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Archna Shivaji Tadlapurkar",
+          "mr": "अर्चना शिवाजी तडलापूरकर"
+        },
+        "address": {
+          "en": "5/G/001 Sangharsh Nagar Chandivali Farm Road Mumbai-72\n",
+          "mr": " 5/G/001 संघर्ष नगर चांदिवली फार्म रोड मुंबई-72"
+        },
+        "geo_tag": "https://maps.app.goo.gl/SQATwdAAygwV5fQA8",
+        "contact_number": "9870037156",
+        "email_id": "adv.vithalgadikar.gmail.com",
+        "lat": 19.114584,
+        "lng": 72.8930503
+      }
+    },
+    {
+      "office_id": "vikaroli_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vikaroli",
+        "name": {
+          "en": "VIKAROLI",
+          "mr": "विकरोली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shubhangi Dinesh Patil",
+          "mr": "शुभांगी दिनेश पाटील"
+        },
+        "address": {
+          "en": "2/20 SHOPING CENTAR VIKROLI COURT VIKROLI MUMBAI 83",
+          "mr": "2/20 शॉपिंग सेंटर विक्रोळी कोर्ट विक्रोळी मुंबई 83"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Sj7zq6jHumAfXeTQ9",
+        "contact_number": "9820456678",
+        "email_id": "patil_jayshree.yahoo.co.in",
+        "lat": 19.114609,
+        "lng": 72.8853255
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "bhandup",
+          "mr": "भांडुप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KIRAN SANTRAM VISHWAKARMA",
+          "mr": "किरण संत्राम विश्वकर्मा"
+        },
+        "address": {
+          "en": "COMMAN SERVICE CENTRE SHOP NO.02,VIJAY NIWAS JANGAL MANGAL ROAD NEAR POPAT HARWALA,NR BHATTIPADA FISH MARKET BHANDUP WEST\n",
+          "mr": " कॉमन सर्व्हिस सेंटर शॉप क्र. ०२, विजय निवास जंगल मंगल रोड, पोपट हरवाला, एनआर भट्टीपाडा फिश मार्केट भांडुप पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/zh6cHRCN15TJnWYq5",
+        "contact_number": "8779097454",
+        "email_id": "kiran.svishwakarma.gmail.com",
+        "lat": 19.1147055,
+        "lng": 72.8544256
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "chembur",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Binod Ramdhani Gupta",
+          "mr": "बिनोद रामधनी गुप्ता"
+        },
+        "address": {
+          "en": "Pritam Technology Services Pvt Ltd SHOP NO-2 GROUND FLOOR N.G. ACHARYA MARG BEHIND KHARDEV NAGAR BUS STOP KHARDEV NAGAR GHATLA CHEMBUR\n",
+          "mr": " प्रीतम टेक्नॉलॉजी सर्व्हिसेस प्रायव्हेट लिमिटेड दुकान क्रमांक-2 तळमजला एनजी आचार्य मार्ग खारदेव नगर बस स्टॉपच्या मागे खारदेव नगर घाटला चेंबूर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/qBZWYaWPSEn2gvVA9",
+        "contact_number": "9324329286",
+        "email_id": "binodgupta1982.gmail.com",
+        "lat": 19.0733955,
+        "lng": 72.8832792
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "BHANDUP",
+          "mr": "भांडूप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SANTOSH SHIVRAM SALUNKHE",
+          "mr": "संतोष शिवराम साळुंखे"
+        },
+        "address": {
+          "en": "SHUBHAM STORE 1/2 SHIVNARI SADAN TULSHET PADA GAVDEVI ROAD PATKAR COMPOUND\n",
+          "mr": " शुभम स्टोअर १/२ शिवनारी सदन तुलशेत पाडा गावदेवी रोड पाटकर कंपाऊंड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/XPzgurHAqZzKPRBN7",
+        "contact_number": "9702449593",
+        "email_id": "ravi.soham79.gmail.com",
+        "lat": 19.0576377,
+        "lng": 72.8676426
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "mankhurd",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "RAVINDRA RAJARAM GAWAS",
+          "mr": "रवींद्र राजराम गावस"
+        },
+        "address": {
+          "en": "Laxmi Enterprises Shop No-1 Hanuman Chawl Opp SPPL Building Maharashtra Nagar,Mankhurd\n",
+          "mr": " लक्ष्मी एंटरप्रायझेस शॉप नंबर-1 हनुमान चाळ एसपीपीएल बिल्डिंग समोर, महाराष्ट्र नगर, मानखुर्द"
+        },
+        "geo_tag": "https://maps.app.goo.gl/qm5Y1Wc4anJug1NA7",
+        "contact_number": "9220105579",
+        "email_id": "ravigawas975.gmail.com",
+        "lat": 19.0502124,
+        "lng": 72.9331666
+      }
+    },
+    {
+      "office_id": "powai_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "powai",
+        "name": {
+          "en": "Powai",
+          "mr": "पवई"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHARAD TUKARAM KADAM",
+          "mr": "शरद तुकारम कदम"
+        },
+        "address": {
+          "en": "EXPERT COMPUTER EDUCATION 004, BLDG NO.13/D, SANGHARSH NAGAR CHANDIVALI FARM ROAD\n",
+          "mr": " एक्सपर्ट कॉम्प्युटर एज्युकेशन ००४, बिल्डिंग नंबर १३/डी, संघर्ष नगर चांदीवली फार्म रोड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/2by2ukmEc4c7Gzyq8",
+        "contact_number": "8108418213",
+        "email_id": "sharadkadam1984.gmail.com",
+        "lat": 19.1080062,
+        "lng": 72.9001782
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Harishchandra Dhondu Bodekar",
+          "mr": "हरिश्चंद्र धोंडू बोडेकर"
+        },
+        "address": {
+          "en": "Maha e-seva Kendra Shop No:1 V.N.Purav Marg Opposite Annabhau Sathe Garden Suman Nagar\n",
+          "mr": " महा ई-सेवा केंद्र दुकान क्रमांक: 1 व्हीएनपुरव मार्ग अण्णाभाऊ साठे गार्डन सुमन नगर समोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/X19D8Y318fngGZ7P9",
+        "contact_number": "9372094283",
+        "email_id": "harishchandra8371.gmail.]com",
+        "lat": 19.0733955,
+        "lng": 72.8832792
+      }
+    },
+    {
+      "office_id": "sakinaka_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "sakinaka",
+        "name": {
+          "en": "Sakinaka ",
+          "mr": " साकीनाका"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Rahul Mahadev Kawale",
+          "mr": "राहुल महादेव कावळे"
+        },
+        "address": {
+          "en": "Shop number 5 Bank of Baroda behind Shiv Sagar sweets near Naaz medical Andheri Kurla Road jarimari Mumbai 72",
+          "mr": "नाज मेडिकल अंधेरी कुर्ला रोड जरीमरी मुंबई 72 जवळ शिवसागर मिठाईच्या मागे दुकान क्रमांक 5 बँक ऑफ बडोदा"
+        },
+        "geo_tag": "https://maps.app.goo.gl/wFxPdLfize5Dhtcq6",
+        "contact_number": "9702390189",
+        "email_id": "rahulkalwale22.gmail.com",
+        "lat": 19.1002328,
+        "lng": 72.8829336
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "BHANDUP",
+          "mr": "भांडूप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "DIKSHA DINESH BHOJANE.",
+          "mr": "दीक्षा दिनेश भोजने."
+        },
+        "address": {
+          "en": "Laxmi Narayan Mistry Chwal 1/1 P.N.Road Hanuman Teample Hanuman Nagar\n",
+          "mr": " लक्ष्मी नारायण मिस्त्री चवाल १/१ पीएनरोड हनुमान टीमप्ले हनुमान नगर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/z4sHYj86axsAb91a9",
+        "contact_number": "7039352496",
+        "email_id": "drdbhojane.gmail.com",
+        "lat": 19.1002822,
+        "lng": 72.8674839
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sandeep Suresh Sawant",
+          "mr": "संदीप सुरेश सावंत"
+        },
+        "address": {
+          "en": "Shree Sai Computer Institute GuruDatta Rahivashi sangh Khardev Nagar Ghatla Chembur Mumbai Near NG Acharya College\n",
+          "mr": " श्री साई कॉम्प्युटर इन्स्टिट्यूट गुरुदत्त रहिवाशी संघ खारदेव नगर घाटला चेंबूर मुंबई एनजी आचार्य कॉलेज जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/nTerMikkvyFBsDzW8",
+        "contact_number": "9892429978",
+        "email_id": "sandeepsawant16.gmail.com",
+        "lat": 19.0667913,
+        "lng": 72.8895944
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "BHANDUP",
+          "mr": "भांडूप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHAFI AHMED ABDUL AZIZ SHAIKH",
+          "mr": "शफी अहमद अब्दुल अझीझ शेख"
+        },
+        "address": {
+          "en": "Cyber Network Shop No 3 Jokim Compound P N Road Bhandup west\n",
+          "mr": " सायबर नेटवर्क शॉप नंबर ३ जोकीम कंपाउंड पीएन रोड भांडुप पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/cTzdbqSBw9Lqxys3A",
+        "contact_number": "9322536239",
+        "email_id": "alwayshereatyou.gmail.com",
+        "lat": 19.1399557,
+        "lng": 72.9235126
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "bhandup",
+          "mr": "भांडुप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Anil Kumar Yadav",
+          "mr": "अनिल कुमार यादव"
+        },
+        "address": {
+          "en": "Anil Communication 8, Neerabai Shopping Center Village Road Opp Skyline Building Bhandup West\n",
+          "mr": " अनिल कम्युनिकेशन ८, नीराबाई शॉपिंग सेंटर व्हिलेज रोड स्कायलाइन बिल्डिंग समोर भांडुप पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/uWNoRLK1MSrzCYHz5",
+        "contact_number": "9221322208",
+        "email_id": "anilk2008.gmail.com",
+        "lat": 19.1458829,
+        "lng": 72.9306269
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "HARI DADA LADE",
+          "mr": "हरि दादा लाडे"
+        },
+        "address": {
+          "en": "LADE GRAHAK SEVA KENDRA SHOP NO 16 SARVAMMA CHAWL, NEW MILL ROAD RAMDAS CHOWK KURLA WEST\n",
+          "mr": " लाडे ग्राहक सेवा केंद्र दुकान क्रमांक १६ सर्वम्मा चाळ, न्यू मिल रोड रामदास चौक कुर्ला पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/DzvRKauB2u8A1KPB7",
+        "contact_number": "9096977769",
+        "email_id": "harilade10.gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "mulund_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mulund",
+        "name": {
+          "en": "MULUND",
+          "mr": "मुलुंड"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Mija Kutti",
+          "mr": "मिजा कुट्टी"
+        },
+        "address": {
+          "en": "LAKAISH E-GOVERNANCE CENTRE 21, SHARMILA BALRAJESHWAR ROAD OPP. MODEL TOWN\n",
+          "mr": " लकेश ई-गव्हर्नन्स सेंटर 21, शर्मिला बलराजेश्वर रोड समोर. मॉडेल टाऊन"
+        },
+        "geo_tag": "https://maps.app.goo.gl/SVpvGpu2jK9QHX5c9",
+        "contact_number": "9892517811",
+        "email_id": "vattekatte.gmail.com",
+        "lat": 19.184376,
+        "lng": 72.9399271
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Chetan Ajit Chavan",
+          "mr": "चेतन अजित चव्हाण"
+        },
+        "address": {
+          "en": "1/1 YASHWANT COPMPOUND NEAR DATTA MANDIR LBS ROAD KURLA WEST ",
+          "mr": " १/१ यशवंत कॉम्पपाउंड, दत्ता मंदिर एलबीएस रोड, कुर्ला पश्चिम जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/5s23jGKj5Ku4pSiP9",
+        "contact_number": "9769899112",
+        "email_id": "mahaesevakendrakurla.gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "ghatlopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatlopar",
+        "name": {
+          "en": "GHATLOPAR",
+          "mr": "घाटलोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SUNITA NANDARAM TAMBE",
+          "mr": "सुनीता नंदराम तांबे"
+        },
+        "address": {
+          "en": "SHOP NO 3 MUNCIPAL SHOPING CENTRE SHOP NO 3 MUNCIPAL SHOPPING CENTRE S G BARVENAGR BHAJI MARKET BHATWADI,GHATKOPAR(W)\n",
+          "mr": " दुकान क्रमांक 3 नगरपालिका खरेदी केंद्र दुकान क्रमांक 3 नगर खरेदी केंद्र एसजी बर्वेनगर भाजी मार्केट भटवाडी, घाटकोपर(प)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/6tBF5GMVmAoJV7b47",
+        "contact_number": "9870803333",
+        "email_id": "nandudadantambe.gmail.com",
+        "lat": 19.090674,
+        "lng": 72.9034489
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Mahendra Mahadeo Redkar",
+          "mr": "महेंद्र महादेव रेडकर"
+        },
+        "address": {
+          "en": "MAHENDRA TOURISM ENTERPRISES 7/9 R B KADAM MARG BHATWADI GHATKOPAR W\n",
+          "mr": "महेंद्र टूरिझम एंटरप्राइजेज ७/९ आरबी कदम मार्ग भटवाडी घाटकोपर प"
+        },
+        "geo_tag": "https://maps.app.goo.gl/65etiSq6BEc8diTJ9",
+        "contact_number": "7506045045",
+        "email_id": "omsainiti.gmail.com",
+        "lat": 19.0906942,
+        "lng": 72.9034489
+      }
+    },
+    {
+      "office_id": "powai_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "powai",
+        "name": {
+          "en": "Powai",
+          "mr": "पवई"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shubhangi Sandeep Dighe",
+          "mr": "शुभांगी संदीप दिघे"
+        },
+        "address": {
+          "en": "dighe enterprises 2 saki vihar road l and t shivshakti nagar",
+          "mr": "दिघे एंटरप्रायझेस 2 साकी विहार रोड एल आणि टी शिवशक्ती नगर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/1mphTZpPMA2qCxr26",
+        "contact_number": "9773491052",
+        "email_id": "shubhangi_s86.yahoo.co.in",
+        "lat": 19.1233516,
+        "lng": 72.8875743
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Harischandra Jaysing Chalke",
+          "mr": "हरिश्चंद्र जयसिंग चाळके"
+        },
+        "address": {
+          "en": "Shop No. 3, Opp Laxmi Niwas, M. N. Road, Bail Bazar, Kurla (W)",
+          "mr": "दुकान क्रमांक ३, लक्ष्मी निवास समोर, एमएन रोड, बैल बाजार, कुर्ला (पश्चिम)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/HARTAPAdCH2DfkxH8",
+        "contact_number": "9594990146",
+        "email_id": "harish29910.gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KOMAL HIRACHANDRA SURYAWANSHI",
+          "mr": "कोमल हिरचंद्र सूर्यवंशी"
+        },
+        "address": {
+          "en": "aaple sarkhar seva kendra room no.02 mumbai bank ASALFA VILLAGE",
+          "mr": "आपले सरकार सेवा केंद्र खोली क्र.02 मुंबई बँक असल्फा व्हिलेज"
+        },
+        "geo_tag": "https://maps.app.goo.gl/bkDZF866juR1ZFCw9",
+        "contact_number": "913668495",
+        "email_id": "komalwanshi08.gmail.com",
+        "lat": 19.0934167,
+        "lng": 72.8968136
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SWAPNIL PRAKASH PANCHAL",
+          "mr": "स्वप्नील प्रकाश पंचाळ"
+        },
+        "address": {
+          "en": "UNIQUE COMPUTERS AND CYBER CAFE 1 SHOP NO. 1, SINDHUDURG SOCIETY, DHOBIGHAT PIPE LINE NEAR HINDI BAL VIDYA MANDIR, ASALFA VILLAGE, GHATKOPAR WEST",
+          "mr": "युनिक कॉम्प्युटर्स आणि सायबर कॅफे 1 दुकान क्र. 1, सिंधुदुर्ग सोसायटी, हिंदी बाल विद्या मंदिराजवळ धोबीघाट पाईप लाईन, असल्फा गाव, घाटकोपर पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/sjjpWnMRcBaLfH6D8",
+        "contact_number": "8422907545",
+        "email_id": "unique19913.gmail.com",
+        "lat": 19.0975629,
+        "lng": 72.8923639
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shree Devi Muttu Mariyyaman Seva Samiti",
+          "mr": "श्री देवी मुट्टू मरियमन सेवा समिती"
+        },
+        "address": {
+          "en": "shree devi muttu mariamma seva samiti (reg.) v.n marg nera b.m.c school kamraj nagar,ghatkopar (east)",
+          "mr": "श्री देवी मुट्टू मरियम्मा सेवा समिती (रेजि.) वि.एन. मार्ग नेरा बीएमसी स्कूल कामराज नगर, घाटकोपर (पूर्व)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/mrZpE4DhaXEwF4R47",
+        "contact_number": "8828287787",
+        "email_id": "sdmassr.1.gmail.com",
+        "lat": 19.0723737,
+        "lng": 72.9115528
+      }
+    },
+    {
+      "office_id": "marol_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "marol",
+        "name": {
+          "en": "Marol",
+          "mr": "मारोल"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "NEELU AMARENDRA KUMAR SINGH",
+          "mr": "नीलू अमरेंद्र कुमार सिंग"
+        },
+        "address": {
+          "en": "VAISHNO ENTERPRISES VAISHNO ENTERPRISES 3753 adarash Nagar, The Great Indira Nagar SAI RECEDANCY HOTEL ,Marol Pieline,",
+          "mr": "वैष्णो एंटरप्राइजेस वैष्णो एंटरप्राइजेज 3753 आदर्श नगर, द ग्रेट इंदिरा नगर साई रिसेडन्सी हॉटेल, मरोळ पायलाइन,"
+        },
+        "geo_tag": "https://maps.app.goo.gl/JLWCL2fhQPtJHYiZ7",
+        "contact_number": "9930098428",
+        "email_id": "sbombay2005.gmail.com",
+        "lat": 19.1081008,
+        "lng": 72.87963
+      }
+    },
+    {
+      "office_id": "mogra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "mogra",
+        "name": {
+          "en": "mogra",
+          "mr": "मोगरा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "VIDHI VINOD TAMBE",
+          "mr": "विधी विनोद तांबे"
+        },
+        "address": {
+          "en": "9316 BANDEKAR CHAWL PUMP HOUSE HANUMAN NAGAR JIJAMATA MARG ANDHERI EAST",
+          "mr": "9316 बांदेकर चाळ पंप हाऊस हनुमान नगर जिजामाता मार्ग अंधेरी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/qvuQnNoVX8Du4FB77",
+        "contact_number": "9819504128",
+        "email_id": "shreecomputers237.gmail.com",
+        "lat": 19.1284504,
+        "lng": 72.8554211
+      }
+    },
+    {
+      "office_id": "marol_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "marol",
+        "name": {
+          "en": "marol",
+          "mr": "मॅरोल"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "CHANDRAKANT GOVIND RAJPURE",
+          "mr": "चंद्रकांत गोविंद राजपुरे"
+        },
+        "address": {
+          "en": "SUDHIR COMMUNICATION, SHOP NO 2 FIRST FLOOR SAGBAUG ANDHERI KURLA ROAD OPP MAHALAXMI HOTEL MAROL ANDHERI EAST",
+          "mr": "सुधीर कम्युनिकेशन, दुकान क्रमांक २ पहिला मजला सागबाग अंधेरी कुर्ला रोड महालक्ष्मी हॉटेल मरोळ अंधेरी पूर्व समोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/YkcUcu5c6PBPEJfBA",
+        "contact_number": "9320485870",
+        "email_id": "crajpure.gmail.com",
+        "lat": 19.1081008,
+        "lng": 72.87963
+      }
+    },
+    {
+      "office_id": "majas_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "majas",
+        "name": {
+          "en": "majas",
+          "mr": "मजास"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Anil Shitole",
+          "mr": "अनिल शितोळे"
+        },
+        "address": {
+          "en": "Gratitude Foundation Shop No.1, 16 A, Shahjeevan Society Vallabhai Patel Raod PMGP Colony Poonam Nagar",
+          "mr": "कृतज्ञता फाउंडेशन दुकान क्रमांक १, १६ अ, शाहजीवन सोसायटी वल्लभभाई पटेल रोड पीएमजीपी कॉलनी पूनम नगर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/DsqKRwrtNRFBbby27",
+        "contact_number": "8169992467",
+        "email_id": "anilsable.rediffmail.com",
+        "lat": 19.1341007,
+        "lng": 72.8648669
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Anil Vishwakarma",
+          "mr": "अनिल विश्वकर्मा"
+        },
+        "address": {
+          "en": "SHOP NO. 15/B, NEELYOG SQUARE OPP. ICICI BANK, R.B. MEHTA MARG, PATEL CHOWK GHATKOPAR EAST",
+          "mr": "दुकान क्र. 15/बी, नीलयोग स्क्वेअर समोर. आयसीआयसीआय बँक, आरबी मेहता मार्ग, पटेल चौक घाटकोपर पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/eVxt3fWHDA84qo6L6",
+        "contact_number": "9223922321",
+        "email_id": "kendraseva2006.gmail.com",
+        "lat": 19.0823347,
+        "lng": 72.9066387
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MANGESH DASHRATH RAJE",
+          "mr": "मंगेश दशरथ राजे"
+        },
+        "address": {
+          "en": "UG-5 SUCHITA BUSINESS PARK Y S JADHAV MARG STATION ROAD NEAR PATEL CHOWK HANUMAN TEMPLE GHATKOPAR EAST",
+          "mr": "UG-5 सुचिता बिझनेस पार्क वाईएस जाधव मार्ग स्टेशन रोड पटेल चौक हनुमान मंदिराजवळ घाटकोपर पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/WwhmTUnctSiouVX58",
+        "contact_number": "9757144448",
+        "email_id": "rajesevakendra[at]gmail.com",
+        "lat": 19.0851258,
+        "lng": 72.9074695
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "MAHESH SHANTILAL SURYAWANSHI",
+          "mr": "महेश शांतीलाल सूर्यवंशी"
+        },
+        "address": {
+          "en": "SHEETAL SERVICING SHOP NO A 341 KOHINOOR ROAD OPPOSITE KOHINOOR INTERNATIONAL SCHOOL KURLA WEST",
+          "mr": "शीटल सर्व्हिसिंग शॉप नंबर ए ३४१ कोहिनूर रोड, कोहिनूर इंटरनॅशनल स्कूल कुर्ला वेस्ट समोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/BvETEMJ41mg6pQCVA",
+        "contact_number": "8080904075",
+        "email_id": "maheshsuryawanshi46[at]gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "bhandup_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "bhandup",
+        "name": {
+          "en": "BHANDUP",
+          "mr": "भांडूप"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "AKSHATA KIRAN PHADATARE",
+          "mr": "अक्षता किरण फडतरे"
+        },
+        "address": {
+          "en": "02, SANTOSHI NIWAS CHS LTD ASHOK NAGAR DATTA MANDIR ROAD BHANDUP EAST",
+          "mr": "02, संतोषी निवास सीएचएस लिमिटेड अशोक नगर दत्त मंदिर रोड भांडुप पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/boL7RPv3t2U1UFDT8",
+        "contact_number": "9819531450",
+        "email_id": "bhanduponline1.gmail.com",
+        "lat": 19.1368923,
+        "lng": 72.9314833
+      }
+    },
+    {
+      "office_id": "vikroli_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vikroli",
+        "name": {
+          "en": "VIKROLI",
+          "mr": "विक्रोळी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "IMRAN AKBAR HUSSAIN SHAIKH",
+          "mr": "इम्रान अकबर हुसेन शेख"
+        },
+        "address": {
+          "en": "IMPERIAL COMMUNICATION CENTER 5B/149/2529, TAGORE NAGAR VIKHROLI EAST",
+          "mr": "इम्पेरियल कम्युनिकेशन सेंटर ५बी/१४९/२५२९, टागोर नगर विक्रोळी पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/6HowGyiS5BH8DJRw7",
+        "contact_number": "8657347725",
+        "email_id": "imran_shaikh_f9[at]yahoo.co.uk",
+        "lat": 19.1198934,
+        "lng": 72.9365148
+      }
+    },
+    {
+      "office_id": "vikroli_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vikroli",
+        "name": {
+          "en": "VIKROLI",
+          "mr": "विक्रोळी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "BALAJI TANGWEL NADAR",
+          "mr": "बालाजी टांगवेल नादर"
+        },
+        "address": {
+          "en": "Balaji Enterprises 7 Station Road St.Joseph Church Compound Vikhroli West",
+          "mr": "बालाजी एंटरप्रायझेस ७ स्टेशन रोड सेंट जोसेफ चर्च कंपाउंड विक्रोळी पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/SxxKhnqdEjKfGnc46",
+        "contact_number": "9137105066",
+        "email_id": "nadarbalaji.yahoo.com",
+        "lat": 19.1199184,
+        "lng": 72.92879
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Nandakishor Gupta",
+          "mr": "नंदकिशोर गुप्ता"
+        },
+        "address": {
+          "en": "S.N. Graphics Shop No.34, Janta Market N.G. Acharya Marg Near Chembur Railway Station Chembur",
+          "mr": "एसएन ग्राफिक्स शॉप क्र.34, जनता मार्केट एनजी आचार्य मार्ग चेंबूर रेल्वे स्टेशन जवळ चेंबूर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/peRryvFVe36YFspe7",
+        "contact_number": "9323147764",
+        "email_id": "cptncharlie41.gmail.com",
+        "lat": 19.0667913,
+        "lng": 72.8895944
+      }
+    },
+    {
+      "office_id": "vikroli_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vikroli",
+        "name": {
+          "en": "VIKROLI",
+          "mr": "विक्रोळी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "ANAND HARI MUSALE",
+          "mr": "आनंद हरी मुसळे"
+        },
+        "address": {
+          "en": "ANAND TYPING & COMPUTER INSTITUTE 10, SHOPPING LANE, ROAD NO 6` NR HOTEL SUJATA AMRUT NAGAR, PARK SITE ROAD",
+          "mr": "आनंद टायपिंग आणि संगणक संस्था १०, शॉपिंग लेन, रोड क्रमांक ६` एनआर हॉटेल सुजाता अमृत नगर, पार्क साइट रोड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/RDoHYWZaRk1Laskb7",
+        "contact_number": "9892457635",
+        "email_id": "anand.typing.gmail.com",
+        "lat": 19.1039141,
+        "lng": 72.9093231
+      }
+    },
+    {
+      "office_id": "vikaroli_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "vikaroli",
+        "name": {
+          "en": "VIKAROLI",
+          "mr": "विकरोली"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Jyotiram Balkrishna Jadhav",
+          "mr": "ज्योतिराम बाळकृष्ण जाधव"
+        },
+        "address": {
+          "en": "Shree Sai Computer Institute, Shop No.1, Beside Police Station, Surya Nagar, L.B.S. Marg, Beside Police Stanton Vikhroli (W)",
+          "mr": "श्री साई संगणक संस्था, दुकान क्रमांक १, पोलिस स्टेशनजवळ, सूर्या नगर, एलबीएस मार्ग, पोलिस स्टँटन विक्रोळीजवळ (पश्चिम)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Wy1pj9FArAjp6DVc8",
+        "contact_number": "8369710771/9833153760",
+        "email_id": "shreesaiinstitute.gmail.com",
+        "lat": 19.117868,
+        "lng": 72.9215042
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "MANKHURD",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "DEENMOHD NOORUDDIN QURESHI",
+          "mr": "दीनमोहम्मद नूरूद्दीन कुरेशी"
+        },
+        "address": {
+          "en": "M M INDUSTRIES PMGP COLONY OPP MOHITE PATIL SCHOOL MANKHURD",
+          "mr": "एमएम इंडस्ट्रीज पीएमजीपी कॉलनी मोहिते पाटील स्कूल मानखुर्दसमोर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/G4ivG1if269pMHdE7",
+        "contact_number": "8425048510",
+        "email_id": "qureshideenmohd.gmail.com",
+        "lat": 19.0526033,
+        "lng": 72.9325833
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "mankhurd",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Ashok Vasant Ingale",
+          "mr": "अशोक वसंत इंगळे"
+        },
+        "address": {
+          "en": "SHREE NAVNAATH MULTISERVICES SHOP NO 20 E/3 VRINDAVAN MUKUND STAF SOCIETY LBS MARG, POLICE LINE ROAD PARSHIWADI GHATKOPAR WEST",
+          "mr": "श्री नवनाथ मल्टिसर्व्हिसेस शॉप क्रमांक २० ई/३ वृंदावन मुकुंद स्टाफ सोसायटी एलबीएस मार्ग, पोलिस लाइन रोड पारशीवाडी घाटकोपर पश्चिम"
+        },
+        "geo_tag": "https://maps.app.goo.gl/6x4kjbXt3kGjSVwr8",
+        "contact_number": "8422953283",
+        "email_id": "ashokvi2020.gmail.com",
+        "lat": 19.091777,
+        "lng": 72.8946729
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Shweta Tayade",
+          "mr": "श्वेता तायडे"
+        },
+        "address": {
+          "en": "SNT E-SEVA KENDRA OFFICE NO-11, BLDG NO-10, PREM SAGAR CHS GHATKOPAR MANKHURD LINK ROAD NEAR BANK OF BARODA INDIAN OIL NAGAR\n",
+          "mr": " SNT ई-सेवा केंद्र कार्यालय क्रमांक-11, BLDG नं-10, प्रेमसागर CHS घाटकोपर मानखुर्द लिंक रोड बँक ऑफ बडोदा इंडियन ऑइल नगर जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/CfFhPBU6EdZy4dck6",
+        "contact_number": "9323027270",
+        "email_id": "advsnt2013.gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "govandi_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "govandi",
+        "name": {
+          "en": "Govandi",
+          "mr": "गोवंडी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Vilas Namdev Pagare",
+          "mr": "विलास नामदेव पगारे"
+        },
+        "address": {
+          "en": "Maha- E- Seva Kendra 2 Near Govandi Station Tata Nagar Govandi",
+          "mr": "महा- ई- सेवा केंद्र 2 गोवंडी स्टेशन जवळ टाटा नगर गोवंडी"
+        },
+        "geo_tag": "https://maps.app.goo.gl/VR3H1wcRFoWktocz7",
+        "contact_number": "916766026",
+        "email_id": "vilaspagare09.gmail.com",
+        "lat": 19.0846988,
+        "lng": 72.8902361
+      }
+    },
+    {
+      "office_id": "kanjur_marg_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kanjur_marg",
+        "name": {
+          "en": "KANJUR MARG",
+          "mr": "कांजूर मार्ग"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Sachin Jambhekar",
+          "mr": "सचिन जांभेकर"
+        },
+        "address": {
+          "en": "Vipul Pandurang Kale 1/1 Kanjurmarg Village Road Near Bajarang Hotel Gomes Colony",
+          "mr": "विपुल पांडुरंग काळे 1/1 कांजूरमार्ग गाव रस्ता बजरंग हॉटेल गोम्स कॉलनी जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/eErmjBzhjC7j2qQt9",
+        "contact_number": "9820746783",
+        "email_id": "sachinjambekar1978.gmail.com",
+        "lat": 19.1309134,
+        "lng": 72.9328811
+      }
+    },
+    {
+      "office_id": "mankhurd_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "mankhurd",
+        "name": {
+          "en": "MANKHURD",
+          "mr": "मानखुर्द"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHAYNAAZ SAMEER SHAIKH",
+          "mr": "शायनाझ समीर शेख"
+        },
+        "address": {
+          "en": "SHIBIN ENTERPRISES SHOP NO. 1 JANTA NAGAR 30 FEET ROAD MANKHURD",
+          "mr": "शिबीन एंटरप्राइजेस शॉप क्र. 1 जनता नगर 30 फूट रोड मानखुर्द"
+        },
+        "geo_tag": "https://maps.app.goo.gl/Zf8YUZ9nZ6bdJZd9A",
+        "contact_number": "8652348006",
+        "email_id": "shilpatemkar.gmail.com",
+        "lat": 19.0543181,
+        "lng": 72.9299645
+      }
+    },
+    {
+      "office_id": "kurla_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "kurla",
+        "name": {
+          "en": "KURLA",
+          "mr": "कुर्ला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Kailash P Ahire",
+          "mr": "कैलास पी अहिरे"
+        },
+        "address": {
+          "en": "Kamanii Seva Kendra K1, Jai Ambe Society, Sunder Baug Kamani Behind Pheonix Market City Kurla West",
+          "mr": "कमानी सेवा केंद्र K1, जय अंबे सोसायटी, सुंदर बाग कमानी फीनिक्स मार्केट सिटी कुर्ला पश्चिम मागे"
+        },
+        "geo_tag": "https://maps.app.goo.gl/3yboc4rbQCrd7bQk9",
+        "contact_number": "9699835520",
+        "email_id": "ahiresejal213.gmail.com",
+        "lat": 19.0655397,
+        "lng": 72.8795636
+      }
+    },
+    {
+      "office_id": "chembur_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "chembur",
+        "name": {
+          "en": "CHEMBUR",
+          "mr": "चेंबूर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Aruna Suhas Mane",
+          "mr": "अरुणा सुहास माने"
+        },
+        "address": {
+          "en": "Kunbi Samaj Bhavan Ground Floor, N. G. Acharya Marg, Khardev Nagar, Ghatla Near Durga Devi Maidan Chembur, Mumbai",
+          "mr": "कुणबी समाज भवन तळमजला, एन.जी. आचार्य मार्ग, खारदेव नगर, घाटला दुर्गादेवी मैदानाजवळ, चेंबूर, मुंबई"
+        },
+        "geo_tag": "https://maps.app.goo.gl/z9GRKfVqCj4eZz9Z8",
+        "contact_number": "9594993662",
+        "email_id": "tulsinfotech.gmail.com",
+        "lat": 19.0733955,
+        "lng": 72.8832792
+      }
+    },
+    {
+      "office_id": "kondivita_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "ANDHERI",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "kondivita",
+        "name": {
+          "en": "KONDIVITA",
+          "mr": "कोंडिविटा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Arun Dayaram Pandey",
+          "mr": "अरुण दयाराम पांडे"
+        },
+        "address": {
+          "en": "RISHI ENTERPRISES CST 128 PANDEY CHAWL OPP TUNGA MEDICAL TUNGA VILLAGE SAKI VIHAR ROAD POWAI NEAR OXFROD CHEMBER",
+          "mr": "ऋषी एंटरप्राइजेस सीएसटी १२८ पांडे चाळ तुंगा मेडिकलसमोर तुंगा गाव साकी विहार रोड पवई ऑक्सफ्रॉड चेंबरजवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/f7WPJJGMsFyxdHZC8",
+        "contact_number": "9146026569",
+        "email_id": "arunpandeyy.gmail.com",
+        "lat": 19.112413,
+        "lng": 72.8710949
+      }
+    },
+    {
+      "office_id": "ghatkopar_tehsildar",
+      "taluka": {
+        "id": "kurla",
+        "name": {
+          "en": "Kurla",
+          "mr": "कुर्ला"
+        }
+      },
+      "village": {
+        "id": "ghatkopar",
+        "name": {
+          "en": "GHATKOPAR",
+          "mr": "घाटकोपर"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SAGAR DAYANAND KAMBLE",
+          "mr": "सागर दयानंद कांबळे"
+        },
+        "address": {
+          "en": "Sagar enterprises Onlinne Services near bhim jyot school ramabai colony ghatkopar\n",
+          "mr": " सागर एंटरप्राइजेस ऑनलाइन सर्व्हिसेस भीम ज्योत शाळेजवळ रमाबाई कॉलनी घाटकोपर"
+        },
+        "geo_tag": "https://maps.app.goo.gl/V27XkbL5Lbn7cJYk7",
+        "contact_number": "8652573569",
+        "email_id": "sagar19494.gmail.com",
+        "lat": 19.0829221,
+        "lng": 72.9097613
+      }
+    },
+    {
+      "office_id": "danda_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "danda",
+        "name": {
+          "en": "DANDA",
+          "mr": "दांडा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Nanarao Sakharaji Tayade",
+          "mr": "नानाराव साखराजी तायडे"
+        },
+        "address": {
+          "en": "PRIYA NAGAR DANDA VILLAGE  KHAR ROAD",
+          "mr": "प्रिया नगर दांडा गाव खार रोड"
+        },
+        "geo_tag": "https://maps.app.goo.gl/M88h6aEnVZ91nVkW7",
+        "contact_number": "9594859808",
+        "email_id": "nstmahaseva.rediffmail.com",
+        "lat": 19.0746509,
+        "lng": 72.8275581
+      }
+    },
+    {
+      "office_id": "jogeshwari_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "jogeshwari",
+        "name": {
+          "en": "JOGESHWARI",
+          "mr": "जोगेश्वरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Narayan Ganpat Sawant",
+          "mr": "नारायण गणपत सावंत"
+        },
+        "address": {
+          "en": "Shop no. 14 /B,\nDurga Premises CHS LTD , JVLR,  Durga Nagar, Andheri  East, Mumbai 400093",
+          "mr": "दुकान क्रमांक १४ /बी, दुर्गा प्रिमाइसेस सीएचएस लिमिटेड, जेव्हीएलआर, दुर्गा नगर, अंधेरी पूर्व, मुंबई ४०००९३"
+        },
+        "geo_tag": "https://maps.app.goo.gl/xUVF7MFgrN5ouSQS9",
+        "contact_number": "9324028117",
+        "email_id": "ng_sawant.yahoo.com",
+        "lat": 19.1364904,
+        "lng": 72.8627787
+      }
+    },
+    {
+      "office_id": "santacruz_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "santacruz",
+        "name": {
+          "en": "SANTACRUZ",
+          "mr": "सांताक्रूझ"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Satish Pandurang Gawai",
+          "mr": "सतीश पांडुरंग गवई"
+        },
+        "address": {
+          "en": "Above Jumbo King Vadapav, Vakola Signal, Santacruz(E)",
+          "mr": "जंबो किंग वडापाव वर, वाकोला सिग्नल, सांताक्रूझ(ई)"
+        },
+        "geo_tag": "https://maps.app.goo.gl/oYVMkMh8JwgNQ5PBA",
+        "contact_number": "7738863274",
+        "email_id": "deepak.auti85.gmail.com",
+        "lat": 19.0747792,
+        "lng": 72.8121084
+      }
+    },
+    {
+      "office_id": "jogeshwari_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "jogeshwari",
+        "name": {
+          "en": "JOGESHWARI",
+          "mr": "जोगेश्वरी"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "VILAS BAJIRAO JADHAV",
+          "mr": "विलास बाजीराव जाधव"
+        },
+        "address": {
+          "en": "VILAS JADHAV DIGITAL SEVA KENDRA SHOP NO. 4, OLD ABBA APT NARAYAN SHETTY CHAWL NEAR SABRI MASJID YADAV NAGAR, SAHAKAR ROAD, NEAR HAMUMAN MANDIR\n",
+          "mr": " विलास जाधव डिजिटल सेवा केंद्र दुकान क्र. 4, जुनी अब्बा आपटी नारायण शेट्टी चाळ साबरी मशीद यादव नगर, सहकार रोड, हमुमान मंदिराजवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/f3YLqz6e7pgKk1Wn6",
+        "contact_number": "8169307211",
+        "email_id": "vbjadhav15.gmail.com",
+        "lat": 19.1364904,
+        "lng": 72.8627787
+      }
+    },
+    {
+      "office_id": "bandra_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "bandra",
+        "name": {
+          "en": "BANDRA",
+          "mr": "बांद्रा"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "Murlidhar Patil",
+          "mr": "मुरलीधर पाटील"
+        },
+        "address": {
+          "en": "2/B-GROUND -5 MAHARASHTRA NAGAR SRA BANDRA EAST",
+          "mr": "२/ब-ग्राउंड -५ महाराष्ट्र नगर श्री वांद्रे पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/fFiivhBGAiE6RqqZ9",
+        "contact_number": "9768392170",
+        "email_id": "murlipatil1978.gmail.com",
+        "lat": 19.0930333,
+        "lng": 72.8182657
+      }
+    },
+    {
+      "office_id": "santacruz_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "santacruz",
+        "name": {
+          "en": "SANTACRUZ",
+          "mr": "सांताक्रूझ"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "KIRAN MAHENDRA MORE",
+          "mr": "किरण महेंद्र अधिक"
+        },
+        "address": {
+          "en": "ICON CLASSES, SHOP NO.1, RAJPUT SOCIETY VAKOLA VILLAGE ROAD NEAR BOWLEKAR GYM SATACRUZ EAST",
+          "mr": "आयकॉन क्लासेस, दुकान क्रमांक १, राजपूत सोसायटी वाकोला व्हिलेज रोड, बाउलेकर जिम सताक्रूझ पूर्व जवळ"
+        },
+        "geo_tag": "https://maps.app.goo.gl/TYEeEKzmmeq2sENE7",
+        "contact_number": "9821992952",
+        "email_id": "kiranmore84.gmail.com",
+        "lat": 19.059666,
+        "lng": 72.8297347
+      }
+    },
+    {
+      "office_id": "kalina_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "kalina",
+        "name": {
+          "en": "KALINA",
+          "mr": "कालिना"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "DEVESHRI RAVI POOJARI",
+          "mr": "देवेश्री रवी पूजारी"
+        },
+        "address": {
+          "en": "Bhimchaya Sanskrutik Kendra Kapil Vastu Buddh Vihar CST Road Kalina",
+          "mr": "भीमछाया सांस्कृतिक केंद्र कपिल वास्तु बुद्ध विहार सीएसटी रोड कलिना"
+        },
+        "geo_tag": "https://maps.app.goo.gl/ThVcVkfh2K6unosK7",
+        "contact_number": "9757354361",
+        "email_id": "deveshri.more.yahoo.com",
+        "lat": 19.0746473,
+        "lng": 72.8582174
+      }
+    },
+    {
+      "office_id": "vakola_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "vakola",
+        "name": {
+          "en": "VAKOLA",
+          "mr": "वाकोला"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "SHANTISWARUP RAMPALAT GUPTA",
+          "mr": "शांतीस्वरूप रामपालत गुप्ता"
+        },
+        "address": {
+          "en": "Shivaayenterprises Shop no.1 New Agripada Near Axis Bank ATM Santacruze East",
+          "mr": "शिवाय एंटरप्राइजेस दुकान क्रमांक १, न्यू अग्रिपाडा, अ‍ॅक्सिस बँक एटीएम जवळ, सांताक्रूझ पूर्व"
+        },
+        "geo_tag": "https://maps.app.goo.gl/yg6MtWpTpwCfKR1W6",
+        "contact_number": "7738707738",
+        "email_id": "sswaroop5555.gmail.com",
+        "lat": 19.0746574,
+        "lng": 72.8582174
+      }
+    },
+    {
+      "office_id": "santacruz_tehsildar",
+      "taluka": {
+        "id": "andheri",
+        "name": {
+          "en": "Andheri",
+          "mr": "अंधेरी"
+        }
+      },
+      "village": {
+        "id": "santacruz",
+        "name": {
+          "en": "SANTACRUZ ",
+          "mr": " सांताक्रूझ"
+        }
+      },
+      "center": {
+        "incharge_name": {
+          "en": "AKASH SHIVAJI LONDHE",
+          "mr": "आकाश शिवाजी लोंढे"
+        },
+        "address": {
+          "en": "Salim Garage, Gazdhar Bandh, Rajiv Nagar, Santacruz West, Gazdhar Bandh Road, Mumbai, Mumbai Suburban, Maharashtra, 400054",
+          "mr": "सलीम गॅरेज, गजधर बंद, राजीव नगर, सांताक्रूझ वेस्ट, गजधर बंद रोड, मुंबई, मुंबई उपनगर, महाराष्ट्र, ४००५४"
+        },
+        "geo_tag": "https://maps.app.goo.gl/hHo3GtqKR63Gccmq9",
+        "contact_number": "8097687929",
+        "email_id": "londhe.akash425[at]gmail.com",
+        "lat": 19.0746824,
+        "lng": 72.8504926
+      }
+    }
+  ]
+}

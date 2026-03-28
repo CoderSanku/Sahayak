@@ -1,0 +1,66 @@
+{
+    "doc_id": "CC_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Supporting and Alternative Documents for Caste Certificate",
+        "hi": "जाति प्रमाणपत्र हेतु सहायक दस्तावेज",
+        "mr": "जात प्रमाणपत्रासाठी सहाय्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "In addition to mandatory documents, applicants may submit supporting documents to establish residence or identity. These documents are considered supplementary and may be used if primary documents require further verification.",
+        "hi": "अनिवार्य दस्तावेजों के अतिरिक्त, आवेदक निवास या पहचान सिद्ध करने के लिए सहायक दस्तावेज प्रस्तुत कर सकते हैं।",
+        "mr": "अनिवार्य कागदपत्रांव्यतिरिक्त, अर्जदार ओळख किंवा रहिवास सिद्ध करण्यासाठी सहाय्यक कागदपत्रे सादर करू शकतात."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "optional documents",
+            "supporting documents",
+            "caste certificate"
+        ],
+        "hi": [
+            "सहायक दस्तावेज",
+            "वैकल्पिक दस्तावेज",
+            "जाति प्रमाणपत्र"
+        ],
+        "mr": [
+            "सहाय्यक कागदपत्रे",
+            "पर्यायी कागदपत्रे",
+            "जात प्रमाणपत्र"
+        ]
+    },
+    "optional_documents": {
+        "en": [
+            "Aadhaar Card",
+            "Electricity Bill",
+            "Telephone Bill",
+            "Passport",
+            "Ration Card",
+            "Residence Proof"
+        ],
+        "hi": [
+            "आधार कार्ड",
+            "बिजली बिल",
+            "टेलीफोन बिल",
+            "पासपोर्ट",
+            "राशन कार्ड",
+            "निवास प्रमाण"
+        ],
+        "mr": [
+            "आधार कार्ड",
+            "वीज बिल",
+            "दूरध्वनी बिल",
+            "पासपोर्ट",
+            "रेशन कार्ड",
+            "रहिवासाचा पुरावा"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "caste_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

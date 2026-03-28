@@ -1,0 +1,157 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Tehsildar Offices Master Schema",
+    "type": "object",
+    "required": [
+        "metadata",
+        "offices"
+    ],
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "required": [
+                "state",
+                "department"
+            ],
+            "properties": {
+                "state": {
+                    "type": "string",
+                    "example": "Maharashtra"
+                },
+                "department": {
+                    "type": "string",
+                    "example": "Tehsildar Office"
+                }
+            }
+        },
+        "offices": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "office_id",
+                    "taluka",
+                    "village",
+                    "center"
+                ],
+                "properties": {
+                    "office_id": {
+                        "type": "string",
+                        "description": "Unique identifier for the office"
+                    },
+                    "taluka": {
+                        "type": "object",
+                        "required": [
+                            "id",
+                            "name"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "description": "Normalized taluka identifier"
+                            },
+                            "name": {
+                                "type": "object",
+                                "required": [
+                                    "en",
+                                    "mr"
+                                ],
+                                "properties": {
+                                    "en": {
+                                        "type": "string"
+                                    },
+                                    "mr": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "village": {
+                        "type": "object",
+                        "required": [
+                            "id",
+                            "name"
+                        ],
+                        "properties": {
+                            "id": {
+                                "type": "string",
+                                "description": "Normalized village identifier"
+                            },
+                            "name": {
+                                "type": "object",
+                                "required": [
+                                    "en",
+                                    "mr"
+                                ],
+                                "properties": {
+                                    "en": {
+                                        "type": "string"
+                                    },
+                                    "mr": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "center": {
+                        "type": "object",
+                        "required": [
+                            "incharge_name",
+                            "address",
+                            "geo_tag",
+                            "contact_number",
+                            "email_id"
+                        ],
+                        "properties": {
+                            "incharge_name": {
+                                "type": "object",
+                                "required": [
+                                    "en",
+                                    "mr"
+                                ],
+                                "properties": {
+                                    "en": {
+                                        "type": "string"
+                                    },
+                                    "mr": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "address": {
+                                "type": "object",
+                                "required": [
+                                    "en",
+                                    "mr"
+                                ],
+                                "properties": {
+                                    "en": {
+                                        "type": "string"
+                                    },
+                                    "mr": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "geo_tag": {
+                                "type": "string",
+                                "format": "uri",
+                                "description": "Google Maps link"
+                            },
+                            "contact_number": {
+                                "type": "string",
+                                "pattern": "^[0-9]{10}$"
+                            },
+                            "email_id": {
+                                "type": "string",
+                                "format": "email"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

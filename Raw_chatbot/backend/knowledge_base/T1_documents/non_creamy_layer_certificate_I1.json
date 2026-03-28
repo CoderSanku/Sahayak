@@ -1,0 +1,89 @@
+{
+    "doc_id": "NCL_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Non-Creamy Layer Certificate",
+        "hi": "नॉन क्रीमी लेयर प्रमाणपत्र हेतु आवश्यक दस्तावेज",
+        "mr": "नॉन क्रीमी लेयर प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "Applicants applying for a Non-Creamy Layer Certificate are required to submit documents related to caste, income, and identity for the last prescribed period. These documents are verified to determine eligibility under applicable government norms. Submission of complete and valid documents is mandatory for processing the application.",
+        "hi": "नॉन क्रीमी लेयर प्रमाणपत्र के लिए आवेदन करने वाले आवेदकों को जाति, आय और पहचान से संबंधित निर्धारित अवधि के दस्तावेज प्रस्तुत करना आवश्यक है। पात्रता निर्धारण हेतु इन दस्तावेजों की जांच की जाती है।",
+        "mr": "नॉन क्रीमी लेयर प्रमाणपत्रासाठी अर्ज करणाऱ्या अर्जदारांनी जात, उत्पन्न आणि ओळख यासंबंधी ठराविक कालावधीतील कागदपत्रे सादर करणे आवश्यक आहे. पात्रता ठरवण्यासाठी या कागदपत्रांची पडताळणी केली जाते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "non-creamy layer certificate",
+            "income documents",
+            "tehsildar"
+        ],
+        "hi": [
+            "नॉन क्रीमी लेयर प्रमाणपत्र",
+            "आय दस्तावेज",
+            "तहसीलदार"
+        ],
+        "mr": [
+            "नॉन क्रीमी लेयर प्रमाणपत्र",
+            "उत्पन्न कागदपत्रे",
+            "तहसीलदार"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill",
+            "Marriage Registration Certificate",
+            "Government Gazette"
+        ],
+        "hi": [
+            "आधार कार्ड",
+            "राशन कार्ड",
+            "बिजली बिल",
+            "विवाह नोंदणी प्रमाणपत्र",
+            "राजपत्र"
+        ],
+        "mr": [
+            "आधार कार्ड",
+            "रेशन कार्ड",
+            "वीज बिल",
+            "विवाह नोंदणी प्रमाणपत्र",
+            "राजपत्र"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Caste Certificate",
+            "School Leaving Certificate",
+            "Affidavit (Sample B)",
+            "Affidavit (Sample C)",
+            "Income Certificate (Last 3 Years)",
+            "Income Tax Statement / Form 16"
+        ],
+        "hi": [
+            "जाति प्रमाणपत्र",
+            "स्कूल छोड़ने का प्रमाणपत्र",
+            "शपथपत्र (नमूना B)",
+            "शपथपत्र (नमूना C)",
+            "आय प्रमाणपत्र (पिछले 3 वर्ष)",
+            "आयकर विवरण / फॉर्म 16"
+        ],
+        "mr": [
+            "जात प्रमाणपत्र",
+            "शाळा सोडल्याचा दाखला",
+            "प्रतिज्ञापत्र (नमुना B)",
+            "प्रतिज्ञापत्र (नमुना C)",
+            "उत्पन्न प्रमाणपत्र (मागील 3 वर्षे)",
+            "आयकर विवरण / फॉर्म 16"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "non_creamy_layer_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

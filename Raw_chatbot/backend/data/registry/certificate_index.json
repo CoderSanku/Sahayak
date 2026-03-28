@@ -1,0 +1,84 @@
+{
+    "certificates": [
+        {
+            "certificate_id": "age_nationality_domicile_certificate",
+            "display_name": {
+                "en": "Age, Nationality and Domicile Certificate",
+                "hi": "आयु, राष्ट्रीयता एवं अधिवास प्रमाण पत्र",
+                "mr": "वय, राष्ट्रीयत्व व अधिवास प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "women_30_percent_reservation_certificate",
+            "display_name": {
+                "en": "30% Women Reservation",
+                "hi": "30% महिला आरक्षण प्रमाण पत्र",
+                "mr": "30% महिला आरक्षण प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "residence_certificate",
+            "display_name": {
+                "en": "Residence Certificate",
+                "hi": "निवास प्रमाण पत्र",
+                "mr": "रहिवासी प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "non_creamy_layer_certificate",
+            "display_name": {
+                "en": "Non-Creamy Layer Certificate",
+                "hi": "नॉन-क्रीमी लेयर प्रमाण पत्र",
+                "mr": "नॉन-क्रीमी लेयर प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "income_certificate",
+            "display_name": {
+                "en": "Income Certificate",
+                "hi": "आय प्रमाण पत्र",
+                "mr": "उत्पन्न प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "caste_certificate",
+            "display_name": {
+                "en": "Caste Certificate",
+                "hi": "जाति प्रमाण पत्र",
+                "mr": "जात प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "senior_citizen_certificate",
+            "display_name": {
+                "en": "Senior Citizen Certificate",
+                "hi": "वरिष्ठ नागरिक प्रमाण पत्र",
+                "mr": "ज्येष्ठ नागरिक प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "solvency_certificate",
+            "display_name": {
+                "en": "Solvency Certificate",
+                "hi": "सॉल्वेंसी प्रमाण पत्र",
+                "mr": "सॉल्व्हन्सी प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "economically_weaker_section_certificate",
+            "display_name": {
+                "en": "Economically Weaker Section (EWS) Certificate",
+                "hi": "आर्थिक रूप से कमजोर वर्ग (EWS) प्रमाण पत्र",
+                "mr": "आर्थिकदृष्ट्या दुर्बल घटक (EWS) प्रमाणपत्र"
+            }
+        },
+        {
+            "certificate_id": "heir_certificate",
+            "display_name": {
+                "en": "Heir Certificate",
+                "hi": "उत्तराधिकारी प्रमाण पत्र",
+                "mr": "वारस प्रमाणपत्र"
+            }
+        }
+    ]
+}

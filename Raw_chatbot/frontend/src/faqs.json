@@ -1,0 +1,214 @@
+{
+  "faqs": [
+    {
+      "id": "F01",
+      "category": "chatbot",
+      "question": {
+        "en": "How do I use this chatbot?",
+        "hi": "मैं इस चैटबॉट का उपयोग कैसे करूँ?",
+        "mr": "मी हा चॅटबॉट कसा वापरू?"
+      },
+      "answer": {
+        "en": "Start by selecting your preferred language. Then choose from 4 options — Certificates (to know required documents), Nearest Office (to find your Tehsildar office), File a Complaint (to generate a complaint letter), or FAQs (this panel). You can click the buttons or simply type your query.",
+        "hi": "पहले अपनी भाषा चुनें। फिर 4 विकल्पों में से चुनें — प्रमाण पत्र (आवश्यक दस्तावेज जानने के लिए), निकटतम कार्यालय (तहसीलदार कार्यालय खोजने के लिए), शिकायत दर्ज करें (शिकायत पत्र बनाने के लिए), या FAQs (यह पैनल)।",
+        "mr": "प्रथम आपली भाषा निवडा. नंतर 4 पर्यायांमधून निवडा — प्रमाणपत्रे, जवळचे कार्यालय, तक्रार दाखल करा, किंवा FAQs. तुम्ही बटणे दाबू शकता किंवा थेट टाइप करू शकता."
+      }
+    },
+    {
+      "id": "F02",
+      "category": "chatbot",
+      "question": {
+        "en": "Can I use voice input instead of typing?",
+        "hi": "क्या मैं टाइप करने की जगह आवाज से इनपुट दे सकता हूँ?",
+        "mr": "मी टाइप करण्याऐवजी आवाज वापरू शकतो का?"
+      },
+      "answer": {
+        "en": "Yes! Click the microphone 🎤 button in the input area. Speak clearly and press the stop button ⏹ when done. Your speech will be converted to text and placed in the input box. Then press Send to submit it. Voice input supports English, Hindi, and Marathi.",
+        "hi": "हाँ! इनपुट क्षेत्र में माइक्रोफोन 🎤 बटन दबाएं। स्पष्ट रूप से बोलें और समाप्त होने पर स्टॉप ⏹ बटन दबाएं। आपकी आवाज टेक्स्ट में बदल जाएगी।",
+        "mr": "हो! इनपुट क्षेत्रातील मायक्रोफोन 🎤 बटण दाबा. स्पष्टपणे बोला आणि झाल्यावर ⏹ दाबा. तुमचे बोलणे मजकुरात रूपांतरित होईल."
+      }
+    },
+    {
+      "id": "F03",
+      "category": "chatbot",
+      "question": {
+        "en": "Which languages does this chatbot support?",
+        "hi": "यह चैटबॉट कौन सी भाषाएं समर्थन करता है?",
+        "mr": "हा चॅटबॉट कोणत्या भाषा समर्थित करतो?"
+      },
+      "answer": {
+        "en": "Sahayak supports 3 languages — English, Hindi (हिंदी), and Marathi (मराठी). You select your language at the very beginning. All certificate information, complaint letters, and office details are available in all 3 languages.",
+        "hi": "सहायक 3 भाषाओं का समर्थन करता है — अंग्रेजी, हिंदी और मराठी। आप शुरुआत में ही अपनी भाषा चुनते हैं। सभी जानकारी तीनों भाषाओं में उपलब्ध है।",
+        "mr": "सहायक 3 भाषा समर्थित करतो — इंग्रजी, हिंदी आणि मराठी. तुम्ही सुरुवातीलाच भाषा निवडता. सर्व माहिती तिन्ही भाषांमध्ये उपलब्ध आहे."
+      }
+    },
+    {
+      "id": "F04",
+      "category": "chatbot",
+      "question": {
+        "en": "What is the Document Tracker and how does it work?",
+        "hi": "दस्तावेज़ ट्रैकर क्या है और यह कैसे काम करता है?",
+        "mr": "डॉक्युमेंट ट्रॅकर काय आहे आणि ते कसे काम करते?"
+      },
+      "answer": {
+        "en": "The Document Tracker is a panel that slides in from the right when you click '📂 Check How Many Documents Are Present' on any certificate card. It shows all required documents with upload buttons. As you upload documents, a progress bar updates. Mandatory documents must all be uploaded (100%). Required documents need at least 70% uploaded. When all conditions are met, an Apply button appears.",
+        "hi": "दस्तावेज़ ट्रैकर एक पैनल है जो किसी भी प्रमाण पत्र कार्ड पर '📂 Check How Many Documents Are Present' क्लिक करने पर दाईं ओर से खुलता है। इसमें सभी दस्तावेज़ों के लिए अपलोड बटन होते हैं। अपलोड करने पर प्रगति बार अपडेट होता है।",
+        "mr": "डॉक्युमेंट ट्रॅकर एक पॅनेल आहे जे कोणत्याही प्रमाणपत्र कार्डवर '📂 Check How Many Documents Are Present' क्लिक केल्यावर उजवीकडून उघडते. त्यात सर्व कागदपत्रांसाठी अपलोड बटणे आहेत."
+      }
+    },
+    {
+      "id": "F05",
+      "category": "chatbot",
+      "question": {
+        "en": "How do I go back to the main menu?",
+        "hi": "मैं मुख्य मेनू पर वापस कैसे जाऊं?",
+        "mr": "मी मुख्य मेनूवर परत कसे जाऊ?"
+      },
+      "answer": {
+        "en": "Every section has a '← Back to Menu' button at the bottom of the chat. Click it to return to the main menu with all 4 options. You can also type words like 'menu', 'back', or 'home' to navigate.",
+        "hi": "हर सेक्शन में चैट के नीचे '← मुख्य मेनू' बटन होता है। मुख्य मेनू पर वापस जाने के लिए उस पर क्लिक करें।",
+        "mr": "प्रत्येक विभागात चॅटच्या खाली '← मुख्य मेनू' बटण असते. सर्व 4 पर्यायांसह मुख्य मेनूवर परत जाण्यासाठी ते दाबा."
+      }
+    },
+    {
+      "id": "F06",
+      "category": "certificates",
+      "question": {
+        "en": "Which certificates can I get information about?",
+        "hi": "मुझे किन प्रमाण पत्रों की जानकारी मिल सकती है?",
+        "mr": "मला कोणत्या प्रमाणपत्रांची माहिती मिळू शकते?"
+      },
+      "answer": {
+        "en": "Sahayak provides information on 10 government certificates issued by the Tehsildar office in Maharashtra: Caste Certificate, Non-Creamy Layer Certificate, 30% Women Reservation Certificate, Residence Certificate, Age/Nationality/Domicile Certificate, Income Certificate, Senior Citizen Certificate, Solvency Certificate, EWS Certificate, and Heir Certificate.",
+        "hi": "सहायक महाराष्ट्र में तहसीलदार कार्यालय द्वारा जारी 10 सरकारी प्रमाण पत्रों की जानकारी देता है: जाति, नॉन-क्रीमी लेयर, 30% महिला आरक्षण, निवास, आयु/राष्ट्रीयता/अधिवास, आय, वरिष्ठ नागरिक, सॉल्वेंसी, EWS, और उत्तराधिकारी प्रमाण पत्र।",
+        "mr": "सहायक महाराष्ट्रातील तहसीलदार कार्यालयाने जारी केलेल्या 10 शासकीय प्रमाणपत्रांची माहिती देतो: जात, नॉन-क्रीमी लेयर, 30% महिला आरक्षण, रहिवासी, वय/राष्ट्रीयत्व/अधिवास, उत्पन्न, ज्येष्ठ नागरिक, सॉल्व्हन्सी, EWS, आणि वारस प्रमाणपत्र."
+      }
+    },
+    {
+      "id": "F07",
+      "category": "certificates",
+      "question": {
+        "en": "How long does it take to get a certificate?",
+        "hi": "प्रमाण पत्र मिलने में कितना समय लगता है?",
+        "mr": "प्रमाणपत्र मिळण्यास किती वेळ लागतो?"
+      },
+      "answer": {
+        "en": "Processing time is usually 7–14 working days after submitting all required documents at the Tehsildar office. Delays may occur if documents are incomplete or require verification. You can follow up at the Tehsildar office using your application receipt number.",
+        "hi": "तहसीलदार कार्यालय में सभी आवश्यक दस्तावेज जमा करने के बाद आमतौर पर 7–14 कार्य दिवस लगते हैं। दस्तावेज़ अधूरे होने पर देरी हो सकती है।",
+        "mr": "तहसीलदार कार्यालयात सर्व आवश्यक कागदपत्रे जमा केल्यानंतर साधारणतः 7–14 कार्य दिवस लागतात. कागदपत्रे अपूर्ण असल्यास उशीर होऊ शकतो."
+      }
+    },
+    {
+      "id": "F08",
+      "category": "certificates",
+      "question": {
+        "en": "What is the difference between Mandatory and Required documents?",
+        "hi": "अनिवार्य और आवश्यक दस्तावेज़ों में क्या अंतर है?",
+        "mr": "अनिवार्य आणि आवश्यक कागदपत्रांमध्ये काय फरक आहे?"
+      },
+      "answer": {
+        "en": "Mandatory documents (shown in red 🔴) are absolutely compulsory — your application will be rejected without them. Required documents (shown in blue 🔵) are strongly recommended and most applications need at least 70% of them. Optional documents (shown in green 🟢) are supplementary and strengthen your application but are not strictly needed.",
+        "hi": "अनिवार्य दस्तावेज़ (लाल 🔴 में) बिल्कुल ज़रूरी हैं — इनके बिना आवेदन अस्वीकार हो जाएगा। आवश्यक दस्तावेज़ (नीले 🔵 में) अत्यंत अनुशंसित हैं। वैकल्पिक दस्तावेज़ (हरे 🟢 में) आपके आवेदन को मजबूत करते हैं।",
+        "mr": "अनिवार्य कागदपत्रे (लाल 🔴) अत्यंत आवश्यक आहेत — त्याशिवाय अर्ज नाकारला जाईल. आवश्यक कागदपत्रे (निळी 🔵) जोरदार शिफारस केलेली आहेत. पर्यायी कागदपत्रे (हिरवी 🟢) अर्ज मजबूत करतात."
+      }
+    },
+    {
+      "id": "F09",
+      "category": "certificates",
+      "question": {
+        "en": "Can I view a sample of the certificate before applying?",
+        "hi": "क्या मैं आवेदन करने से पहले प्रमाण पत्र का नमूना देख सकता हूँ?",
+        "mr": "अर्ज करण्यापूर्वी मी प्रमाणपत्राचा नमुना पाहू शकतो का?"
+      },
+      "answer": {
+        "en": "Yes! On every certificate detail card, there is a '📄 View Sample PDF' button. Clicking it opens the official government sample certificate directly inside the chatbot without opening a new browser tab. This helps you understand what the final certificate looks like.",
+        "hi": "हाँ! हर प्रमाण पत्र विवरण कार्ड पर '📄 View Sample PDF' बटन होता है। इसे क्लिक करने पर आधिकारिक नमूना प्रमाण पत्र सीधे चैटबॉट के अंदर खुलता है।",
+        "mr": "हो! प्रत्येक प्रमाणपत्र तपशील कार्डवर '📄 View Sample PDF' बटण आहे. ते क्लिक केल्यावर अधिकृत नमुना प्रमाणपत्र थेट चॅटबॉटमध्येच उघडते."
+      }
+    },
+    {
+      "id": "F10",
+      "category": "location",
+      "question": {
+        "en": "How do I find my nearest Tehsildar office?",
+        "hi": "मैं अपना निकटतम तहसीलदार कार्यालय कैसे खोजूं?",
+        "mr": "मी माझे जवळचे तहसीलदार कार्यालय कसे शोधू?"
+      },
+      "answer": {
+        "en": "Click '📍 Nearest Office' from the main menu. The chatbot will first ask for your Taluka name, then your Village name. After entering both, it will show the nearest Tehsildar office with the address, incharge officer name, contact number, and a Google Maps link.",
+        "hi": "मुख्य मेनू से '📍 निकटतम कार्यालय' क्लिक करें। चैटबॉट पहले आपका तालुका और फिर गाँव का नाम पूछेगा। दोनों दर्ज करने के बाद, यह पता, इंचार्ज अधिकारी का नाम, संपर्क नंबर और Google Maps लिंक के साथ निकटतम तहसीलदार कार्यालय दिखाएगा।",
+        "mr": "मुख्य मेनूमधून '📍 जवळचे कार्यालय' क्लिक करा. चॅटबॉट प्रथम तालुका नाव विचारेल, नंतर गाव नाव. दोन्ही टाकल्यावर, पत्ता, प्रभारी अधिकारी, संपर्क क्रमांक आणि Google Maps लिंकसह जवळचे तहसीलदार कार्यालय दाखवेल."
+      }
+    },
+    {
+      "id": "F11",
+      "category": "complaint",
+      "question": {
+        "en": "How do I file a complaint using this chatbot?",
+        "hi": "मैं इस चैटबॉट का उपयोग करके शिकायत कैसे दर्ज करूँ?",
+        "mr": "मी या चॅटबॉटचा वापर करून तक्रार कशी दाखल करू?"
+      },
+      "answer": {
+        "en": "Click '📝 File a Complaint' from the main menu. A panel opens from the right. Select your complaint type (delay, rejection, incorrect details, staff misconduct, portal issue, or general grievance). Fill in your name, phone number, and relevant details. Click 'Generate Letter' to get a ready-made formal complaint letter that you can copy or download.",
+        "hi": "मुख्य मेनू से '📝 शिकायत दर्ज करें' क्लिक करें। दाईं ओर से एक पैनल खुलेगा। अपनी शिकायत का प्रकार चुनें। नाम, फोन नंबर और संबंधित विवरण भरें। 'पत्र तैयार करें' पर क्लिक करने पर एक तैयार औपचारिक शिकायत पत्र मिलेगा।",
+        "mr": "मुख्य मेनूमधून '📝 तक्रार दाखल करा' क्लिक करा. उजवीकडून एक पॅनेल उघडेल. तक्रारीचा प्रकार निवडा. नाव, फोन नंबर आणि संबंधित तपशील भरा. 'पत्र तयार करा' वर क्लिक करा म्हणजे तयार औपचारिक तक्रार पत्र मिळेल."
+      }
+    },
+    {
+      "id": "F12",
+      "category": "complaint",
+      "question": {
+        "en": "What types of complaints can I file?",
+        "hi": "मैं किस प्रकार की शिकायतें दर्ज कर सकता हूँ?",
+        "mr": "मी कोणत्या प्रकारच्या तक्रारी दाखल करू शकतो?"
+      },
+      "answer": {
+        "en": "You can file 6 types of complaints: C1 — Delay in Certificate Issuance, C2 — Rejection Without Proper Reason, C3 — Incorrect Details in Certificate, C4 — Staff Misconduct, C5 — Online Portal Issue, C6 — General Grievance. Each generates a proper formal letter in your chosen language.",
+        "hi": "आप 6 प्रकार की शिकायतें दर्ज कर सकते हैं: C1 — प्रमाण पत्र जारी करने में विलंब, C2 — अस्वीकृति, C3 — गलत विवरण, C4 — स्टाफ का दुर्व्यवहार, C5 — ऑनलाइन पोर्टल समस्या, C6 — सामान्य शिकायत।",
+        "mr": "तुम्ही 6 प्रकारच्या तक्रारी दाखल करू शकता: C1 — विलंब, C2 — नामंजुरी, C3 — चुकीची माहिती, C4 — कर्मचारी गैरवर्तन, C5 — पोर्टल समस्या, C6 — सामान्य तक्रार. प्रत्येक तक्रारीसाठी तयार औपचारिक पत्र मिळते."
+      }
+    },
+    {
+      "id": "F13",
+      "category": "certificates",
+      "question": {
+        "en": "Where do I submit the documents after collecting them?",
+        "hi": "दस्तावेज़ इकट्ठा करने के बाद मैं उन्हें कहाँ जमा करूँ?",
+        "mr": "कागदपत्रे जमा केल्यानंतर मी ती कुठे सादर करू?"
+      },
+      "answer": {
+        "en": "All certificates listed in Sahayak are issued by the Tehsildar office. After collecting all required documents, visit your nearest Tehsildar office in person. You can find the address, officer name, and contact number using the '📍 Nearest Office' section of this chatbot.",
+        "hi": "सहायक में सूचीबद्ध सभी प्रमाण पत्र तहसीलदार कार्यालय द्वारा जारी किए जाते हैं। सभी दस्तावेज़ जमा करने के बाद अपने निकटतम तहसीलदार कार्यालय में जाएं।",
+        "mr": "सहायकमध्ये सूचीबद्ध सर्व प्रमाणपत्रे तहसीलदार कार्यालयाद्वारे जारी केली जातात. सर्व कागदपत्रे गोळा केल्यानंतर जवळच्या तहसीलदार कार्यालयात जा."
+      }
+    },
+    {
+      "id": "F14",
+      "category": "certificates",
+      "question": {
+        "en": "What happens if my application is rejected?",
+        "hi": "अगर मेरा आवेदन अस्वीकार हो जाए तो क्या होगा?",
+        "mr": "माझा अर्ज नाकारला गेला तर काय होईल?"
+      },
+      "answer": {
+        "en": "If your application is rejected, you have the right to appeal at the Tehsildar office. Ask for the written reason for rejection. You can also use this chatbot to generate a formal 'Rejection Without Proper Reason' complaint letter (C2) to submit along with your appeal.",
+        "hi": "यदि आपका आवेदन अस्वीकार होता है, तो आप तहसीलदार कार्यालय में अपील कर सकते हैं। लिखित अस्वीकृति का कारण मांगें। आप इस चैटबॉट का उपयोग करके C2 प्रकार की शिकायत पत्र भी तैयार कर सकते हैं।",
+        "mr": "तुमचा अर्ज नाकारला गेल्यास, तहसीलदार कार्यालयात अपील करण्याचा अधिकार आहे. लेखी नकाराचे कारण मागा. या चॅटबॉटचा वापर करून C2 प्रकारचे तक्रार पत्र तयार करा."
+      }
+    },
+    {
+      "id": "F15",
+      "category": "chatbot",
+      "question": {
+        "en": "Is my data stored anywhere when I use this chatbot?",
+        "hi": "जब मैं इस चैटबॉट का उपयोग करता हूँ तो क्या मेरा डेटा कहीं संग्रहित होता है?",
+        "mr": "मी हा चॅटबॉट वापरतो तेव्हा माझा डेटा कुठे साठवला जातो का?"
+      },
+      "answer": {
+        "en": "No personal data is stored by this chatbot. Everything you type or upload stays within your current session only. When you close or refresh the browser, all data is cleared. Documents uploaded in the Document Tracker exist only in your browser's memory during the session.",
+        "hi": "यह चैटबॉट कोई व्यक्तिगत डेटा संग्रहित नहीं करता। आप जो भी टाइप करते हैं या अपलोड करते हैं, वह केवल आपके वर्तमान सत्र में रहता है। ब्राउज़र बंद करने पर सब कुछ साफ हो जाता है।",
+        "mr": "हा चॅटबॉट कोणताही वैयक्तिक डेटा साठवत नाही. तुम्ही जे टाइप करता किंवा अपलोड करता ते केवळ तुमच्या सध्याच्या सत्रात राहते. ब्राउझर बंद केल्यावर सर्व डेटा नाहीसा होतो."
+      }
+    }
+  ]
+}

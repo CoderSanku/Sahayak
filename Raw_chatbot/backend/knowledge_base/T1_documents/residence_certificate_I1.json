@@ -1,0 +1,72 @@
+{
+    "doc_id": "RES_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Residence Certificate",
+        "hi": "निवास प्रमाणपत्र के लिए आवश्यक दस्तावेज",
+        "mr": "निवास प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "A Residence Certificate is issued to establish an applicant’s place of residence within the state. Multiple documents may be required depending on the applicant’s background and duration of stay.",
+        "hi": "निवास प्रमाणपत्र राज्य में आवेदक के निवास स्थान को प्रमाणित करने के लिए जारी किया जाता है।",
+        "mr": "निवास प्रमाणपत्र अर्जदाराचा राज्यातील निवास सिद्ध करण्यासाठी दिले जाते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "residence certificate",
+            "address proof",
+            "domicile"
+        ],
+        "hi": [
+            "निवास प्रमाणपत्र",
+            "पता प्रमाण",
+            "डोमिसाइल"
+        ],
+        "mr": [
+            "निवास प्रमाणपत्र",
+            "पत्ता पुरावा",
+            "डोमिसाईल"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Birth Certificate",
+            "School Leaving Certificate",
+            "Passport",
+            "Employment Certificate (Government / Semi-Government)",
+            "Non-Residence Certificate from Other State Authority",
+            "Marriage Registration Certificate",
+            "Government Gazette",
+            "Educational Records"
+        ],
+        "hi": [
+            "जन्म प्रमाणपत्र",
+            "स्कूल छोड़ने का प्रमाणपत्र",
+            "पासपोर्ट",
+            "सेवा प्रमाणपत्र (सरकारी / अर्ध-सरकारी)",
+            "अन्य राज्य से अनिवास प्रमाणपत्र",
+            "विवाह पंजीकरण प्रमाणपत्र",
+            "सरकारी राजपत्र",
+            "शैक्षणिक रिकॉर्ड"
+        ],
+        "mr": [
+            "जन्म प्रमाणपत्र",
+            "शाळा सोडल्याचा दाखला",
+            "पासपोर्ट",
+            "सेवा प्रमाणपत्र (सरकारी / निमसरकारी)",
+            "इतर राज्याचा अनिवासी दाखला",
+            "विवाह नोंदणी प्रमाणपत्र",
+            "शासकीय राजपत्र",
+            "शैक्षणिक नोंदी"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "residence_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

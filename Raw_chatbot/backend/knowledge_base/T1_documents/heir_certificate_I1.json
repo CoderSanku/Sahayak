@@ -1,0 +1,67 @@
+{
+    "doc_id": "HEIR_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Heir Certificate",
+        "hi": "वारिस प्रमाणपत्र के लिए आवश्यक दस्तावेज",
+        "mr": "वारस प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "An Heir Certificate identifies the legal heirs of a deceased individual. Documents are required to verify lineage, claims, and public notice compliance.",
+        "hi": "वारिस प्रमाणपत्र मृत व्यक्ति के कानूनी वारिसों की पहचान के लिए जारी किया जाता है।",
+        "mr": "वारस प्रमाणपत्र मृत व्यक्तीच्या कायदेशीर वारसांची ओळख पटवण्यासाठी दिले जाते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "heir certificate",
+            "legal heir",
+            "succession proof"
+        ],
+        "hi": [
+            "वारिस प्रमाणपत्र",
+            "कानूनी वारिस"
+        ],
+        "mr": [
+            "वारस प्रमाणपत्र",
+            "कायदेशीर वारस"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Mill Worker Proof",
+            "MHADA House Proof",
+            "PAN Card (All Heirs)",
+            "Government Gazette (Name Change / Married Heirs)",
+            "Applicant Affidavit",
+            "Newspaper Public Notice",
+            "Gram Revenue Officer Inquiry Report"
+        ],
+        "hi": [
+            "मिल कामगार प्रमाण",
+            "MHADA घर प्रमाण",
+            "पैन कार्ड (सभी वारिस)",
+            "सरकारी राजपत्र (नाम परिवर्तन / विवाहित वारिस)",
+            "आवेदक का शपथ पत्र",
+            "अखबार में सार्वजनिक सूचना",
+            "ग्राम राजस्व अधिकारी जांच रिपोर्ट"
+        ],
+        "mr": [
+            "मिल कामगार पुरावा",
+            "MHADA घर पुरावा",
+            "पॅन कार्ड (सर्व वारस)",
+            "शासकीय राजपत्र (नाव बदल / विवाहित वारस)",
+            "अर्जदाराचे प्रतिज्ञापत्र",
+            "वृत्तपत्रातील सार्वजनिक सूचना",
+            "ग्राम महसूल अधिकाऱ्याचा चौकशी अहवाल"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "heir_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

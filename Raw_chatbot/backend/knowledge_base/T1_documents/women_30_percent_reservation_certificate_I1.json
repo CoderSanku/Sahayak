@@ -1,0 +1,60 @@
+{
+    "doc_id": "WR_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for 30% Women Reservation Certificate",
+        "hi": "30% महिला आरक्षण प्रमाणपत्र हेतु आवश्यक दस्तावेज",
+        "mr": "30% महिला आरक्षण प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "Applicants seeking a 30% Women Reservation Certificate must submit identity and gender verification documents. These documents are used to confirm eligibility under applicable reservation policies.",
+        "hi": "30% महिला आरक्षण प्रमाणपत्र के लिए आवेदन करने वाले आवेदकों को पहचान और लिंग सत्यापन से संबंधित दस्तावेज प्रस्तुत करने होते हैं।",
+        "mr": "30% महिला आरक्षण प्रमाणपत्रासाठी अर्ज करणाऱ्या अर्जदारांनी ओळख व लिंग पडताळणीसंबंधी कागदपत्रे सादर करणे आवश्यक आहे."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "women reservation certificate",
+            "gender proof",
+            "tehsildar"
+        ],
+        "hi": [
+            "महिला आरक्षण प्रमाणपत्र",
+            "लिंग प्रमाण",
+            "तहसीलदार"
+        ],
+        "mr": [
+            "महिला आरक्षण प्रमाणपत्र",
+            "लिंग पुरावा",
+            "तहसीलदार"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Aadhaar Card",
+            "Ration Card",
+            "School Leaving Certificate",
+            "Birth Certificate"
+        ],
+        "hi": [
+            "आधार कार्ड",
+            "राशन कार्ड",
+            "स्कूल छोड़ने का प्रमाणपत्र",
+            "जन्म प्रमाणपत्र"
+        ],
+        "mr": [
+            "आधार कार्ड",
+            "रेशन कार्ड",
+            "शाळा सोडल्याचा दाखला",
+            "जन्म प्रमाणपत्र"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "women_reservation_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

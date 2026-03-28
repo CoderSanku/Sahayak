@@ -1,0 +1,72 @@
+{
+    "doc_id": "SC_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Senior Citizen Certificate",
+        "hi": "वरिष्ठ नागरिक प्रमाणपत्र के लिए आवश्यक दस्तावेज",
+        "mr": "ज्येष्ठ नागरिक प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "A Senior Citizen Certificate is issued to individuals who meet the prescribed age criteria. Documents are required to verify age and identity.",
+        "hi": "वरिष्ठ नागरिक प्रमाणपत्र निर्धारित आयु मानदंड पूर्ण करने वाले व्यक्तियों को जारी किया जाता है।",
+        "mr": "ज्येष्ठ नागरिक प्रमाणपत्र ठरावीक वयोमर्यादा पूर्ण करणाऱ्या व्यक्तींना दिले जाते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "senior citizen certificate",
+            "age proof"
+        ],
+        "hi": [
+            "वरिष्ठ नागरिक प्रमाणपत्र",
+            "आयु प्रमाण"
+        ],
+        "mr": [
+            "ज्येष्ठ नागरिक प्रमाणपत्र",
+            "वय पुरावा"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Birth Certificate",
+            "PAN Card",
+            "Aadhaar Card",
+            "Voter ID Card",
+            "School Certificate",
+            "Ration Card",
+            "Electricity Bill",
+            "Passport Size Photograph",
+            "Society Certificate"
+        ],
+        "hi": [
+            "जन्म प्रमाणपत्र",
+            "पैन कार्ड",
+            "आधार कार्ड",
+            "मतदाता पहचान पत्र",
+            "स्कूल प्रमाणपत्र",
+            "राशन कार्ड",
+            "बिजली बिल",
+            "पासपोर्ट आकार का फोटो",
+            "सोसाइटी प्रमाणपत्र"
+        ],
+        "mr": [
+            "जन्म प्रमाणपत्र",
+            "पॅन कार्ड",
+            "आधार कार्ड",
+            "मतदार ओळखपत्र",
+            "शाळेचा दाखला",
+            "रेशन कार्ड",
+            "वीज बिल",
+            "पासपोर्ट आकाराचा फोटो",
+            "संस्था प्रमाणपत्र"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "senior_citizen_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

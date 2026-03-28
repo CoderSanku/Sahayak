@@ -1,0 +1,148 @@
+{
+    "certificate_id": "solvency_certificate",
+    "certificate_name": {
+        "en": "Solvency Certificate",
+        "hi": "सॉल्वेंसी प्रमाण पत्र",
+        "mr": "सॉल्व्हन्सी प्रमाणपत्र"
+    },
+    "documents": {
+        "mandatory": [
+            {
+                "doc_id": "aadhaar_card",
+                "name": {
+                    "en": "Aadhaar Card",
+                    "hi": "आधार कार्ड",
+                    "mr": "आधार कार्ड"
+                }
+            },
+            {
+                "doc_id": "pan_card",
+                "name": {
+                    "en": "PAN Card",
+                    "hi": "पैन कार्ड",
+                    "mr": "पॅन कार्ड"
+                }
+            },
+            {
+                "doc_id": "applicant_photograph",
+                "name": {
+                    "en": "Applicant Photograph",
+                    "hi": "आवेदक का फोटो",
+                    "mr": "अर्जदाराचा फोटो"
+                }
+            },
+            {
+                "doc_id": "share_certificate",
+                "name": {
+                    "en": "Share Certificate",
+                    "hi": "शेयर प्रमाण पत्र",
+                    "mr": "शेअर प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "society_disapproval_certificate",
+                "name": {
+                    "en": "Society Disapproval Certificate",
+                    "hi": "सोसायटी अनापत्ति प्रमाण पत्र",
+                    "mr": "संस्था ना-हरकत प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "property_valuation_report",
+                "name": {
+                    "en": "Property Valuation Report",
+                    "hi": "संपत्ति मूल्यांकन प्रतिवेदन",
+                    "mr": "मालमत्ता मूल्यांकन अहवाल"
+                }
+            },
+            {
+                "doc_id": "bank_order_copy",
+                "name": {
+                    "en": "Bank Order Copy",
+                    "hi": "बैंक आदेश की प्रति",
+                    "mr": "बँक ऑर्डर प्रत"
+                }
+            },
+            {
+                "doc_id": "khata_extract",
+                "name": {
+                    "en": "Khata Extract",
+                    "hi": "खाता उतारा",
+                    "mr": "खाते उतारा"
+                }
+            },
+            {
+                "doc_id": "electricity_bill",
+                "name": {
+                    "en": "Electricity Bill",
+                    "hi": "बिजली बिल",
+                    "mr": "वीज बिल"
+                }
+            },
+            {
+                "doc_id": "society_maintenance_receipt",
+                "name": {
+                    "en": "Society Maintenance Receipt",
+                    "hi": "सोसायटी रखरखाव रसीद",
+                    "mr": "संस्था देखभाल पावती"
+                }
+            },
+            {
+                "doc_id": "ration_card",
+                "name": {
+                    "en": "Ration Card",
+                    "hi": "राशन कार्ड",
+                    "mr": "रेशन कार्ड"
+                }
+            },
+            {
+                "doc_id": "house_ownership_certificate",
+                "name": {
+                    "en": "House Ownership Certificate",
+                    "hi": "मकान स्वामित्व प्रमाण पत्र",
+                    "mr": "घर मालकी प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "gallery_ownership_certificate",
+                "name": {
+                    "en": "Gallery Ownership Certificate",
+                    "hi": "गैलरी स्वामित्व प्रमाण पत्र",
+                    "mr": "गॅलरी मालकी प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "affidavit_100_stamp",
+                "name": {
+                    "en": "Affidavit (₹100 Stamp Paper)",
+                    "hi": "शपथ पत्र (₹100 स्टाम्प पेपर)",
+                    "mr": "प्रतिज्ञापत्र (₹100 स्टॅम्प पेपर)"
+                }
+            }
+        ],
+        "required": [],
+        "optional": []
+    },
+    "issuing_authority": {
+        "en": "Tehsildar Office",
+        "hi": "तहसीलदार कार्यालय",
+        "mr": "तहसीलदार कार्यालय"
+    },
+    "suggestions": {
+        "processing_time": {
+            "en": "Processing time is usually 7–14 working days.",
+            "hi": "प्रोसेसिंग समय आमतौर पर 7–14 कार्य दिवस होता है।",
+            "mr": "प्रक्रिया कालावधी साधारणतः 7–14 कार्य दिवस असतो."
+        },
+        "sample_application": {
+            "en": "Would you like to see a sample application format?",
+            "hi": "क्या आप नमूना आवेदन देखना चाहेंगे?",
+            "mr": "आपण नमुना अर्ज पाहू इच्छिता का?"
+        },
+        "appeal_process": {
+            "en": "You may file an appeal at the Tehsildar office.",
+            "hi": "आप तहसीलदार कार्यालय में अपील कर सकते हैं।",
+            "mr": "आपण तहसीलदार कार्यालयात अपील करू शकता."
+        }
+    }
+}

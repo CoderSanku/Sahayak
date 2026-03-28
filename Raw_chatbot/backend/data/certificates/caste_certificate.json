@@ -1,0 +1,150 @@
+{
+    "certificate_id": "caste_certificate",
+    "certificate_name": {
+        "en": "Caste Certificate",
+        "hi": "जाति प्रमाण पत्र",
+        "mr": "जात प्रमाणपत्र"
+    },
+    "documents": {
+        "mandatory": [
+            {
+                "doc_id": "applicant_affidavit_sample_2",
+                "name": {
+                    "en": "Applicant Affidavit (Sample 2)",
+                    "hi": "आवेदक का शपथ पत्र (नमूना 2)",
+                    "mr": "अर्जदाराचे प्रतिज्ञापत्र (नमुना 2)"
+                }
+            },
+            {
+                "doc_id": "guardian_affidavit_claim_3",
+                "name": {
+                    "en": "Guardian Affidavit (Claim 3)",
+                    "hi": "अभिभावक का शपथ पत्र (दावा 3)",
+                    "mr": "पालकांचे प्रतिज्ञापत्र (दावा 3)"
+                }
+            }
+        ],
+        "required": [
+            {
+                "doc_id": "birth_certificate",
+                "name": {
+                    "en": "Birth Certificate",
+                    "hi": "जन्म प्रमाण पत्र",
+                    "mr": "जन्म प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "village_sample_1_14",
+                "name": {
+                    "en": "Village Sample No.1/14",
+                    "hi": "ग्राम नमूना क्रमांक 1/14",
+                    "mr": "गाव नमुना क्रमांक 1/14"
+                }
+            },
+            {
+                "doc_id": "school_leaving_certificate",
+                "name": {
+                    "en": "School Leaving Certificate",
+                    "hi": "विद्यालय त्याग प्रमाण पत्र",
+                    "mr": "शाळा सोडल्याचे प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "bonafide_certificate",
+                "name": {
+                    "en": "Bonafide Certificate",
+                    "hi": "बोनाफाइड प्रमाण पत्र",
+                    "mr": "बोनाफाईड प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "service_book",
+                "name": {
+                    "en": "Service Book",
+                    "hi": "सेवा पुस्तिका",
+                    "mr": "सेवा पुस्तिका"
+                }
+            },
+            {
+                "doc_id": "caste_evidence_pre_cutoff",
+                "name": {
+                    "en": "Caste Evidence (Pre-cutoff date)",
+                    "hi": "जाति प्रमाण (कट-ऑफ तिथि से पूर्व का)",
+                    "mr": "जात पुरावा (कटऑफ तारखेपूर्वीचा)"
+                }
+            }
+        ],
+        "optional": [
+            {
+                "doc_id": "aadhaar_card",
+                "name": {
+                    "en": "Aadhaar Card",
+                    "hi": "आधार कार्ड",
+                    "mr": "आधार कार्ड"
+                }
+            },
+            {
+                "doc_id": "electricity_bill",
+                "name": {
+                    "en": "Electricity Bill",
+                    "hi": "बिजली बिल",
+                    "mr": "वीज बिल"
+                }
+            },
+            {
+                "doc_id": "telephone_bill",
+                "name": {
+                    "en": "Telephone Bill",
+                    "hi": "दूरभाष बिल",
+                    "mr": "दूरध्वनी बिल"
+                }
+            },
+            {
+                "doc_id": "passport",
+                "name": {
+                    "en": "Passport",
+                    "hi": "पासपोर्ट",
+                    "mr": "पासपोर्ट"
+                }
+            },
+            {
+                "doc_id": "ration_card",
+                "name": {
+                    "en": "Ration Card",
+                    "hi": "राशन कार्ड",
+                    "mr": "रेशन कार्ड"
+                }
+            },
+            {
+                "doc_id": "residence_proof",
+                "name": {
+                    "en": "Residence Proof",
+                    "hi": "निवास प्रमाण",
+                    "mr": "रहिवासी पुरावा"
+                }
+            }
+        ]
+    },
+    "issuing_authority": {
+        "en": "Tehsildar Office",
+        "hi": "तहसीलदार कार्यालय",
+        "mr": "तहसीलदार कार्यालय"
+    },
+    "suggestions": {
+        "processing_time": {
+            "en": "Processing time is usually 7–14 working days.",
+            "hi": "प्रोसेसिंग समय आमतौर पर 7–14 कार्य दिवस होता है।",
+            "mr": "प्रक्रिया कालावधी साधारणतः 7–14 कार्य दिवस असतो."
+        },
+        "sample_application": {
+            "en": "Would you like to see a sample application format?",
+            "hi": "क्या आप नमूना आवेदन देखना चाहेंगे?",
+            "mr": "आपण नमुना अर्ज पाहू इच्छिता का?"
+        },
+        "appeal_process": {
+            "en": "You may file an appeal at the Tehsildar office.",
+            "hi": "आप तहसीलदार कार्यालय में अपील कर सकते हैं।",
+            "mr": "आपण तहसीलदार कार्यालयात अपील करू शकता."
+        }
+    }
+}

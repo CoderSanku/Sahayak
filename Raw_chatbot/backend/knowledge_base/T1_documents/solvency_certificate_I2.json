@@ -1,0 +1,43 @@
+{
+    "doc_id": "SOL_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Solvency Certificate",
+        "hi": "सॉल्वेंसी प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "सॉल्व्हन्सी प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Proof of identity, property ownership, and financial valuation is mandatory for issuance of a Solvency Certificate.",
+        "hi": "सॉल्वेंसी प्रमाणपत्र जारी करने हेतु पहचान, संपत्ति स्वामित्व और वित्तीय मूल्यांकन प्रमाण अनिवार्य हैं।",
+        "mr": "सॉल्व्हन्सी प्रमाणपत्रासाठी ओळख, मालकी व आर्थिक मूल्यांकन पुरावे अनिवार्य आहेत."
+    },
+    "language": "en",
+    "mandatory_documents": {
+        "en": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Property Valuation Report",
+            "Affidavit (₹100 Stamp Paper)"
+        ],
+        "hi": [
+            "आधार कार्ड",
+            "पैन कार्ड",
+            "संपत्ति मूल्यांकन रिपोर्ट",
+            "शपथ पत्र (₹100 स्टांप पेपर)"
+        ],
+        "mr": [
+            "आधार कार्ड",
+            "पॅन कार्ड",
+            "मालमत्ता मूल्यांकन अहवाल",
+            "प्रतिज्ञापत्र (₹100 स्टॅम्प पेपर)"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "solvency_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

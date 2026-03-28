@@ -1,0 +1,54 @@
+{
+    "doc_id": "CC_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Caste Certificate",
+        "hi": "जाति प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "जात प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Submission of mandatory affidavits is compulsory for issuance of a Caste Certificate. Applications without the required affidavits will not be processed. Applicants are advised to ensure that all mandatory documents are correctly filled, signed, and submitted as per the prescribed format.",
+        "hi": "जाति प्रमाणपत्र जारी करने के लिए अनिवार्य शपथपत्रों का प्रस्तुत किया जाना आवश्यक है। आवश्यक शपथपत्रों के बिना आवेदन प्रक्रिया में नहीं लिया जाएगा।",
+        "mr": "जात प्रमाणपत्र जारी करण्यासाठी अनिवार्य प्रतिज्ञापत्रे सादर करणे आवश्यक आहे. आवश्यक प्रतिज्ञापत्रांशिवाय अर्ज प्रक्रिया होणार नाही."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "mandatory documents",
+            "affidavit",
+            "caste certificate"
+        ],
+        "hi": [
+            "अनिवार्य दस्तावेज",
+            "शपथपत्र",
+            "जाति प्रमाणपत्र"
+        ],
+        "mr": [
+            "अनिवार्य कागदपत्रे",
+            "प्रतिज्ञापत्र",
+            "जात प्रमाणपत्र"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Applicant Affidavit (Sample 2)",
+            "Guardian Affidavit (Claim 3)"
+        ],
+        "hi": [
+            "आवेदक का शपथपत्र (नमूना 2)",
+            "अभिभावक का शपथपत्र (दावा 3)"
+        ],
+        "mr": [
+            "अर्जदाराचे प्रतिज्ञापत्र (नमुना 2)",
+            "पालकांचे प्रतिज्ञापत्र (दावा 3)"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "caste_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

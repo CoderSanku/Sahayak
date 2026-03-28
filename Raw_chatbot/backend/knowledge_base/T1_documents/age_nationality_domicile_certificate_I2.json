@@ -1,0 +1,40 @@
+{
+    "doc_id": "AND_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Age, Nationality and Domicile Certificate",
+        "hi": "आयु, राष्ट्रीयता और अधिवास प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "वय, राष्ट्रीयत्व व अधिवास प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Applicants must submit valid proof for age, nationality, and domicile. Failure to establish any one criterion may result in rejection.",
+        "hi": "आयु, राष्ट्रीयता और अधिवास के लिए वैध प्रमाण प्रस्तुत करना अनिवार्य है।",
+        "mr": "वय, राष्ट्रीयत्व व अधिवासासाठी वैध पुरावा सादर करणे अनिवार्य आहे."
+    },
+    "language": "en",
+    "mandatory_documents": {
+        "en": [
+            "Birth Certificate OR School Leaving Certificate",
+            "Passport OR Aadhaar Card",
+            "Any Government-issued Residence Proof"
+        ],
+        "hi": [
+            "जन्म प्रमाणपत्र या स्कूल छोड़ने का प्रमाणपत्र",
+            "पासपोर्ट या आधार कार्ड",
+            "कोई भी सरकारी निवास प्रमाण"
+        ],
+        "mr": [
+            "जन्म प्रमाणपत्र किंवा शाळा सोडल्याचा दाखला",
+            "पासपोर्ट किंवा आधार कार्ड",
+            "कोणताही शासकीय निवास पुरावा"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "age_nationality_domicile_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

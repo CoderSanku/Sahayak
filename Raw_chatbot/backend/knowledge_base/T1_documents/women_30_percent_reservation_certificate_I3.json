@@ -1,0 +1,37 @@
+{
+    "doc_id": "WR_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Supporting Documents for 30% Women Reservation Certificate",
+        "hi": "30% महिला आरक्षण प्रमाणपत्र हेतु सहायक दस्तावेज",
+        "mr": "30% महिला आरक्षण प्रमाणपत्रासाठी सहाय्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "Where primary proof is unavailable, supporting documents may be submitted for verification. Acceptance is subject to authority discretion.",
+        "hi": "मुख्य प्रमाण उपलब्ध न होने पर सहायक दस्तावेज सत्यापन हेतु स्वीकार किए जा सकते हैं।",
+        "mr": "मुख्य पुरावा उपलब्ध नसल्यास सहाय्यक कागदपत्रे पडताळणीसाठी स्वीकारली जाऊ शकतात."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "supporting documents",
+            "women reservation"
+        ],
+        "hi": [
+            "सहायक दस्तावेज",
+            "महिला आरक्षण"
+        ],
+        "mr": [
+            "सहाय्यक कागदपत्रे",
+            "महिला आरक्षण"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "women_reservation_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

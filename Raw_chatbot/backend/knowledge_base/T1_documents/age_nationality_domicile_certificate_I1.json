@@ -1,0 +1,100 @@
+{
+    "doc_id": "AND_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Age, Nationality and Domicile Certificate",
+        "hi": "आयु, राष्ट्रीयता और अधिवास प्रमाणपत्र हेतु आवश्यक दस्तावेज",
+        "mr": "वय, राष्ट्रीयत्व व अधिवास प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "This certificate establishes the applicant’s age, Indian nationality, and domicile status in Maharashtra. Applicants must provide documentary evidence supporting all three criteria.",
+        "hi": "यह प्रमाणपत्र आवेदक की आयु, भारतीय राष्ट्रीयता और महाराष्ट्र में अधिवास की पुष्टि करता है।",
+        "mr": "हे प्रमाणपत्र अर्जदाराचे वय, भारतीय राष्ट्रीयत्व आणि महाराष्ट्रातील अधिवास सिद्ध करते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "age nationality domicile certificate",
+            "domicile proof"
+        ],
+        "hi": [
+            "आयु राष्ट्रीयता अधिवास प्रमाणपत्र"
+        ],
+        "mr": [
+            "वय राष्ट्रीयत्व अधिवास प्रमाणपत्र"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Electricity Bill",
+            "Government Letter",
+            "Telephone Bill",
+            "Driving License",
+            "Passport",
+            "Revenue Record",
+            "Voter List",
+            "Tenant Receipt",
+            "Birth Certificate",
+            "School Leaving Certificate",
+            "Employment Certificate (Government / Semi-Government)",
+            "Parent Residence Certificate",
+            "Non-Residence Certificate (If Not Residing for 10 Years)",
+            "Marriage Registration Certificate",
+            "Government Gazette",
+            "Educational Records",
+            "Aadhaar Card",
+            "Ration Card",
+            "Applicant Signature"
+        ],
+        "hi": [
+            "बिजली बिल",
+            "सरकारी पत्र",
+            "टेलीफोन बिल",
+            "ड्राइविंग लाइसेंस",
+            "पासपोर्ट",
+            "राजस्व रिकॉर्ड",
+            "मतदाता सूची",
+            "किरायेदार रसीद",
+            "जन्म प्रमाणपत्र",
+            "स्कूल छोड़ने का प्रमाणपत्र",
+            "सेवा प्रमाणपत्र (सरकारी / अर्ध-सरकारी)",
+            "माता-पिता का निवास प्रमाणपत्र",
+            "अनिवास प्रमाणपत्र (यदि 10 वर्ष से निवास नहीं)",
+            "विवाह पंजीकरण प्रमाणपत्र",
+            "सरकारी राजपत्र",
+            "शैक्षणिक रिकॉर्ड",
+            "आधार कार्ड",
+            "राशन कार्ड",
+            "आवेदक के हस्ताक्षर"
+        ],
+        "mr": [
+            "वीज बिल",
+            "शासकीय पत्र",
+            "दूरध्वनी बिल",
+            "वाहनचालक परवाना",
+            "पासपोर्ट",
+            "महसूल नोंदी",
+            "मतदार यादी",
+            "भाडे पावती",
+            "जन्म प्रमाणपत्र",
+            "शाळा सोडल्याचा दाखला",
+            "सेवा प्रमाणपत्र (सरकारी / निमसरकारी)",
+            "पालकांचा निवास दाखला",
+            "अनिवासी प्रमाणपत्र (१० वर्षे निवास नसल्यास)",
+            "विवाह नोंदणी प्रमाणपत्र",
+            "शासकीय राजपत्र",
+            "शैक्षणिक नोंदी",
+            "आधार कार्ड",
+            "रेशन कार्ड",
+            "अर्जदाराची सही"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "age_nationality_domicile_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "doc_id": "RES_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Alternative Documents for Residence Certificate",
+        "hi": "निवास प्रमाणपत्र हेतु वैकल्पिक दस्तावेज",
+        "mr": "निवास प्रमाणपत्रासाठी पर्यायी कागदपत्रे"
+    },
+    "content": {
+        "en": "If primary residence documents are unavailable, applicants may submit a combination of educational records, marriage certificates, or gazette notifications for assessment.",
+        "hi": "यदि मुख्य निवास दस्तावेज उपलब्ध नहीं हैं, तो शैक्षणिक रिकॉर्ड या विवाह प्रमाणपत्र प्रस्तुत किए जा सकते हैं।",
+        "mr": "मुख्य निवास कागदपत्रे उपलब्ध नसल्यास शैक्षणिक नोंदी किंवा विवाह प्रमाणपत्रे सादर करता येतात."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "alternative residence proof"
+        ],
+        "hi": [
+            "वैकल्पिक निवास प्रमाण"
+        ],
+        "mr": [
+            "पर्यायी निवास पुरावा"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "residence_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

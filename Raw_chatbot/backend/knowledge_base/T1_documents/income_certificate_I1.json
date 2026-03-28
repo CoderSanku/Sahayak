@@ -1,0 +1,75 @@
+{
+    "doc_id": "INC_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Income Certificate",
+        "hi": "आय प्रमाणपत्र के लिए आवश्यक दस्तावेज",
+        "mr": "उत्पन्न प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "An Income Certificate is issued based on verified income sources of the applicant. Documents are required to establish annual income accurately.",
+        "hi": "आय प्रमाणपत्र आवेदक की वार्षिक आय के सत्यापन के आधार पर जारी किया जाता है।",
+        "mr": "उत्पन्न प्रमाणपत्र अर्जदाराच्या वार्षिक उत्पन्नाच्या पडताळणीवर आधारित दिले जाते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "income certificate",
+            "income proof",
+            "tehsildar"
+        ],
+        "hi": [
+            "आय प्रमाणपत्र",
+            "आय प्रमाण",
+            "तहसीलदार"
+        ],
+        "mr": [
+            "उत्पन्न प्रमाणपत्र",
+            "उत्पन्न पुरावा",
+            "तहसीलदार"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Income Tax Statement / Form 16",
+            "Pay Certificate (Current Financial Year)",
+            "Village Revenue Officer Income Report",
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill",
+            "Residence Proof",
+            "Affidavit",
+            "Self Declaration"
+        ],
+        "hi": [
+            "आयकर विवरण / फॉर्म 16",
+            "वर्तमान वित्तीय वर्ष का वेतन प्रमाणपत्र",
+            "ग्राम राजस्व अधिकारी की आय रिपोर्ट",
+            "आधार कार्ड",
+            "राशन कार्ड",
+            "बिजली बिल",
+            "निवास प्रमाण",
+            "शपथ पत्र",
+            "स्व-घोषणा"
+        ],
+        "mr": [
+            "आयकर विवरण / फॉर्म 16",
+            "चालू आर्थिक वर्षाचा वेतन दाखला",
+            "ग्राम महसूल अधिकाऱ्याचा उत्पन्न अहवाल",
+            "आधार कार्ड",
+            "रेशन कार्ड",
+            "वीज बिल",
+            "निवास पुरावा",
+            "प्रतिज्ञापत्र",
+            "स्वघोषणा"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "income_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

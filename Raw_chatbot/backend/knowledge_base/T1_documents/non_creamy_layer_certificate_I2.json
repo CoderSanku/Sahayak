@@ -1,0 +1,66 @@
+{
+    "doc_id": "NCL_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Non-Creamy Layer Certificate",
+        "hi": "नॉन क्रीमी लेयर प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "नॉन क्रीमी लेयर प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Submission of caste proof and income-related affidavits is compulsory for issuance of a Non-Creamy Layer Certificate. Applications submitted without the mandatory documents will be rejected or kept pending until compliance.",
+        "hi": "नॉन क्रीमी लेयर प्रमाणपत्र जारी करने के लिए जाति प्रमाण और आय संबंधी शपथपत्र प्रस्तुत करना अनिवार्य है। अनिवार्य दस्तावेजों के बिना आवेदन अस्वीकार या लंबित किया जा सकता है।",
+        "mr": "नॉन क्रीमी लेयर प्रमाणपत्रासाठी जात प्रमाण आणि उत्पन्नासंबंधी प्रतिज्ञापत्रे सादर करणे अनिवार्य आहे. अनिवार्य कागदपत्रांशिवाय अर्ज नाकारला जाऊ शकतो किंवा प्रलंबित ठेवला जाऊ शकतो."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "mandatory documents",
+            "non-creamy layer",
+            "income proof"
+        ],
+        "hi": [
+            "अनिवार्य दस्तावेज",
+            "नॉन क्रीमी लेयर",
+            "आय प्रमाण"
+        ],
+        "mr": [
+            "अनिवार्य कागदपत्रे",
+            "नॉन क्रीमी लेयर",
+            "उत्पन्न पुरावा"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Caste Certificate",
+            "School Leaving Certificate",
+            "Affidavit (Sample B)",
+            "Affidavit (Sample C)",
+            "Income Certificate (Last 3 Years)",
+            "Income Tax Statement / Form 16"
+        ],
+        "hi": [
+            "जाति प्रमाणपत्र",
+            "स्कूल छोड़ने का प्रमाणपत्र",
+            "शपथपत्र (नमूना B)",
+            "शपथपत्र (नमूना C)",
+            "आय प्रमाणपत्र (पिछले 3 वर्ष)",
+            "आयकर विवरण / फॉर्म 16"
+        ],
+        "mr": [
+            "जात प्रमाणपत्र",
+            "शाळा सोडल्याचा दाखला",
+            "प्रतिज्ञापत्र (नमुना B)",
+            "प्रतिज्ञापत्र (नमुना C)",
+            "उत्पन्न प्रमाणपत्र (मागील 3 वर्षे)",
+            "आयकर विवरण / फॉर्म 16"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "non_creamy_layer_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "doc_id": "WR_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for 30% Women Reservation Certificate",
+        "hi": "30% महिला आरक्षण प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "30% महिला आरक्षण प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Proof of gender and identity is mandatory for issuance of a Women Reservation Certificate. Applications without valid proof may be rejected.",
+        "hi": "महिला आरक्षण प्रमाणपत्र जारी करने के लिए लिंग और पहचान प्रमाण अनिवार्य है।",
+        "mr": "महिला आरक्षण प्रमाणपत्रासाठी लिंग व ओळख पुरावा अनिवार्य आहे."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "mandatory documents",
+            "women reservation"
+        ],
+        "hi": [
+            "अनिवार्य दस्तावेज",
+            "महिला आरक्षण"
+        ],
+        "mr": [
+            "अनिवार्य कागदपत्रे",
+            "महिला आरक्षण"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Aadhaar Card",
+            "School Leaving Certificate or Birth Certificate"
+        ],
+        "hi": [
+            "आधार कार्ड",
+            "स्कूल छोड़ने का प्रमाणपत्र या जन्म प्रमाणपत्र"
+        ],
+        "mr": [
+            "आधार कार्ड",
+            "शाळा सोडल्याचा दाखला किंवा जन्म प्रमाणपत्र"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "women_reservation_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

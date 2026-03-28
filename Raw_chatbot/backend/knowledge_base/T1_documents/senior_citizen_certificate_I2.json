@@ -1,0 +1,40 @@
+{
+    "doc_id": "SC_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Senior Citizen Certificate",
+        "hi": "वरिष्ठ नागरिक प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "ज्येष्ठ नागरिक प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Valid age proof confirming eligibility as a senior citizen is mandatory for certificate issuance.",
+        "hi": "वरिष्ठ नागरिक पात्रता सिद्ध करने हेतु वैध आयु प्रमाण अनिवार्य है।",
+        "mr": "ज्येष्ठ नागरिक पात्रता सिद्ध करण्यासाठी वैध वय पुरावा अनिवार्य आहे."
+    },
+    "language": "en",
+    "mandatory_documents": {
+        "en": [
+            "Birth Certificate OR",
+            "School Certificate OR",
+            "Government-issued ID showing date of birth"
+        ],
+        "hi": [
+            "जन्म प्रमाणपत्र या",
+            "स्कूल प्रमाणपत्र या",
+            "जन्मतिथि दर्शाने वाला सरकारी पहचान पत्र"
+        ],
+        "mr": [
+            "जन्म प्रमाणपत्र किंवा",
+            "शाळेचा दाखला किंवा",
+            "जन्मतारीख दर्शविणारे शासकीय ओळखपत्र"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "senior_citizen_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

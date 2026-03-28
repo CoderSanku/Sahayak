@@ -1,0 +1,90 @@
+{
+    "doc_id": "SOL_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Solvency Certificate",
+        "hi": "सॉल्वेंसी प्रमाणपत्र के लिए आवश्यक दस्तावेज",
+        "mr": "सॉल्व्हन्सी प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "A Solvency Certificate certifies the applicant’s financial stability and asset ownership. Documents related to identity, property, and valuation are required.",
+        "hi": "सॉल्वेंसी प्रमाणपत्र आवेदक की वित्तीय स्थिति और संपत्ति स्वामित्व को प्रमाणित करता है।",
+        "mr": "सॉल्व्हन्सी प्रमाणपत्र अर्जदाराची आर्थिक क्षमता व मालमत्तेचे स्वामित्व सिद्ध करते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "solvency certificate",
+            "financial proof",
+            "property documents"
+        ],
+        "hi": [
+            "सॉल्वेंसी प्रमाणपत्र",
+            "वित्तीय प्रमाण",
+            "संपत्ति दस्तावेज"
+        ],
+        "mr": [
+            "सॉल्व्हन्सी प्रमाणपत्र",
+            "आर्थिक पुरावा",
+            "मालमत्ता कागदपत्रे"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Applicant Photograph",
+            "Share Certificate",
+            "Society Disapproval Certificate",
+            "Property Valuation Report",
+            "Bank Order Copy",
+            "Khata Extract",
+            "Electricity Bill",
+            "Society Maintenance Receipt",
+            "Ration Card",
+            "House Ownership Certificate",
+            "Gallery Ownership Certificate",
+            "Affidavit (₹100 Stamp Paper)"
+        ],
+        "hi": [
+            "आधार कार्ड",
+            "पैन कार्ड",
+            "आवेदक का फोटो",
+            "शेयर प्रमाणपत्र",
+            "सोसाइटी अस्वीकृति प्रमाणपत्र",
+            "संपत्ति मूल्यांकन रिपोर्ट",
+            "बैंक ऑर्डर की प्रति",
+            "खाता उतारा",
+            "बिजली बिल",
+            "सोसाइटी मेंटेनेंस रसीद",
+            "राशन कार्ड",
+            "घर स्वामित्व प्रमाणपत्र",
+            "गैलरी स्वामित्व प्रमाणपत्र",
+            "शपथ पत्र (₹100 स्टांप पेपर)"
+        ],
+        "mr": [
+            "आधार कार्ड",
+            "पॅन कार्ड",
+            "अर्जदाराचा फोटो",
+            "शेअर प्रमाणपत्र",
+            "संस्था नकार प्रमाणपत्र",
+            "मालमत्ता मूल्यांकन अहवाल",
+            "बँक आदेशाची प्रत",
+            "खाते उतारा",
+            "वीज बिल",
+            "संस्था देखभाल पावती",
+            "रेशन कार्ड",
+            "घर मालकी प्रमाणपत्र",
+            "गॅलरी मालकी प्रमाणपत्र",
+            "प्रतिज्ञापत्र (₹100 स्टॅम्प पेपर)"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "solvency_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

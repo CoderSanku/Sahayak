@@ -1,0 +1,23 @@
+{
+    "doc_id": "SOL_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Alternative Documents for Solvency Certificate",
+        "hi": "सॉल्वेंसी प्रमाणपत्र हेतु वैकल्पिक दस्तावेज",
+        "mr": "सॉल्व्हन्सी प्रमाणपत्रासाठी पर्यायी कागदपत्रे"
+    },
+    "content": {
+        "en": "In cases where ownership or valuation documents are incomplete, additional affidavits or verification reports may be requested by the authority.",
+        "hi": "यदि स्वामित्व या मूल्यांकन दस्तावेज अधूरे हों, तो अतिरिक्त शपथ पत्र या सत्यापन रिपोर्ट मांगी जा सकती है।",
+        "mr": "मालकी किंवा मूल्यांकन कागदपत्रे अपूर्ण असल्यास अतिरिक्त प्रतिज्ञापत्र किंवा पडताळणी अहवाल मागवला जाऊ शकतो."
+    },
+    "language": "en",
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "solvency_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

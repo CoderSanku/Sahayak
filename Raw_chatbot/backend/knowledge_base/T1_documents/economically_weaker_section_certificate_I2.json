@@ -1,0 +1,40 @@
+{
+    "doc_id": "EWS_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for EWS Certificate",
+        "hi": "EWS प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "EWS प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Proof of income below the prescribed limit and valid residence proof are mandatory for EWS certification.",
+        "hi": "निर्धारित सीमा से कम आय और वैध निवास प्रमाण प्रस्तुत करना अनिवार्य है।",
+        "mr": "निर्धारित मर्यादेपेक्षा कमी उत्पन्न व वैध निवास पुरावा सादर करणे अनिवार्य आहे."
+    },
+    "language": "en",
+    "mandatory_documents": {
+        "en": [
+            "Income Certificate",
+            "Income Tax Statement / Form 16",
+            "Maharashtra Residence Proof (Pre-1967)"
+        ],
+        "hi": [
+            "आय प्रमाणपत्र",
+            "आयकर विवरण / फॉर्म 16",
+            "महाराष्ट्र निवास प्रमाण (1967 पूर्व)"
+        ],
+        "mr": [
+            "उत्पन्न प्रमाणपत्र",
+            "आयकर विवरण / फॉर्म 16",
+            "महाराष्ट्र निवास पुरावा (1967 पूर्वीचा)"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "economically_weaker_section_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

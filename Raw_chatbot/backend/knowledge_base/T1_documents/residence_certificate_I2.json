@@ -1,0 +1,54 @@
+{
+    "doc_id": "RES_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Residence Certificate",
+        "hi": "निवास प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "निवास प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Applicants must submit at least one valid proof demonstrating continuous residence within Maharashtra. The final decision depends on document verification.",
+        "hi": "महाराष्ट्र में निरंतर निवास दर्शाने वाला कम से कम एक वैध प्रमाण प्रस्तुत करना आवश्यक है।",
+        "mr": "महाराष्ट्रातील सलग निवास दर्शविणारा किमान एक वैध पुरावा सादर करणे आवश्यक आहे."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "mandatory residence proof"
+        ],
+        "hi": [
+            "अनिवार्य निवास प्रमाण"
+        ],
+        "mr": [
+            "अनिवार्य निवास पुरावा"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Birth Certificate OR",
+            "School Leaving Certificate OR",
+            "Passport OR",
+            "Government Employment Certificate"
+        ],
+        "hi": [
+            "जन्म प्रमाणपत्र या",
+            "स्कूल छोड़ने का प्रमाणपत्र या",
+            "पासपोर्ट या",
+            "सरकारी सेवा प्रमाणपत्र"
+        ],
+        "mr": [
+            "जन्म प्रमाणपत्र किंवा",
+            "शाळा सोडल्याचा दाखला किंवा",
+            "पासपोर्ट किंवा",
+            "शासकीय सेवा प्रमाणपत्र"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "residence_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

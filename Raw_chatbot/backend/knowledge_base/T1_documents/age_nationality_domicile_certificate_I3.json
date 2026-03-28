@@ -1,0 +1,23 @@
+{
+    "doc_id": "AND_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Alternative Documents for Age, Nationality and Domicile Certificate",
+        "hi": "आयु, राष्ट्रीयता और अधिवास प्रमाणपत्र हेतु वैकल्पिक दस्तावेज",
+        "mr": "वय, राष्ट्रीयत्व व अधिवास प्रमाणपत्रासाठी पर्यायी कागदपत्रे"
+    },
+    "content": {
+        "en": "In cases where standard documents are unavailable, a combination of educational records, parental documents, and revenue records may be considered.",
+        "hi": "मानक दस्तावेज उपलब्ध न होने पर शैक्षणिक रिकॉर्ड और माता-पिता के दस्तावेज स्वीकार किए जा सकते हैं।",
+        "mr": "मानक कागदपत्रे उपलब्ध नसल्यास शैक्षणिक नोंदी व पालकांची कागदपत्रे स्वीकारली जाऊ शकतात."
+    },
+    "language": "en",
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "age_nationality_domicile_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

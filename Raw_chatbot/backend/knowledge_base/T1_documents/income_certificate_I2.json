@@ -1,0 +1,54 @@
+{
+    "doc_id": "INC_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Income Certificate",
+        "hi": "आय प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "उत्पन्न प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "At least one valid income proof document is mandatory. Applications without verifiable income records will not be processed.",
+        "hi": "कम से कम एक मान्य आय प्रमाण दस्तावेज अनिवार्य है।",
+        "mr": "किमान एक वैध उत्पन्न पुरावा दस्तऐवज अनिवार्य आहे."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "mandatory income proof",
+            "income certificate"
+        ],
+        "hi": [
+            "अनिवार्य आय प्रमाण",
+            "आय प्रमाणपत्र"
+        ],
+        "mr": [
+            "अनिवार्य उत्पन्न पुरावा",
+            "उत्पन्न प्रमाणपत्र"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Income Tax Statement / Form 16 OR",
+            "Pay Certificate OR",
+            "Village Revenue Officer Income Report"
+        ],
+        "hi": [
+            "आयकर विवरण / फॉर्म 16 या",
+            "वेतन प्रमाणपत्र या",
+            "ग्राम राजस्व अधिकारी की आय रिपोर्ट"
+        ],
+        "mr": [
+            "आयकर विवरण / फॉर्म 16 किंवा",
+            "वेतन दाखला किंवा",
+            "ग्राम महसूल अधिकाऱ्याचा उत्पन्न अहवाल"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "income_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

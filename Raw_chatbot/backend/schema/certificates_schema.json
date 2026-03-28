@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": [
+            "certificate_type",
+            "certificate_name",
+            "mandatory_documents",
+            "required_documents",
+            "issuing_authority"
+        ],
+        "properties": {
+            "certificate_type": {
+                "type": "string"
+            },
+            "mandatory_documents": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "required_documents": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "optional_documents": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "eligibility_cutoff_dates": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": "string"
+                }
+            },
+            "issuing_authority": {
+                "type": "string"
+            }
+        },
+        "additionalProperties": false
+    }
+}

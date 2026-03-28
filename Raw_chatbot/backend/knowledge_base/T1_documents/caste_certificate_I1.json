@@ -1,0 +1,80 @@
+{
+    "doc_id": "CC_I1",
+    "topic_id": "T1",
+    "intent_id": "I1",
+    "title": {
+        "en": "Documents Required for Caste Certificate",
+        "hi": "जाति प्रमाणपत्र हेतु आवश्यक दस्तावेज",
+        "mr": "जात प्रमाणपत्रासाठी आवश्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "Applicants applying for a Caste Certificate are required to submit a prescribed set of documents to the Tehsildar office. The documents listed below are mandatory for verification and eligibility assessment. Additional supporting documents may be requested based on case-specific requirements and applicable government rules.",
+        "hi": "जाति प्रमाणपत्र के लिए आवेदन करने वाले आवेदकों को तहसीलदार कार्यालय में निर्धारित दस्तावेज प्रस्तुत करना आवश्यक है। नीचे दिए गए दस्तावेज सत्यापन और पात्रता जांच के लिए अनिवार्य हैं। आवश्यकता अनुसार अतिरिक्त दस्तावेज भी मांगे जा सकते हैं।",
+        "mr": "जात प्रमाणपत्रासाठी अर्ज करणाऱ्या अर्जदारांनी तहसीलदार कार्यालयात ठराविक कागदपत्रे सादर करणे आवश्यक आहे. खाली नमूद केलेली कागदपत्रे पडताळणी व पात्रता तपासणीसाठी अनिवार्य आहेत. प्रकरणानुसार अतिरिक्त कागदपत्रांची मागणी होऊ शकते."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "caste certificate",
+            "documents",
+            "tehsildar"
+        ],
+        "hi": [
+            "जाति प्रमाणपत्र",
+            "दस्तावेज",
+            "तहसीलदार"
+        ],
+        "mr": [
+            "जात प्रमाणपत्र",
+            "कागदपत्रे",
+            "तहसीलदार"
+        ]
+    },
+    "required_documents": {
+        "en": [
+            "Birth Certificate",
+            "Village Sample No.1/14",
+            "School Leaving Certificate",
+            "Bonafide Certificate",
+            "Service Book",
+            "Caste Evidence (Pre-cutoff date)"
+        ],
+        "hi": [
+            "जन्म प्रमाणपत्र",
+            "गांव नमूना नं. 1/14",
+            "स्कूल छोड़ने का प्रमाणपत्र",
+            "बोनाफाइड प्रमाणपत्र",
+            "सेवा पुस्तिका",
+            "जाति प्रमाण (कट-ऑफ तिथि से पूर्व)"
+        ],
+        "mr": [
+            "जन्म प्रमाणपत्र",
+            "गाव नमुना क्र. 1/14",
+            "शाळा सोडल्याचा दाखला",
+            "बोनाफाइड प्रमाणपत्र",
+            "सेवा पुस्तिका",
+            "जात पुरावा (कट-ऑफ तारखेपूर्वीचा)"
+        ]
+    },
+    "mandatory_documents": {
+        "en": [
+            "Applicant Affidavit (Sample 2)",
+            "Guardian Affidavit (Claim 3)"
+        ],
+        "hi": [
+            "आवेदक का शपथपत्र (नमूना 2)",
+            "अभिभावक का शपथपत्र (दावा 3)"
+        ],
+        "mr": [
+            "अर्जदाराचे प्रतिज्ञापत्र (नमुना 2)",
+            "पालकांचे प्रतिज्ञापत्र (दावा 3)"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "caste_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

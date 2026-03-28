@@ -1,0 +1,142 @@
+{
+    "age": {
+      "en": "Please provide your age to continue with the application.",
+      "hi": "कृपया आवेदन जारी रखने के लिए अपनी आयु बताएं।",
+      "mr": "अर्ज सुरू करण्यासाठी आपले वय द्या."
+    },
+    "income": {
+      "en": "Please enter your annual income (as per the last financial year).",
+      "hi": "कृपया अपनी वार्षिक आय दर्ज करें (पिछले वित्तीय वर्ष के अनुसार)।",
+      "mr": "कृपया तुमचे वार्षिक उत्पन्न नोंदवा (मागील आर्थिक वर्षाप्रमाणे)."
+    },
+    "aadhaar_card": {
+      "en": "Please upload your Aadhaar Card.",
+      "hi": "कृपया अपना आधार कार्ड अपलोड करें।",
+      "mr": "कृपया तुमचे आधार कार्ड अपलोड करा."
+    },
+    "pan_card": {
+      "en": "Please upload your PAN Card.",
+      "hi": "कृपया अपना पैन कार्ड अपलोड करें।",
+      "mr": "कृपया तुमचे पॅन कार्ड अपलोड करा."
+    },
+    "ration_card": {
+      "en": "Please upload your Ration Card.",
+      "hi": "कृपया अपना राशन कार्ड अपलोड करें।",
+      "mr": "कृपया तुमचे रेशन कार्ड अपलोड करा."
+    },
+    "voter_id_card": {
+      "en": "Please upload your Voter ID Card.",
+      "hi": "कृपया अपना मतदाता पहचान पत्र अपलोड करें।",
+      "mr": "कृपया तुमचे मतदार ओळखपत्र अपलोड करा."
+    },
+    "electricity_bill": {
+      "en": "Please upload your latest Electricity Bill.",
+      "hi": "कृपया अपना नवीनतम बिजली बिल अपलोड करें।",
+      "mr": "कृपया तुमचे नवीन वीज बिल अपलोड करा."
+    },
+    "applicant_photograph": {
+      "en": "Please upload a recent passport-size photograph.",
+      "hi": "कृपया एक हालिया पासपोर्ट आकार का फोटो अपलोड करें।",
+      "mr": "कृपया तुमचा अलीकडील पासपोर्ट आकाराचा फोटो अपलोड करा."
+    },
+    "school_leaving_certificate": {
+      "en": "Please upload your School Leaving Certificate (L.C.).",
+      "hi": "कृपया अपना स्कूल छोड़ने का प्रमाण पत्र (L.C.) अपलोड करें।",
+      "mr": "कृपया तुमचे शाळा सोडल्याचे प्रमाणपत्र (एल.सी.) अपलोड करा."
+    },
+    "birth_certificate": {
+      "en": "Please upload your Birth Certificate.",
+      "hi": "कृपया अपना जन्म प्रमाण पत्र अपलोड करें।",
+      "mr": "कृपया तुमचे जन्म प्रमाणपत्र अपलोड करा."
+    },
+    "marriage_registration_certificate": {
+      "en": "Please upload your Marriage Registration Certificate.",
+      "hi": "कृपया अपना विवाह पंजीकरण प्रमाण पत्र अपलोड करें।",
+      "mr": "कृपया तुमचे विवाह नोंदणी प्रमाणपत्र अपलोड करा."
+    },
+    "educational_records": {
+      "en": "Please upload your relevant educational records or marksheets.",
+      "hi": "कृपया अपने संबंधित शैक्षणिक रिकॉर्ड या अंकतालिकाएं अपलोड करें।",
+      "mr": "कृपया तुमचे संबंधित शैक्षणिक रेकॉर्ड किंवा गुणपत्रिका अपलोड करा."
+    },
+    "income_certificate": {
+      "en": "Please upload your current Income Certificate.",
+      "hi": "कृपया अपना वर्तमान आय प्रमाण पत्र अपलोड करें।",
+      "mr": "कृपया तुमचे चालू उत्पन्न प्रमाणपत्र अपलोड करा."
+    },
+    "income_certificate_last_3_years": {
+      "en": "Please upload your Income Certificate for the last 3 financial years.",
+      "hi": "कृपया पिछले 3 वित्तीय वर्षों का आय प्रमाण पत्र अपलोड करें।",
+      "mr": "कृपया मागील ३ आर्थिक वर्षांचे उत्पन्न प्रमाणपत्र अपलोड करा."
+    },
+    "income_tax_statement_form_16": {
+      "en": "Please upload your Income Tax Statement or Form 16.",
+      "hi": "कृपया अपना आयकर विवरण या फॉर्म 16 अपलोड करें।",
+      "mr": "कृपया तुमचे आयकर विवरणपत्र किंवा फॉर्म १६ अपलोड करा."
+    },
+    "village_revenue_officer_income_report": {
+      "en": "Please upload the Income Report from the Village Revenue Officer (Talathi).",
+      "hi": "कृपया ग्राम राजस्व अधिकारी (तलाठी) द्वारा जारी आय प्रतिवेदन अपलोड करें।",
+      "mr": "कृपया ग्राम महसूल अधिकारी (तलाठी) यांचा उत्पन्न अहवाल अपलोड करा."
+    },
+    "property_valuation_report": {
+      "en": "Please upload the Property Valuation Report issued by a certified valuer.",
+      "hi": "कृपया प्रमाणित मूल्यांकक द्वारा जारी संपत्ति मूल्यांकन रिपोर्ट अपलोड करें।",
+      "mr": "कृपया प्रमाणित मूल्यमापकाकडून मालमत्ता मूल्यांकन अहवाल अपलोड करा."
+    },
+    "khata_extract": {
+      "en": "Please upload your Khata Extract (8A or 7/12).",
+      "hi": "कृपया अपना खाता उतारा (8A या 7/12) अपलोड करें।",
+      "mr": "कृपया तुमचा खाते उतारा (८अ किंवा ७/१२) अपलोड करा."
+    },
+    "house_ownership_certificate": {
+      "en": "Please upload your House Ownership Certificate or Index-II.",
+      "hi": "कृपया अपना मकान स्वामित्व प्रमाण पत्र या इंडेक्स-II अपलोड करें।",
+      "mr": "कृपया तुमचे घर मालकी प्रमाणपत्र किंवा इंडेक्स-II अपलोड करा."
+    },
+    "share_certificate": {
+      "en": "Please upload your Society Share Certificate.",
+      "hi": "कृपया अपना सोसायटी शेयर प्रमाण पत्र अपलोड करें।",
+      "mr": "कृपया तुमचे सोसायटी शेअर प्रमाणपत्र अपलोड करा."
+    },
+    "property_sheet": {
+      "en": "Please upload your Property Card/Sheet.",
+      "hi": "कृपया अपना प्रॉपर्टी कार्ड/शीट अपलोड करें।",
+      "mr": "कृपया तुमचे मालमत्ता पत्रक (Property Card) अपलोड करा."
+    },
+    "affidavit_100_stamp": {
+      "en": "Please upload an Affidavit on ₹100 Stamp Paper.",
+      "hi": "कृपया ₹100 के स्टाम्प पेपर पर शपथ पत्र अपलोड करें।",
+      "mr": "कृपया १०० रुपयांच्या स्टॅम्प पेपरवरील प्रतिज्ञापत्र अपलोड करा."
+    },
+    "affidavit_sample_b": {
+      "en": "Please upload the Affidavit as per Sample B format.",
+      "hi": "कृपया नमूना B के अनुसार शपथ पत्र अपलोड करें।",
+      "mr": "कृपया नमुना B नुसार प्रतिज्ञापत्र अपलोड करा."
+    },
+    "self_declaration": {
+      "en": "Please upload the signed Self-Declaration form.",
+      "hi": "कृपया हस्ताक्षरित स्व-घोषणा पत्र अपलोड करें।",
+      "mr": "कृपया स्वाक्षरी केलेले स्वयंघोषणा पत्र अपलोड करा."
+    },
+    "government_gazette": {
+      "en": "Please upload the Government Gazette copy (required if there is a name change).",
+      "hi": "कृपया सरकारी राजपत्र की प्रति अपलोड करें (नाम परिवर्तन की स्थिति में आवश्यक)।",
+      "mr": "कृपया शासकीय राजपत्राची प्रत अपलोड करा (नाव बदलले असल्यास आवश्यक)."
+    },
+    "mill_worker_proof": {
+      "en": "Please upload proof of being a Mill Worker.",
+      "hi": "कृपया मिल कामगार होने का प्रमाण अपलोड करें।",
+      "mr": "कृपया मिल कामगार असल्याचा पुरावा अपलोड करा."
+    },
+    "caste_evidence_pre_cutoff": {
+      "en": "Please upload caste evidence records dated before the cutoff year.",
+      "hi": "कृपया कट-ऑफ वर्ष से पहले के जाति प्रमाण दस्तावेज अपलोड करें।",
+      "mr": "कृपया कट-ऑफ वर्षापूर्वीचे जात पुराव्याचे कागदपत्र अपलोड करा."
+    },
+    "processing_time": {
+      "en": "Would you like information about the estimated processing time?",
+      "hi": "क्या आप अनुमानित प्रोसेसिंग समय के बारे में जानकारी चाहते हैं?",
+      "mr": "तुम्हाला अंदाजित प्रक्रिया कालावधीबद्दल माहिती हवी आहे का?"
+    }
+  }

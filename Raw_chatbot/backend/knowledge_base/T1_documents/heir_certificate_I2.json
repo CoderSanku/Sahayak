@@ -1,0 +1,40 @@
+{
+    "doc_id": "HEIR_I2",
+    "topic_id": "T1",
+    "intent_id": "I2",
+    "title": {
+        "en": "Mandatory Documents for Heir Certificate",
+        "hi": "वारिस प्रमाणपत्र के लिए अनिवार्य दस्तावेज",
+        "mr": "वारस प्रमाणपत्रासाठी अनिवार्य कागदपत्रे"
+    },
+    "content": {
+        "en": "Public notice publication and official inquiry reports are mandatory to establish legal heir claims.",
+        "hi": "कानूनी वारिस दावा स्थापित करने हेतु सार्वजनिक सूचना और आधिकारिक जांच रिपोर्ट अनिवार्य है।",
+        "mr": "कायदेशीर वारस दावा सिद्ध करण्यासाठी सार्वजनिक सूचना व अधिकृत चौकशी अहवाल अनिवार्य आहे."
+    },
+    "language": "en",
+    "mandatory_documents": {
+        "en": [
+            "Applicant Affidavit",
+            "Newspaper Public Notice",
+            "Gram Revenue Officer Inquiry Report"
+        ],
+        "hi": [
+            "आवेदक का शपथ पत्र",
+            "अखबार में सार्वजनिक सूचना",
+            "ग्राम राजस्व अधिकारी जांच रिपोर्ट"
+        ],
+        "mr": [
+            "अर्जदाराचे प्रतिज्ञापत्र",
+            "वृत्तपत्रातील सार्वजनिक सूचना",
+            "ग्राम महसूल अधिकाऱ्याचा चौकशी अहवाल"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "heir_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "high"
+    }
+}

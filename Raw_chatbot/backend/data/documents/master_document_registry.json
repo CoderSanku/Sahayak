@@ -1,0 +1,142 @@
+{
+    "birth_certificate": {
+        "name": {
+            "en": "Birth Certificate",
+            "hi": "जन्म प्रमाण पत्र",
+            "mr": "जन्म प्रमाणपत्र"
+        }
+    },
+    "birth_death_certificate": {
+        "name": {
+            "en": "Birth-Death Certificate",
+            "hi": "जन्म-मृत्यु प्रमाण पत्र",
+            "mr": "जन्म-मृत्यू प्रमाणपत्र"
+        }
+    },
+    "income_certificate": {
+        "name": {
+            "en": "Income Certificate",
+            "hi": "आय प्रमाण पत्र",
+            "mr": "उत्पन्न प्रमाणपत्र"
+        }
+    },
+    "income_tax_statement_form_16": {
+        "name": {
+            "en": "Income Tax Statement / Form 16",
+            "hi": "आयकर विवरण / फॉर्म 16",
+            "mr": "आयकर विवरणपत्र / फॉर्म 16"
+        }
+    },
+    "maharashtra_residence_proof_pre_1967": {
+        "name": {
+            "en": "Maharashtra Residence Proof (Pre-1967)",
+            "hi": "महाराष्ट्र निवास प्रमाण (1967 पूर्व का)",
+            "mr": "महाराष्ट्र रहिवासी पुरावा (1967 पूर्वीचा)"
+        }
+    },
+    "school_certificate": {
+        "name": {
+            "en": "School Certificate",
+            "hi": "विद्यालय प्रमाण पत्र",
+            "mr": "शाळा प्रमाणपत्र"
+        }
+    },
+    "service_book": {
+        "name": {
+            "en": "Service Book",
+            "hi": "सेवा पुस्तिका",
+            "mr": "सेवा पुस्तिका"
+        }
+    },
+    "property_sheet": {
+        "name": {
+            "en": "Property Sheet",
+            "hi": "संपत्ति विवरण पत्र",
+            "mr": "मालमत्ता पत्रक"
+        }
+    },
+    "aadhaar_card": {
+        "name": {
+            "en": "Aadhaar Card",
+            "hi": "आधार कार्ड",
+            "mr": "आधार कार्ड"
+        }
+    },
+    "pan_card": {
+        "name": {
+            "en": "PAN Card",
+            "hi": "पैन कार्ड",
+            "mr": "पॅन कार्ड"
+        }
+    },
+    "ration_card": {
+        "name": {
+            "en": "Ration Card",
+            "hi": "राशन कार्ड",
+            "mr": "रेशन कार्ड"
+        }
+    },
+    "electricity_bill": {
+        "name": {
+            "en": "Electricity Bill",
+            "hi": "बिजली बिल",
+            "mr": "वीज बिल"
+        }
+    },
+    "passport_size_photograph": {
+        "name": {
+            "en": "Passport Size Photograph",
+            "hi": "पासपोर्ट आकार का फोटो",
+            "mr": "पासपोर्ट आकाराचा फोटो"
+        }
+    },
+    "society_certificate": {
+        "name": {
+            "en": "Society Certificate",
+            "hi": "सोसायटी प्रमाण पत्र",
+            "mr": "संस्था प्रमाणपत्र"
+        }
+    },
+    "mill_worker_proof": {
+        "name": {
+            "en": "Mill Worker Proof",
+            "hi": "मिल कामगार प्रमाण",
+            "mr": "मिल कामगार पुरावा"
+        }
+    },
+    "mhada_house_proof": {
+        "name": {
+            "en": "MHADA House Proof",
+            "hi": "म्हाडा आवास प्रमाण",
+            "mr": "म्हाडा घर पुरावा"
+        }
+    },
+    "government_gazette_name_change": {
+        "name": {
+            "en": "Government Gazette (Name Change / Married Heirs)",
+            "hi": "सरकारी राजपत्र (नाम परिवर्तन / विवाहित उत्तराधिकारी)",
+            "mr": "शासकीय राजपत्र (नाव बदल / विवाहित वारस)"
+        }
+    },
+    "applicant_affidavit": {
+        "name": {
+            "en": "Applicant Affidavit",
+            "hi": "आवेदक का शपथ पत्र",
+            "mr": "अर्जदाराचे प्रतिज्ञापत्र"
+        }
+    },
+    "newspaper_public_notice": {
+        "name": {
+            "en": "Newspaper Public Notice",
+            "hi": "समाचार पत्र में सार्वजनिक सूचना",
+            "mr": "वृत्तपत्रातील सार्वजनिक सूचना"
+        }
+    },
+    "gram_revenue_officer_inquiry_report": {
+        "name": {
+            "en": "Gram Revenue Officer Inquiry Report",
+            "hi": "ग्राम राजस्व अधिकारी जांच प्रतिवेदन",
+            "mr": "ग्राम महसूल अधिकारी चौकशी अहवाल"
+        }
+    }
+}

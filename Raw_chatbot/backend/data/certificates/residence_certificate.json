@@ -1,0 +1,100 @@
+{
+    "certificate_id": "residence_certificate",
+    "certificate_name": {
+        "en": "Residence Certificate",
+        "hi": "निवास प्रमाण पत्र",
+        "mr": "रहिवासी प्रमाणपत्र"
+    },
+    "documents": {
+        "mandatory": [
+            {
+                "doc_id": "birth_certificate",
+                "name": {
+                    "en": "Birth Certificate",
+                    "hi": "जन्म प्रमाण पत्र",
+                    "mr": "जन्म प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "school_leaving_certificate",
+                "name": {
+                    "en": "School Leaving Certificate",
+                    "hi": "विद्यालय त्याग प्रमाण पत्र",
+                    "mr": "शाळा सोडल्याचे प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "passport",
+                "name": {
+                    "en": "Passport",
+                    "hi": "पासपोर्ट",
+                    "mr": "पासपोर्ट"
+                }
+            },
+            {
+                "doc_id": "employment_certificate_government_semi_government",
+                "name": {
+                    "en": "Employment Certificate (Government / Semi-Government)",
+                    "hi": "रोजगार प्रमाण पत्र (सरकारी / अर्ध-सरकारी)",
+                    "mr": "रोजगार प्रमाणपत्र (शासकीय / निमशासकीय)"
+                }
+            },
+            {
+                "doc_id": "non_residence_certificate_other_state",
+                "name": {
+                    "en": "Non-Residence Certificate from Other State Authority",
+                    "hi": "अन्य राज्य प्राधिकरण से अनिवासी प्रमाण पत्र",
+                    "mr": "इतर राज्य प्राधिकरणाकडून निर्निवासी प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "marriage_registration_certificate",
+                "name": {
+                    "en": "Marriage Registration Certificate",
+                    "hi": "विवाह पंजीकरण प्रमाण पत्र",
+                    "mr": "विवाह नोंदणी प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "government_gazette",
+                "name": {
+                    "en": "Government Gazette",
+                    "hi": "सरकारी राजपत्र",
+                    "mr": "शासकीय राजपत्र"
+                }
+            },
+            {
+                "doc_id": "educational_records",
+                "name": {
+                    "en": "Educational Records",
+                    "hi": "शैक्षणिक अभिलेख",
+                    "mr": "शैक्षणिक नोंदी"
+                }
+            }
+        ],
+        "required": [],
+        "optional": []
+    },
+    "issuing_authority": {
+        "en": "Tehsildar Office",
+        "hi": "तहसीलदार कार्यालय",
+        "mr": "तहसीलदार कार्यालय"
+    },
+    "suggestions": {
+        "processing_time": {
+            "en": "Processing time is usually 7–14 working days.",
+            "hi": "प्रोसेसिंग समय आमतौर पर 7–14 कार्य दिवस होता है।",
+            "mr": "प्रक्रिया कालावधी साधारणतः 7–14 कार्य दिवस असतो."
+        },
+        "sample_application": {
+            "en": "Would you like to see a sample application format?",
+            "hi": "क्या आप नमूना आवेदन देखना चाहेंगे?",
+            "mr": "आपण नमुना अर्ज पाहू इच्छिता का?"
+        },
+        "appeal_process": {
+            "en": "You may file an appeal at the Tehsildar office.",
+            "hi": "आप तहसीलदार कार्यालय में अपील कर सकते हैं।",
+            "mr": "आपण तहसीलदार कार्यालयात अपील करू शकता."
+        }
+    }
+}

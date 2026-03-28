@@ -1,0 +1,247 @@
+[
+    {
+        "certificate_type": "caste_certificate",
+        "certificate_name": {
+            "en": "Caste Certificate",
+            "mr": "जात प्रमाणपत्र",
+            "hi": "जाति प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/caste_certificate_sample.pdf",
+            "language_type": "bilingual"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "non_creamy_layer_certificate",
+        "certificate_name": {
+            "en": "Non-Creamy Layer Certificate",
+            "mr": "नॉन-क्रीमी लेयर प्रमाणपत्र",
+            "hi": "नॉन-क्रीमी लेयर प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/non_creamy_layer_certificate_sample.pdf",
+            "language_type": "bilingual"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "income_certificate",
+        "certificate_name": {
+            "en": "Income Certificate",
+            "mr": "उत्पन्न प्रमाणपत्र",
+            "hi": "आय प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/income_certificate_sample.pdf",
+            "language_type": "bilingual"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "residence_certificate",
+        "certificate_name": {
+            "en": "Residence Certificate",
+            "mr": "रहिवासी प्रमाणपत्र",
+            "hi": "निवास प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/residence_certificate_sample.pdf",
+            "language_type": "bilingual"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "senior_citizen_certificate",
+        "certificate_name": {
+            "en": "Senior Citizen Certificate",
+            "mr": "ज्येष्ठ नागरिक प्रमाणपत्र",
+            "hi": "वरिष्ठ नागरिक प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/senior_citizen_certificate_sample.pdf",
+            "language_type": "bilingual"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "women_30_percent_reservation_certificate",
+        "certificate_name": {
+            "en": "30% Women Reservation Certificate",
+            "mr": "३०% महिला आरक्षण प्रमाणपत्र",
+            "hi": "30% महिला आरक्षण प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/women_30_percent_reservation_certificate_sample.pdf",
+            "language_type": "mr_only"
+        },
+        "language_notice": {
+            "en": "This certificate is officially issued only in Marathi.",
+            "mr": "हे प्रमाणपत्र अधिकृतपणे केवळ मराठीत जारी केले जाते.",
+            "hi": "यह प्रमाण पत्र आधिकारिक रूप से केवल मराठी में जारी किया जाता है।"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "age_nationality_domicile_certificate",
+        "certificate_name": {
+            "en": "Age, Nationality and Domicile Certificate",
+            "mr": "वय, राष्ट्रीयत्व व अधिवास प्रमाणपत्र",
+            "hi": "आयु, राष्ट्रीयता एवं निवास प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/age_nationality_domicile_certificate_sample.pdf",
+            "language_type": "mr_only"
+        },
+        "language_notice": {
+            "en": "This certificate is officially issued only in Marathi.",
+            "mr": "हे प्रमाणपत्र अधिकृतपणे केवळ मराठीत जारी केले जाते.",
+            "hi": "यह प्रमाण पत्र आधिकारिक रूप से केवल मराठी में जारी किया जाता है।"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "solvency_certificate",
+        "certificate_name": {
+            "en": "Solvency Certificate",
+            "mr": "सॉल्व्हन्सी प्रमाणपत्र",
+            "hi": "सॉल्वेंसी प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/solvency_certificate_sample.pdf",
+            "language_type": "mr_only"
+        },
+        "language_notice": {
+            "en": "This certificate is officially issued only in Marathi.",
+            "mr": "हे प्रमाणपत्र अधिकृतपणे केवळ मराठीत जारी केले जाते.",
+            "hi": "यह प्रमाण पत्र आधिकारिक रूप से केवल मराठी में जारी किया जाता है।"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "economically_weaker_section_certificate",
+        "certificate_name": {
+            "en": "Economically Weaker Section Certificate",
+            "mr": "आर्थिकदृष्ट्या दुर्बल घटक प्रमाणपत्र",
+            "hi": "आर्थिक रूप से कमजोर वर्ग प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/economically_weaker_section_certificate_sample.pdf",
+            "language_type": "mr_only"
+        },
+        "language_notice": {
+            "en": "This certificate is officially issued only in Marathi.",
+            "mr": "हे प्रमाणपत्र अधिकृतपणे केवळ मराठीत जारी केले जाते.",
+            "hi": "यह प्रमाण पत्र आधिकारिक रूप से केवल मराठी में जारी किया जाता है।"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    },
+    {
+        "certificate_type": "heir_certificate",
+        "certificate_name": {
+            "en": "Heir Certificate",
+            "mr": "वारस प्रमाणपत्र",
+            "hi": "उत्तराधिकारी प्रमाण पत्र"
+        },
+        "sample_pdf": {
+            "path": "/static/samples/heir_certificate_sample.pdf",
+            "language_type": "mr_only"
+        },
+        "language_notice": {
+            "en": "This certificate is officially issued only in Marathi.",
+            "mr": "हे प्रमाणपत्र अधिकृतपणे केवळ मराठीत जारी केले जाते.",
+            "hi": "यह प्रमाण पत्र आधिकारिक रूप से केवल मराठी में जारी किया जाता है।"
+        },
+        "issuing_authority": {
+            "en": "Office of the Tehsildar",
+            "mr": "तहसीलदार कार्यालय",
+            "hi": "तहसीलदार कार्यालय"
+        },
+        "disclaimer": {
+            "en": "This is an official sample certificate provided for reference only.",
+            "mr": "हे अधिकृत नमुना प्रमाणपत्र केवळ संदर्भासाठी आहे.",
+            "hi": "यह आधिकारिक नमूना प्रमाण पत्र केवल संदर्भ हेतु है।"
+        }
+    }
+]

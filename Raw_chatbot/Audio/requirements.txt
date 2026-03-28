@@ -1,0 +1,21 @@
+# Use a modern version of Faiss
+faiss-cpu>=1.8.0 
+
+# Modern FastAPI & Pydantic (Keep these)
+fastapi==0.129.0
+pydantic==2.12.5
+
+# Step back slightly on NumPy for better compatibility
+numpy>=1.26.0,<2.1.0
+pandas>=2.0.0,<3.0.0
+
+# Helpers
+python-dotenv==1.2.1
+requests==2.32.5
+tqdm==4.67.3
+uvicorn  # You'll need this to run FastAPI
+
+# For voice input
+openai-whisper
+torch
+soundFile

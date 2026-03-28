@@ -1,0 +1,109 @@
+{
+    "certificate_id": "women_30_percent_reservation_certificate",
+    "certificate_name": {
+        "en": "30% Women Reservation",
+        "hi": "30% महिला आरक्षण प्रमाण पत्र",
+        "mr": "30% महिला आरक्षण प्रमाणपत्र"
+    },
+    "documents": {
+        "mandatory": [
+            {
+                "doc_id": "school_leaving_certificate",
+                "name": {
+                    "en": "School Leaving Certificate",
+                    "hi": "विद्यालय त्याग प्रमाण पत्र",
+                    "mr": "शाळा सोडल्याचे प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "affidavit_sample_b",
+                "name": {
+                    "en": "Affidavit (Sample B)",
+                    "hi": "शपथ पत्र (नमूना B)",
+                    "mr": "प्रतिज्ञापत्र (नमुना B)"
+                }
+            },
+            {
+                "doc_id": "affidavit_sample_c",
+                "name": {
+                    "en": "Affidavit (Sample C)",
+                    "hi": "शपथ पत्र (नमूना C)",
+                    "mr": "प्रतिज्ञापत्र (नमुना C)"
+                }
+            },
+            {
+                "doc_id": "income_certificate_last_3_years",
+                "name": {
+                    "en": "Income Certificate (Last 3 Years)",
+                    "hi": "आय प्रमाण पत्र (पिछले 3 वर्षों का)",
+                    "mr": "उत्पन्न प्रमाणपत्र (मागील 3 वर्षांचे)"
+                }
+            },
+            {
+                "doc_id": "income_tax_statement_form_16",
+                "name": {
+                    "en": "Income Tax Statement / Form 16",
+                    "hi": "आयकर विवरण / फॉर्म 16",
+                    "mr": "आयकर विवरणपत्र / फॉर्म 16"
+                }
+            }
+        ],
+        "required": [
+            {
+                "doc_id": "aadhaar_card",
+                "name": {
+                    "en": "Aadhaar Card",
+                    "hi": "आधार कार्ड",
+                    "mr": "आधार कार्ड"
+                }
+            },
+            {
+                "doc_id": "electricity_bill",
+                "name": {
+                    "en": "Electricity Bill",
+                    "hi": "बिजली बिल",
+                    "mr": "वीज बिल"
+                }
+            },
+            {
+                "doc_id": "marriage_registration_certificate",
+                "name": {
+                    "en": "Marriage Registration Certificate",
+                    "hi": "विवाह पंजीकरण प्रमाण पत्र",
+                    "mr": "विवाह नोंदणी प्रमाणपत्र"
+                }
+            },
+            {
+                "doc_id": "government_gazette",
+                "name": {
+                    "en": "Government Gazette",
+                    "hi": "सरकारी राजपत्र",
+                    "mr": "शासकीय राजपत्र"
+                }
+            }
+        ],
+        "optional": []
+    },
+    "issuing_authority": {
+        "en": "Tehsildar Office",
+        "hi": "तहसीलदार कार्यालय",
+        "mr": "तहसीलदार कार्यालय"
+    },
+    "suggestions": {
+        "processing_time": {
+            "en": "Processing time is usually 7–14 working days.",
+            "hi": "प्रोसेसिंग समय आमतौर पर 7–14 कार्य दिवस होता है।",
+            "mr": "प्रक्रिया कालावधी साधारणतः 7–14 कार्य दिवस असतो."
+        },
+        "sample_application": {
+            "en": "Would you like to see a sample application format?",
+            "hi": "क्या आप नमूना आवेदन देखना चाहेंगे?",
+            "mr": "आपण नमुना अर्ज पाहू इच्छिता का?"
+        },
+        "appeal_process": {
+            "en": "You may file an appeal at the Tehsildar office.",
+            "hi": "आप तहसीलदार कार्यालय में अपील कर सकते हैं।",
+            "mr": "आपण तहसीलदार कार्यालयात अपील करू शकता."
+        }
+    }
+}

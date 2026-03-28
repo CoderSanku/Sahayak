@@ -1,0 +1,208 @@
+[
+    {
+        "certificate_type": "caste_certificate",
+        "certificate_name": "Caste Certificate",
+        "mandatory_documents": [
+            "Applicant Affidavit (Sample 2)",
+            "Guardian Affidavit (Claim 3)"
+        ],
+        "required_documents": [
+            "Birth Certificate",
+            "Village Sample No.1/14",
+            "School Leaving Certificate",
+            "Bonafide Certificate",
+            "Service Book",
+            "Caste Evidence (Pre-cutoff date)"
+        ],
+        "optional_documents": [
+            "Aadhaar Card",
+            "Electricity Bill",
+            "Telephone Bill",
+            "Passport",
+            "Ration Card",
+            "Residence Proof"
+        ],
+        "eligibility_cutoff_dates": {
+            "OBC/SBC": "1967-10-13",
+            "NT/VJNT": "1961-11-26",
+            "SC/ST": "1950-08-10"
+        },
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "non_creamy_layer_certificate",
+        "certificate_name": "Non-Creamy Layer Certificate",
+        "mandatory_documents": [
+            "Caste Certificate",
+            "School Leaving Certificate",
+            "Affidavit (Sample B)",
+            "Affidavit (Sample C)",
+            "Income Certificate (Last 3 Years)",
+            "Income Tax Statement / Form 16"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill",
+            "Marriage Registration Certificate",
+            "Government Gazette"
+        ],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "women_30_percent_reservation_certificate",
+        "certificate_name": "30% Women Reservation",
+        "mandatory_documents": [
+            "School Leaving Certificate",
+            "Affidavit (Sample B)",
+            "Affidavit (Sample C)",
+            "Income Certificate (Last 3 Years)",
+            "Income Tax Statement / Form 16"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Electricity Bill",
+            "Marriage Registration Certificate",
+            "Government Gazette"
+        ],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "residence_certificate",
+        "certificate_name": "Residence Certificate",
+        "mandatory_documents": [
+            "Birth Certificate",
+            "School Leaving Certificate",
+            "Passport",
+            "Employment Certificate (Government / Semi-Government)",
+            "Non-Residence Certificate from Other State Authority",
+            "Marriage Registration Certificate",
+            "Government Gazette",
+            "Educational Records"
+        ],
+        "required_documents": [],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "age_nationality_domicile_certificate",
+        "certificate_name": "Age, Nationality and Domicile Certificate",
+        "mandatory_documents": [
+            "Electricity Bill",
+            "Government Letter",
+            "Telephone Bill",
+            "Driving License",
+            "Passport",
+            "Revenue Record",
+            "Voter List",
+            "Tenant Receipt",
+            "Birth Certificate",
+            "School Leaving Certificate",
+            "Employment Certificate (Government / Semi-Government)",
+            "Parent Residence Certificate",
+            "Non-Residence Certificate (If Not Residing for 10 Years)",
+            "Marriage Registration Certificate",
+            "Government Gazette",
+            "Educational Records"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill",
+            "Applicant Signature"
+        ],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "income_certificate",
+        "certificate_name": "Income Certificate",
+        "mandatory_documents": [
+            "Income Tax Statement / Form 16",
+            "Pay Certificate (Current Financial Year)",
+            "Village Revenue Officer Income Report"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill",
+            "Residence Proof",
+            "Affidavit",
+            "Self Declaration"
+        ],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "senior_citizen_certificate",
+        "certificate_name": "Senior Citizen Certificate",
+        "mandatory_documents": [
+            "Birth Certificate",
+            "PAN Card",
+            "Aadhaar Card",
+            "Voter ID Card",
+            "School Certificate"
+        ],
+        "required_documents": [
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill",
+            "Passport Size Photograph",
+            "Society Certificate"
+        ],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "solvency_certificate",
+        "certificate_name": "Solvency Certificate",
+        "mandatory_documents": [
+            "Aadhaar Card",
+            "PAN Card",
+            "Applicant Photograph",
+            "Share Certificate",
+            "Society Disapproval Certificate",
+            "Property Valuation Report",
+            "Bank Order Copy",
+            "Khata Extract",
+            "Electricity Bill",
+            "Society Maintenance Receipt",
+            "Ration Card",
+            "House Ownership Certificate",
+            "Gallery Ownership Certificate",
+            "Affidavit (₹100 Stamp Paper)"
+        ],
+        "required_documents": [],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "economically_weaker_section_certificate",
+        "certificate_name": "Economically Weaker Section (EWS) Certificate",
+        "mandatory_documents": [
+            "Birth Certificate",
+            "Income Certificate",
+            "Income Tax Statement / Form 16",
+            "Maharashtra Residence Proof (Pre-1967)",
+            "School Certificate",
+            "Service Book",
+            "Birth-Death Certificate",
+            "Property Sheet",
+            "Aadhaar Card",
+            "Ration Card",
+            "Electricity Bill"
+        ],
+        "required_documents": [],
+        "issuing_authority": "Tehsildar Office"
+    },
+    {
+        "certificate_type": "heir_certificate",
+        "certificate_name": "Heir Certificate",
+        "mandatory_documents": [
+            "Mill Worker Proof",
+            "MHADA House Proof",
+            "PAN Card (All Heirs)",
+            "Government Gazette (Name Change / Married Heirs)",
+            "Applicant Affidavit",
+            "Newspaper Public Notice",
+            "Gram Revenue Officer Inquiry Report"
+        ],
+        "required_documents": [],
+        "issuing_authority": "Tehsildar Office"
+    }
+]

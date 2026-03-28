@@ -1,0 +1,109 @@
+{
+    "certificate_id": "income_certificate",
+    "certificate_name": {
+        "en": "Income Certificate",
+        "hi": "आय प्रमाण पत्र",
+        "mr": "उत्पन्न प्रमाणपत्र"
+    },
+    "documents": {
+        "mandatory": [
+            {
+                "doc_id": "income_tax_statement_form_16",
+                "name": {
+                    "en": "Income Tax Statement / Form 16",
+                    "hi": "आयकर विवरण / फॉर्म 16",
+                    "mr": "आयकर विवरणपत्र / फॉर्म 16"
+                }
+            },
+            {
+                "doc_id": "pay_certificate_current_financial_year",
+                "name": {
+                    "en": "Pay Certificate (Current Financial Year)",
+                    "hi": "वेतन प्रमाण पत्र (चालू वित्तीय वर्ष)",
+                    "mr": "पगार प्रमाणपत्र (चालू आर्थिक वर्ष)"
+                }
+            },
+            {
+                "doc_id": "village_revenue_officer_income_report",
+                "name": {
+                    "en": "Village Revenue Officer Income Report",
+                    "hi": "ग्राम राजस्व अधिकारी आय प्रतिवेदन",
+                    "mr": "ग्राम महसूल अधिकारी उत्पन्न अहवाल"
+                }
+            }
+        ],
+        "required": [
+            {
+                "doc_id": "aadhaar_card",
+                "name": {
+                    "en": "Aadhaar Card",
+                    "hi": "आधार कार्ड",
+                    "mr": "आधार कार्ड"
+                }
+            },
+            {
+                "doc_id": "ration_card",
+                "name": {
+                    "en": "Ration Card",
+                    "hi": "राशन कार्ड",
+                    "mr": "रेशन कार्ड"
+                }
+            },
+            {
+                "doc_id": "electricity_bill",
+                "name": {
+                    "en": "Electricity Bill",
+                    "hi": "बिजली बिल",
+                    "mr": "वीज बिल"
+                }
+            },
+            {
+                "doc_id": "residence_proof",
+                "name": {
+                    "en": "Residence Proof",
+                    "hi": "निवास प्रमाण",
+                    "mr": "रहिवासी पुरावा"
+                }
+            },
+            {
+                "doc_id": "general_affidavit",
+                "name": {
+                    "en": "Affidavit",
+                    "hi": "शपथ पत्र",
+                    "mr": "प्रतिज्ञापत्र"
+                }
+            },
+            {
+                "doc_id": "self_declaration",
+                "name": {
+                    "en": "Self Declaration",
+                    "hi": "स्व-घोषणा",
+                    "mr": "स्वयंघोषणा"
+                }
+            }
+        ],
+        "optional": []
+    },
+    "issuing_authority": {
+        "en": "Tehsildar Office",
+        "hi": "तहसीलदार कार्यालय",
+        "mr": "तहसीलदार कार्यालय"
+    },
+    "suggestions": {
+        "processing_time": {
+            "en": "Processing time is usually 7–14 working days.",
+            "hi": "प्रोसेसिंग समय आमतौर पर 7–14 कार्य दिवस होता है।",
+            "mr": "प्रक्रिया कालावधी साधारणतः 7–14 कार्य दिवस असतो."
+        },
+        "sample_application": {
+            "en": "Would you like to see a sample application format?",
+            "hi": "क्या आप नमूना आवेदन देखना चाहेंगे?",
+            "mr": "आपण नमुना अर्ज पाहू इच्छिता का?"
+        },
+        "appeal_process": {
+            "en": "You may file an appeal at the Tehsildar office.",
+            "hi": "आप तहसीलदार कार्यालय में अपील कर सकते हैं।",
+            "mr": "आपण तहसीलदार कार्यालयात अपील करू शकता."
+        }
+    }
+}

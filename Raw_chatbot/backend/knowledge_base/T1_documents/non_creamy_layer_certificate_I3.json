@@ -1,0 +1,40 @@
+{
+    "doc_id": "NCL_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Supporting Documents for Non-Creamy Layer Certificate",
+        "hi": "नॉन क्रीमी लेयर प्रमाणपत्र हेतु सहायक दस्तावेज",
+        "mr": "नॉन क्रीमी लेयर प्रमाणपत्रासाठी सहाय्यक कागदपत्रे"
+    },
+    "content": {
+        "en": "Supporting documents may be submitted to establish identity, residence, or marital status where required. These documents are considered supplementary and may assist in verification but do not replace mandatory documents.",
+        "hi": "जहां आवश्यक हो, पहचान, निवास या वैवाहिक स्थिति सिद्ध करने के लिए सहायक दस्तावेज प्रस्तुत किए जा सकते हैं। ये दस्तावेज अनिवार्य दस्तावेजों का विकल्प नहीं हैं।",
+        "mr": "आवश्यक असल्यास ओळख, रहिवास किंवा वैवाहिक स्थिती सिद्ध करण्यासाठी सहाय्यक कागदपत्रे सादर करता येतात. ही कागदपत्रे अनिवार्य कागदपत्रांचा पर्याय नाहीत."
+    },
+    "language": "en",
+    "keywords": {
+        "en": [
+            "supporting documents",
+            "non-creamy layer",
+            "verification"
+        ],
+        "hi": [
+            "सहायक दस्तावेज",
+            "नॉन क्रीमी लेयर",
+            "सत्यापन"
+        ],
+        "mr": [
+            "सहाय्यक कागदपत्रे",
+            "नॉन क्रीमी लेयर",
+            "पडताळणी"
+        ]
+    },
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "non_creamy_layer_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}

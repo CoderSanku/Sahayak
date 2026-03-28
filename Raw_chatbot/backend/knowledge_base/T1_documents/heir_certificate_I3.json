@@ -1,0 +1,23 @@
+{
+    "doc_id": "HEIR_I3",
+    "topic_id": "T1",
+    "intent_id": "I3",
+    "title": {
+        "en": "Alternative Handling for Heir Certificate",
+        "hi": "वारिस प्रमाणपत्र हेतु वैकल्पिक प्रक्रिया",
+        "mr": "वारस प्रमाणपत्रासाठी पर्यायी प्रक्रिया"
+    },
+    "content": {
+        "en": "In case of disputes or missing records, additional verification, court orders, or extended inquiry may be required.",
+        "hi": "विवाद या अभिलेखों की कमी की स्थिति में अतिरिक्त सत्यापन या न्यायालय आदेश आवश्यक हो सकते हैं।",
+        "mr": "विवाद किंवा नोंदी नसल्यास अतिरिक्त पडताळणी किंवा न्यायालयीन आदेश आवश्यक असू शकतात."
+    },
+    "language": "en",
+    "metadata": {
+        "state": "Maharashtra",
+        "certificate_type": "heir_certificate",
+        "last_updated": "2026-02-08",
+        "source": "government",
+        "confidence_level": "medium"
+    }
+}
