@@ -1,6 +1,6 @@
 # backend/engine/certificate_resolver.py
 
-from backend.engine.certificate_loader import CertificateLoader
+from engine.certificate_loader import CertificateLoader
 from difflib import get_close_matches
 import re
 

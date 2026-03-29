@@ -1,12 +1,12 @@
-# from backend.engine.certificate_engine import CertificateEngine
-from backend.engine.eligibility_engine import EligibilityEngine
-from backend.engine.missing_info_engine import MissingInfoEngine
-from backend.engine.followup.followup_decision_engine import FollowupDecisionEngine
-from backend.session.session_updater import update_eligibility, update_workflow
-from backend.engine.followup.decision_types import Actions
-from backend.session.session_manager import create_session
-from backend.session.session_updater import set_active_certificate
-from backend.engine.certificate_resolver import CertificateResolver
+# from engine.certificate_engine import CertificateEngine
+from engine.eligibility_engine import EligibilityEngine
+from engine.missing_info_engine import MissingInfoEngine
+from engine.followup.followup_decision_engine import FollowupDecisionEngine
+from session.session_updater import update_eligibility, update_workflow
+from engine.followup.decision_types import Actions
+from session.session_manager import create_session
+from session.session_updater import set_active_certificate
+from engine.certificate_resolver import CertificateResolver
 
 
 class GuidanceEngine:

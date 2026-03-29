@@ -1,7 +1,7 @@
 import json
 import os
 import numpy as np
-from backend.services.embedding_service import get_embedding
+from services.embedding_service import get_embedding
 
 
 # -------------------------------------------------

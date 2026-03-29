@@ -1,9 +1,9 @@
 from typing import Dict, List
-from backend.models.missing_info_model import (
+from models.missing_info_model import (
     MissingDocument,
     MissingInfoResponse
 )
-from backend.config.scheme_requirements import SCHEME_REQUIREMENTS
+from config.scheme_requirements import SCHEME_REQUIREMENTS
 
 
 class MissingInfoEngine:
