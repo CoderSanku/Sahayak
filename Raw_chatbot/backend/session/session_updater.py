@@ -1,4 +1,4 @@
-from ..engine.input_normalizer import normalize_field
+from engine.input_normalizer import normalize_field
 
 def set_active_certificate(session, cert_id):
     session["active_certificate_id"] = cert_id

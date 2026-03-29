@@ -1,4 +1,4 @@
-from ..engine.orchestrator import GuidanceOrchestrator
+from engine.orchestrator import GuidanceOrchestrator
 
 
 class GuidanceService:

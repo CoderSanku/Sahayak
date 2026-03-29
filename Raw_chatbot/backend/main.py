@@ -1,3 +1,5 @@
+import sys
+import os
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -6,6 +8,8 @@ from routes import guidance_routes, voice_routes, location_routes
 from routes.sample_routes import router as sample_router
 from routes.chat import router as chat_router
 from routes.status_routes import router as status_router
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 app = FastAPI()
 

@@ -1,7 +1,7 @@
 # backend/routes/sample_routes.py
 
 from fastapi import APIRouter, Query
-from ..services.service_container import container
+from services.service_container import container
 
 router = APIRouter(prefix="/samples", tags=["Sample Certificates"])
 

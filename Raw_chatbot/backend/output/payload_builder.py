@@ -1,4 +1,4 @@
-from ..engine.utils import enforce_language_integrity
+from engine.utils import enforce_language_integrity
 
 
 def build_response_payload(

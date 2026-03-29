@@ -1,4 +1,4 @@
-from ..session.session_updater import set_active_certificate
+from session.session_updater import set_active_certificate
 
 
 class GuidanceOrchestrator:

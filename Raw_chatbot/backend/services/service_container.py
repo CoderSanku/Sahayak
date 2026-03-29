@@ -4,18 +4,18 @@ class ServiceContainer:
 
         # -------- Core Logic --------
         from .intent_classifier import IntentClassifier
-        from ..engine.certificate_engine import CertificateEngine
-        from ..engine.document_engine import DocumentEngine
-        from ..engine.eligibility_engine import EligibilityEngine
-        from ..engine.missing_info_engine import MissingInfoEngine
-        from ..engine.followup.followup_decision_engine import FollowupDecisionEngine
+        from engine.certificate_engine import CertificateEngine
+        from engine.document_engine import DocumentEngine
+        from engine.eligibility_engine import EligibilityEngine
+        from engine.missing_info_engine import MissingInfoEngine
+        from engine.followup.followup_decision_engine import FollowupDecisionEngine
         from .voice_service import VoiceService
 
         # -------- Functional Modules --------
-        from ..session import session_manager
-        from ..engine import suggestion_engine
-        from ..engine import workflow_completion_engine
-        from ..output.payload_builder import build_response_payload
+        from session import session_manager
+        from engine import suggestion_engine
+        from engine import workflow_completion_engine
+        from output.payload_builder import build_response_payload
 
         # -------- Phase 3 --------
         from .guidance_service import GuidanceService

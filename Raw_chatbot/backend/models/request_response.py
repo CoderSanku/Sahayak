@@ -1,5 +1,5 @@
-from ..engine.certificate_loader import CertificateLoader
-from ..output.payload_builder import build_response_payload
+from engine.certificate_loader import CertificateLoader
+from output.payload_builder import build_response_payload
 
 
 class ResponsePayload:

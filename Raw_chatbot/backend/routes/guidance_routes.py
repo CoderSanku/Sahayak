@@ -1,16 +1,16 @@
 from fastapi import APIRouter
-from ..services.guidance_service import GuidanceService
-from ..session.session_manager import (
+from services.guidance_service import GuidanceService
+from session.session_manager import (
     create_session,
     get_session_data,
     update_session
 )
-from ..models.guidance_models import (
+from models.guidance_models import (
     StartGuidanceRequest,
     ContinueGuidanceRequest,
     DebugSessionRequest
 )
-from ..session.session_schema import initialize_session
+from session.session_schema import initialize_session
 import uuid
 
 

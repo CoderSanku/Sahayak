@@ -3,8 +3,8 @@
 from fastapi import APIRouter, UploadFile, File
 from typing import Optional
 
-from ..engine.input_normalizer import normalize_input
-from ..services.service_container import ServiceContainer
+from engine.input_normalizer import normalize_input
+from services.service_container import ServiceContainer
 
 router = APIRouter(prefix="/voice", tags=["Voice"])
 

@@ -1,8 +1,8 @@
 from fastapi import APIRouter
-from ..services.intent_classifier import IntentClassifier
-from ..engine.certificate_engine import CertificateEngine
-from ..services.sample_certificate_service import SampleCertificateService
-from ..services.location_service import LocationService  # ✅ NEW
+from services.intent_classifier import IntentClassifier
+from engine.certificate_engine import CertificateEngine
+from services.sample_certificate_service import SampleCertificateService
+from services.location_service import LocationService  # ✅ NEW
 
 router = APIRouter(prefix="/chat")
 

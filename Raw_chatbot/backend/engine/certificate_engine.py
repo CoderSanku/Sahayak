@@ -4,7 +4,7 @@ from .certificate_loader import CertificateLoader
 from .eligibility_engine import EligibilityEngine
 from .missing_info_engine import MissingInfoEngine
 from .followup.followup_decision_engine import FollowupDecisionEngine
-from ..models.request_response import ResponsePayload
+from models.request_response import ResponsePayload
 from .profile_validator import validate_user_profile
 
 
