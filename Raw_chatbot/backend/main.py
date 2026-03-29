@@ -34,4 +34,4 @@ app.include_router(chat_router)
 app.include_router(status_router)
 
 # Static file serving
-app.mount("/static", StaticFiles(directory="backend/assets"), name="static")
+app.mount("/static", StaticFiles(directory="assets"), name="static")
