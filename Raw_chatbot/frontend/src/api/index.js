@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+const BASE = "https://sahayak-backend-tcc1.onrender.com";
 
 // ─── 1. Get certificate list from registry ───────────────────────────────────
 // GET /chat/ does not return a list; we fetch the registry JSON directly via
