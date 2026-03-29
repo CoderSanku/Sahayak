@@ -13,8 +13,7 @@ __pycache__/
 venv/
 env/
 .venv/
-vector_store\faiss_index.bin
-vector_store\metadata.pkl
+
 
 # IDE
 .vscode
