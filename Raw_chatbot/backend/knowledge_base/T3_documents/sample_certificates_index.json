@@ -7,7 +7,7 @@
             "hi": "जाति प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/caste_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/caste_certificate_sample.pdf",
             "language_type": "bilingual"
         },
         "issuing_authority": {
@@ -29,7 +29,7 @@
             "hi": "नॉन-क्रीमी लेयर प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/non_creamy_layer_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/non_creamy_layer_certificate_sample.pdf",
             "language_type": "bilingual"
         },
         "issuing_authority": {
@@ -51,7 +51,7 @@
             "hi": "आय प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/income_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/income_certificate_sample.pdf",
             "language_type": "bilingual"
         },
         "issuing_authority": {
@@ -73,7 +73,7 @@
             "hi": "निवास प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/residence_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/residence_certificate_sample.pdf",
             "language_type": "bilingual"
         },
         "issuing_authority": {
@@ -95,7 +95,7 @@
             "hi": "वरिष्ठ नागरिक प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/senior_citizen_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/senior_citizen_certificate_sample.pdf",
             "language_type": "bilingual"
         },
         "issuing_authority": {
@@ -117,7 +117,7 @@
             "hi": "30% महिला आरक्षण प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/women_30_percent_reservation_certificate_sample.pdf",
+            "path": "/https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/age_nationality_domicile_certificate_sample.pdf",
             "language_type": "mr_only"
         },
         "language_notice": {
@@ -144,7 +144,7 @@
             "hi": "आयु, राष्ट्रीयता एवं निवास प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/age_nationality_domicile_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/age_nationality_domicile_certificate_sample.pdf",
             "language_type": "mr_only"
         },
         "language_notice": {
@@ -171,7 +171,7 @@
             "hi": "सॉल्वेंसी प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/solvency_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/age_nationality_domicile_certificate_sample.pdf",
             "language_type": "mr_only"
         },
         "language_notice": {
@@ -198,7 +198,7 @@
             "hi": "आर्थिक रूप से कमजोर वर्ग प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/economically_weaker_section_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/economically_weaker_section_certificate_sample.pdf",
             "language_type": "mr_only"
         },
         "language_notice": {
@@ -225,7 +225,7 @@
             "hi": "उत्तराधिकारी प्रमाण पत्र"
         },
         "sample_pdf": {
-            "path": "/static/samples/heir_certificate_sample.pdf",
+            "path": "https://btxlouckntpgwguzzerr.supabase.co/storage/v1/object/public/sample-certificates/heir_certificate_sample.pdf",
             "language_type": "mr_only"
         },
         "language_notice": {
