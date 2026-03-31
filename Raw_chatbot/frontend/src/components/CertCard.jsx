@@ -11,6 +11,8 @@ import { pdfUrl } from "../api";
 import DocTracker from "./DocTracker";
 
 export default function CertCard({ data, sample, onViewPdf, onBack, lang }) {
+  console.log("CertCard - sample prop:", sample);
+  console.log("CertCard - data prop:", data);
   const [trackerOpen, setTrackerOpen] = useState(false);
 
   const cert = data?.certificate;
@@ -74,7 +76,7 @@ export default function CertCard({ data, sample, onViewPdf, onBack, lang }) {
         <div className="cert-footer">
           <span className="authority-badge">🏛 {authority}</span>
           {sample?.found && sample?.sample_pdf_url && (
-            <button className="pdf-btn" onClick={() => onViewPdf(pdfUrl(sample.sample_pdf_url))}>
+            <button className="pdf-btn" onClick={() => { console.log("Sample PDF URL:", sample.sample_pdf_url); onViewPdf(pdfUrl(sample.sample_pdf_url)); }}>
               📄 View Sample PDF
             </button>
           )}

@@ -2,50 +2,49 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { supabase } from "../lib/supabase.js";
+import { motion } from "framer-motion";
+import {
+  FileText, Clock, CheckCircle, PartyPopper,
+  XCircle, MessageSquare, ShieldCheck, ChevronRight,
+  ArrowUpRight, BarChart3, Activity
+} from "lucide-react";
 
-function StatCard({ emoji, label, value, sub, color, onClick }) {
+function StatCard({ icon: Icon, label, value, color, bg, border, onClick }) {
   return (
-    <div
+    <motion.div
+      whileHover={{ y: -4, boxShadow: "0 12px 20px -10px rgba(0,0,0,0.1)" }}
       onClick={onClick}
-      style={{
-        background: "#fff", borderRadius: 14, padding: "20px 22px",
-        boxShadow: "0 1px 4px rgba(0,0,0,0.07)",
-        border: `1.5px solid #E5E7EB`,
-        cursor: onClick ? "pointer" : "default",
-        transition: "all 0.15s",
-        borderLeft: `4px solid ${color}`,
-      }}
-      onMouseEnter={(e) => { if (onClick) e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.12)"; }}
-      onMouseLeave={(e) => { e.currentTarget.style.boxShadow = "0 1px 4px rgba(0,0,0,0.07)"; }}
+      className={`relative overflow-hidden bg-[#0F172A] border ${border} p-5 rounded-2xl cursor-pointer transition-all group`}
     >
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 10 }}>
-        <span style={{ fontSize: 28 }}>{emoji}</span>
-        <span style={{
-          fontSize: 28, fontWeight: 800, color,
-        }}>{value ?? <span className="spinner" />}</span>
+      <div className="flex items-start justify-between">
+        <div className={`p-3 rounded-xl ${bg} ${color}`}>
+          <Icon className="w-6 h-6" />
+        </div>
+        <div className={`text-2xl font-black ${color}`}>
+          {value ?? <div className="w-5 h-5 border-2 border-slate-700 border-t-slate-400 rounded-full animate-spin" />}
+        </div>
       </div>
-      <div style={{ fontSize: 13, fontWeight: 700, color: "#374151" }}>{label}</div>
-      {sub && <div style={{ fontSize: 11, color: "#9CA3AF", marginTop: 3 }}>{sub}</div>}
-    </div>
+      <div className="mt-4">
+        <div className="text-[10px] uppercase tracking-widest font-black text-slate-500 mb-1">{label}</div>
+        <div className="flex items-center text-xs font-bold text-slate-300 group-hover:text-white transition-colors">
+          View Details <ChevronRight className="w-3 h-3 ml-1" />
+        </div>
+      </div>
+      {/* Decorative Background Glow */}
+      <div className={`absolute -right-4 -bottom-4 w-24 h-24 rounded-full blur-3xl opacity-10 ${bg}`} />
+    </motion.div>
   );
 }
 
 export default function DashboardPage() {
   const navigate = useNavigate();
   const [stats, setStats] = useState(null);
+  const [recent, setRecent] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function load() {
-      const [
-        { count: totalApps },
-        { count: pendingApps },
-        { count: approvedApps },
-        { count: generatedApps },
-        { count: rejectedApps },
-        { count: totalCmps },
-        { count: pendingCmps },
-        { count: resolvedCmps },
-      ] = await Promise.all([
+    async function loadStats() {
+      const queries = [
         supabase.from("applications").select("*", { count: "exact", head: true }),
         supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "pending"),
         supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "approved"),
@@ -54,127 +53,137 @@ export default function DashboardPage() {
         supabase.from("complaints").select("*", { count: "exact", head: true }),
         supabase.from("complaints").select("*", { count: "exact", head: true }).eq("status", "pending"),
         supabase.from("complaints").select("*", { count: "exact", head: true }).eq("status", "resolved"),
-      ]);
+      ];
 
+      const results = await Promise.all(queries);
       setStats({
-        totalApps, pendingApps, approvedApps, generatedApps, rejectedApps,
-        totalCmps, pendingCmps, resolvedCmps,
+        totalApps: results[0].count,
+        pendingApps: results[1].count,
+        approvedApps: results[2].count,
+        generatedApps: results[3].count,
+        rejectedApps: results[4].count,
+        totalCmps: results[5].count,
+        pendingCmps: results[6].count,
+        resolvedCmps: results[7].count,
       });
+
+      // Load Recent Apps
+      const { data } = await supabase
+        .from("applications")
+        .select("application_id, certificate_name, applicant_name, status, submitted_at")
+        .order("submitted_at", { ascending: false })
+        .limit(6);
+
+      setRecent(data || []);
+      setLoading(false);
     }
-    load();
+    loadStats();
   }, []);
-
-  // Recent applications
-  const [recent, setRecent] = useState([]);
-  useEffect(() => {
-    supabase
-      .from("applications")
-      .select("application_id, certificate_name, applicant_name, status, submitted_at")
-      .order("submitted_at", { ascending: false })
-      .limit(5)
-      .then(({ data }) => setRecent(data || []));
-  }, []);
-
-  const STATUS_COLOR = {
-    pending:   "#F59E0B",
-    approved:  "#2563EB",
-    generated: "#16A34A",
-    rejected:  "#DC2626",
-    reviewed:  "#2563EB",
-    resolved:  "#16A34A",
-    dismissed: "#DC2626",
-  };
 
   const fmt = (iso) => iso
-    ? new Date(iso).toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" })
+    ? new Date(iso).toLocaleDateString("en-IN", { day: "2-digit", month: "short" })
     : "—";
 
   return (
-    <div className="fade-in">
-      <div style={{ marginBottom: 24 }}>
-        <h1 style={{ fontSize: 22, fontWeight: 800, color: "#1A237E" }}>Dashboard</h1>
-        <p style={{ fontSize: 13, color: "#6B7280", marginTop: 4 }}>
-          Live overview of all applications and complaints
-        </p>
+    <div className="p-6 space-y-8 max-w-[1600px] mx-auto">
+      {/* Welcome Header */}
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2 mb-2 text-violet-400 font-bold text-xs uppercase tracking-[0.2em]">
+            <Activity className="w-4 h-4" /> System Overview
+          </div>
+          <h1 className="text-3xl font-black text-white tracking-tight">Admin Dashboard</h1>
+          <p className="text-slate-500 text-sm font-medium mt-1 italic">Real-time metrics for citizen service requests</p>
+        </div>
+        <div className="bg-slate-800/50 border border-slate-700 px-4 py-2 rounded-xl text-xs font-mono text-slate-400">
+          Last Refresh: {new Date().toLocaleTimeString()}
+        </div>
       </div>
 
-      {/* ── APPLICATION STATS ── */}
-      <div style={{ fontSize: 11, fontWeight: 700, color: "#9CA3AF", letterSpacing: 1, textTransform: "uppercase", marginBottom: 10 }}>
-        Applications
-      </div>
-      <div style={{
-        display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 14, marginBottom: 28,
-      }}>
-        <StatCard emoji="📄" label="Total Applications" value={stats?.totalApps}    color="#0048A8" onClick={() => navigate("/applications")} />
-        <StatCard emoji="⏳" label="Pending"            value={stats?.pendingApps}  color="#F59E0B" onClick={() => navigate("/applications?status=pending")} />
-        <StatCard emoji="✅" label="Approved"           value={stats?.approvedApps} color="#2563EB" onClick={() => navigate("/applications?status=approved")} />
-        <StatCard emoji="🎉" label="Generated"          value={stats?.generatedApps}color="#16A34A" onClick={() => navigate("/applications?status=generated")} />
-        <StatCard emoji="❌" label="Rejected"           value={stats?.rejectedApps} color="#DC2626" onClick={() => navigate("/applications?status=rejected")} />
-      </div>
+      {/* Application Metrics Grid */}
+      <section>
+        <div className="flex items-center gap-3 mb-4">
+          <div className="h-[1px] flex-1 bg-slate-800" />
+          <h2 className="text-[10px] font-black text-slate-500 uppercase tracking-[3px]">Service Applications</h2>
+          <div className="h-[1px] flex-1 bg-slate-800" />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <StatCard icon={FileText} label="Total Volume" value={stats?.totalApps} color="text-indigo-400" bg="bg-indigo-400/10" border="border-indigo-400/20" onClick={() => navigate("/applications")} />
+          <StatCard icon={Clock} label="Awaiting Review" value={stats?.pendingApps} color="text-amber-400" bg="bg-amber-400/10" border="border-amber-400/20" onClick={() => navigate("/applications?status=pending")} />
+          <StatCard icon={CheckCircle} label="Verified" value={stats?.approvedApps} color="text-blue-400" bg="bg-blue-400/10" border="border-blue-400/20" onClick={() => navigate("/applications?status=approved")} />
+          <StatCard icon={PartyPopper} label="Certificates Issued" value={stats?.generatedApps} color="text-emerald-400" bg="bg-emerald-400/10" border="border-emerald-400/20" onClick={() => navigate("/applications?status=generated")} />
+          <StatCard icon={XCircle} label="Discrepancies" value={stats?.rejectedApps} color="text-rose-400" bg="bg-rose-400/10" border="border-rose-400/20" onClick={() => navigate("/applications?status=rejected")} />
+        </div>
+      </section>
 
-      {/* ── COMPLAINT STATS ── */}
-      <div style={{ fontSize: 11, fontWeight: 700, color: "#9CA3AF", letterSpacing: 1, textTransform: "uppercase", marginBottom: 10 }}>
-        Complaints
-      </div>
-      <div style={{
-        display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(170px, 1fr))", gap: 14, marginBottom: 32,
-      }}>
-        <StatCard emoji="📝" label="Total Complaints"  value={stats?.totalCmps}   color="#7C3AED" onClick={() => navigate("/complaints")} />
-        <StatCard emoji="⏳" label="Pending"           value={stats?.pendingCmps} color="#F59E0B" onClick={() => navigate("/complaints?status=pending")} />
-        <StatCard emoji="✅" label="Resolved"          value={stats?.resolvedCmps}color="#16A34A" onClick={() => navigate("/complaints?status=resolved")} />
-      </div>
+      {/* Complaint Metrics Grid */}
+      <section>
+        <div className="flex items-center gap-3 mb-4">
+          <div className="h-[1px] flex-1 bg-slate-800" />
+          <h2 className="text-[10px] font-black text-slate-500 uppercase tracking-[3px]">Grievance Desk</h2>
+          <div className="h-[1px] flex-1 bg-slate-800" />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <StatCard icon={MessageSquare} label="Total Complaints" value={stats?.totalCmps} color="text-violet-400" bg="bg-violet-400/10" border="border-violet-400/20" onClick={() => navigate("/complaints")} />
+          <StatCard icon={Clock} label="Open Issues" value={stats?.pendingCmps} color="text-amber-400" bg="bg-amber-400/10" border="border-amber-400/20" onClick={() => navigate("/complaints?status=pending")} />
+          <StatCard icon={ShieldCheck} label="Resolved" value={stats?.resolvedCmps} color="text-emerald-400" bg="bg-emerald-400/10" border="border-emerald-400/20" onClick={() => navigate("/complaints?status=resolved")} />
+        </div>
+      </section>
 
-      {/* ── RECENT APPLICATIONS ── */}
-      <div style={{
-        background: "#fff", borderRadius: 14, padding: "20px 22px",
-        boxShadow: "0 1px 4px rgba(0,0,0,0.07)", border: "1.5px solid #E5E7EB",
-      }}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
-          <div style={{ fontSize: 14, fontWeight: 800, color: "#1A237E" }}>Recent Applications</div>
+      {/* Recent Activity Table */}
+      <section className="bg-[#0F172A] border border-slate-800 rounded-3xl overflow-hidden shadow-2xl shadow-black/50">
+        <div className="px-6 py-5 border-b border-slate-800 flex items-center justify-between bg-slate-800/20">
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-violet-600 rounded-lg text-white">
+              <BarChart3 className="w-4 h-4" />
+            </div>
+            <h3 className="text-sm font-black text-white uppercase tracking-wider">Live Activity Feed</h3>
+          </div>
           <button
             onClick={() => navigate("/applications")}
-            style={{
-              fontSize: 12, fontWeight: 700, color: "#0048A8",
-              background: "none", border: "none", padding: 0,
-            }}
+            className="group flex items-center gap-2 text-xs font-bold text-violet-400 hover:text-violet-300 transition-colors"
           >
-            View all →
+            Full Ledger <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
           </button>
         </div>
 
-        {recent.length === 0 ? (
-          <div style={{ fontSize: 13, color: "#9CA3AF", textAlign: "center", padding: "16px 0" }}>
-            No applications yet
-          </div>
-        ) : (
-          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 12 }}>
+        <div className="overflow-x-auto">
+          <table className="w-full text-left border-collapse">
             <thead>
-              <tr style={{ borderBottom: "2px solid #F3F4F6" }}>
-                {["Application ID", "Certificate", "Applicant", "Date", "Status"].map((h) => (
-                  <th key={h} style={{
-                    textAlign: "left", padding: "6px 10px",
-                    fontSize: 11, fontWeight: 700, color: "#9CA3AF",
-                    textTransform: "uppercase", letterSpacing: 0.5,
-                  }}>{h}</th>
+              <tr className="bg-[#1E293B]/30">
+                {["Reference ID", "Service Category", "Citizen Name", "Timestamp", "Current Status"].map((h) => (
+                  <th key={h} className="px-6 py-4 text-[10px] font-black text-slate-500 uppercase tracking-widest">{h}</th>
                 ))}
               </tr>
             </thead>
-            <tbody>
-              {recent.map((r) => (
-                <tr key={r.application_id} style={{ borderBottom: "1px solid #F3F4F6" }}>
-                  <td style={{ padding: "10px 10px", fontFamily: "monospace", fontWeight: 700, color: "#0048A8", fontSize: 11 }}>{r.application_id}</td>
-                  <td style={{ padding: "10px 10px", color: "#374151" }}>{r.certificate_name || "—"}</td>
-                  <td style={{ padding: "10px 10px", color: "#374151" }}>{r.applicant_name || "—"}</td>
-                  <td style={{ padding: "10px 10px", color: "#6B7280" }}>{fmt(r.submitted_at)}</td>
-                  <td style={{ padding: "10px 10px" }}>
-                    <span className={`pill ${r.status}`}>{r.status}</span>
-                  </td>
-                </tr>
-              ))}
+            <tbody className="divide-y divide-slate-800/50 text-slate-300">
+              {loading ? (
+                <tr><td colSpan="5" className="py-12 text-center text-slate-500 italic text-sm">Synchronizing data...</td></tr>
+              ) : recent.length === 0 ? (
+                <tr><td colSpan="5" className="py-12 text-center text-slate-500 italic text-sm">No recent data found</td></tr>
+              ) : (
+                recent.map((r) => (
+                  <tr key={r.application_id} className="hover:bg-slate-800/30 transition-colors cursor-pointer group" onClick={() => navigate("/applications")}>
+                    <td className="px-6 py-4 font-mono text-[11px] font-bold text-violet-400">{r.application_id}</td>
+                    <td className="px-6 py-4">
+                      <span className="text-sm font-bold text-slate-200 group-hover:text-white transition-colors capitalize">
+                        {r.certificate_name?.replace(/_/g, " ") || "—"}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 text-sm font-medium text-slate-400">{r.applicant_name}</td>
+                    <td className="px-6 py-4 text-xs font-mono text-slate-500 uppercase">{fmt(r.submitted_at)}</td>
+                    <td className="px-6 py-4">
+                      <span className={`inline-flex items-center px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-tighter border pill ${r.status}`}>
+                        {r.status}
+                      </span>
+                    </td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
-        )}
-      </div>
+        </div>
+      </section>
     </div>
   );
 }

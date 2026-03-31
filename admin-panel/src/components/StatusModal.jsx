@@ -1,185 +1,168 @@
-// src/components/StatusModal.jsx
-// Reusable modal for updating status + admin_note on any row.
-// Used by both ApplicationsPage and ComplaintsPage.
+StatusModal.jsx
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { X, Save, Info, MessageSquare, CheckCircle2, AlertCircle } from "lucide-react";
 
 export default function StatusModal({
   open,
   onClose,
   onSave,
   saving,
-  row,          // the full record being edited
-  statusOptions, // [{ value, label, color }]
+  row,
+  statusOptions,
   title,
 }) {
   if (!open || !row) return null;
 
   return (
-    <>
-      {/* Overlay */}
-      <div
-        onClick={onClose}
-        style={{
-          position: "fixed", inset: 0, background: "rgba(0,0,0,0.45)",
-          zIndex: 2000, backdropFilter: "blur(2px)",
-        }}
-      />
-
-      {/* Modal */}
-      <div style={{
-        position: "fixed", top: "50%", left: "50%",
-        transform: "translate(-50%, -50%)",
-        background: "#fff", borderRadius: 16,
-        width: 460, maxWidth: "94vw", maxHeight: "90vh",
-        overflowY: "auto",
-        zIndex: 2100,
-        boxShadow: "0 24px 60px rgba(0,0,0,0.22)",
-        animation: "fadeIn 0.18s ease",
-      }}>
-        {/* Header */}
-        <div style={{
-          background: "linear-gradient(135deg, #1A237E, #0048A8)",
-          padding: "18px 22px", borderRadius: "16px 16px 0 0",
-          position: "relative",
-        }}>
-          <div style={{
-            position: "absolute", top: 0, left: 0, right: 0, height: 3,
-            borderRadius: "16px 16px 0 0",
-            background: "linear-gradient(90deg, #FF6B00 33%, #fff 33% 66%, #138808 66%)",
-          }} />
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-            <div style={{ color: "#fff", fontWeight: 800, fontSize: 15 }}>{title}</div>
-            <button
-              onClick={onClose}
-              style={{
-                background: "rgba(255,255,255,0.15)", border: "none",
-                color: "#fff", width: 30, height: 30, borderRadius: "50%",
-                fontSize: 16, cursor: "pointer",
-                display: "flex", alignItems: "center", justifyContent: "center",
-              }}
-            >✕</button>
-          </div>
-        </div>
-
-        {/* Body */}
-        <ModalBody
-          row={row}
-          statusOptions={statusOptions}
-          onClose={onClose}
-          onSave={onSave}
-          saving={saving}
+    <AnimatePresence>
+      <div className="fixed inset-0 z-[150] flex items-center justify-center p-4">
+        {/* Backdrop */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          onClick={onClose}
+          className="absolute inset-0 bg-[#020617]/60 backdrop-blur-md"
         />
+
+        {/* Modal Card */}
+        <motion.div
+          initial={{ scale: 0.9, opacity: 0, y: 20 }}
+          animate={{ scale: 1, opacity: 1, y: 0 }}
+          exit={{ scale: 0.9, opacity: 0, y: 20 }}
+          className="relative w-full max-w-lg bg-[#0F172A] border border-slate-800 rounded-2xl shadow-2xl overflow-hidden z-[160]"
+          onClick={(e) => e.stopPropagation()}
+        >
+          {/* Header with Tricolor Accent */}
+          <div className="relative p-6 border-b border-slate-800 bg-[#1E293B]/30">
+            <div className="absolute top-0 left-0 right-0 h-1 flex">
+              <div className="flex-1 bg-orange-500" />
+              <div className="flex-1 bg-white" />
+              <div className="flex-1 bg-green-600" />
+            </div>
+            
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="p-2 bg-indigo-500/10 rounded-lg">
+                  <AlertCircle className="w-5 h-5 text-indigo-400" />
+                </div>
+                <h3 className="text-white font-bold text-lg tracking-tight">{title}</h3>
+              </div>
+              <button
+                onClick={onClose}
+                className="p-2 text-slate-500 hover:text-white hover:bg-slate-800 rounded-full transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+          </div>
+
+          <ModalBody
+            row={row}
+            statusOptions={statusOptions}
+            onClose={onClose}
+            onSave={onSave}
+            saving={saving}
+          />
+        </motion.div>
       </div>
-    </>
+    </AnimatePresence>
   );
 }
 
-// Separate inner component so it has its own state
-import { useState } from "react";
-
 function ModalBody({ row, statusOptions, onClose, onSave, saving }) {
-  const [status, setStatus]   = useState(row.status || statusOptions[0]?.value);
-  const [note, setNote]       = useState(row.admin_note || "");
+  const [status, setStatus] = useState(row.status || statusOptions[0]?.value);
+  const [note, setNote] = useState(row.admin_note || "");
 
-  const inputStyle = {
-    width: "100%", padding: "10px 12px",
-    border: "1.5px solid #E5E7EB", borderRadius: 8,
-    fontSize: 13, color: "#1C1C2E", background: "#FAFAFA",
-    outline: "none", fontFamily: "inherit",
-  };
-
-  const labelStyle = {
-    fontSize: 12, fontWeight: 700, color: "#374151",
-    display: "block", marginBottom: 6, marginTop: 14,
-  };
-
-  // Read-only info rows
   const infoRows = Object.entries({
-    ...(row.application_id  ? { "Application ID":  row.application_id  } : {}),
-    ...(row.complaint_id    ? { "Complaint ID":     row.complaint_id    } : {}),
-    ...(row.certificate_name ? { "Certificate":     row.certificate_name } : {}),
-    ...(row.complaint_type  ? { "Complaint Type":   row.complaint_type  } : {}),
-    ...(row.applicant_name  ? { "Applicant":        row.applicant_name  } : {}),
-    ...(row.phone           ? { "Phone":            row.phone           } : {}),
-    ...(row.taluka          ? { "Taluka":           row.taluka          } : {}),
-    ...(row.village         ? { "Village":          row.village         } : {}),
-    ...(row.issue_details   ? { "Issue":            row.issue_details   } : {}),
+    ...(row.application_id ? { "ID": row.application_id } : {}),
+    ...(row.complaint_id ? { "ID": row.complaint_id } : {}),
+    ...(row.certificate_name ? { "Type": row.certificate_name } : {}),
+    ...(row.applicant_name ? { "Citizen": row.applicant_name } : {}),
+    ...(row.taluka ? { "Region": `${row.taluka}, ${row.village || ""}` } : {}),
   });
 
   return (
-    <div style={{ padding: "20px 22px 22px" }}>
-      {/* Info grid */}
-      <div style={{
-        background: "#F9FAFB", borderRadius: 10, padding: "12px 14px", marginBottom: 4,
-      }}>
+    <div className="p-6 space-y-6">
+      {/* Information Grid */}
+      <div className="grid grid-cols-2 gap-3 p-4 bg-slate-900/50 rounded-xl border border-slate-800/50">
         {infoRows.map(([k, v]) => (
-          <div key={k} style={{
-            display: "flex", justifyContent: "space-between", alignItems: "flex-start",
-            padding: "5px 0", borderBottom: "1px solid #E5E7EB",
-          }}>
-            <span style={{ fontSize: 11, color: "#9CA3AF", fontWeight: 700, flexShrink: 0, marginRight: 12 }}>{k}</span>
-            <span style={{
-              fontSize: 12, color: "#1C1C2E", fontWeight: 600,
-              textAlign: "right", wordBreak: "break-word", maxWidth: "65%",
-            }}>{v}</span>
+          <div key={k} className="flex flex-col">
+            <span className="text-[10px] uppercase tracking-widest text-slate-500 font-bold">{k}</span>
+            <span className="text-sm text-slate-200 font-medium truncate">{v}</span>
           </div>
         ))}
       </div>
 
-      {/* Status selector */}
-      <label style={labelStyle}>Update Status</label>
-      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-        {statusOptions.map(({ value, label, color }) => (
-          <button
-            key={value}
-            onClick={() => setStatus(value)}
-            style={{
-              padding: "7px 14px", borderRadius: 20, fontSize: 12, fontWeight: 700,
-              border: `2px solid ${status === value ? color : "#E5E7EB"}`,
-              background: status === value ? color : "#fff",
-              color: status === value ? "#fff" : "#6B7280",
-              transition: "all 0.15s",
-            }}
-          >
-            {label}
-          </button>
-        ))}
+      {/* Status Selection */}
+      <div className="space-y-3">
+        <label className="flex items-center gap-2 text-xs font-bold text-slate-400 uppercase tracking-wider">
+          <CheckCircle2 className="w-3.5 h-3.5 text-indigo-400" />
+          Update Workflow Status
+        </label>
+        <div className="flex flex-wrap gap-2">
+          {statusOptions.map(({ value, label, color }) => {
+            const isSelected = status === value;
+            return (
+              <button
+                key={value}
+                onClick={() => setStatus(value)}
+                className={`px-4 py-2 rounded-lg text-xs font-bold transition-all duration-200 border-2 ${
+                  isSelected
+                    ? "bg-indigo-600 border-indigo-500 text-white shadow-lg shadow-indigo-600/20"
+                    : "bg-slate-800/50 border-slate-700 text-slate-400 hover:border-slate-600 hover:text-slate-200"
+                }`}
+              >
+                {label}
+              </button>
+            );
+          })}
+        </div>
       </div>
 
-      {/* Admin note */}
-      <label style={labelStyle}>Admin Note <span style={{ fontWeight: 400, color: "#9CA3AF" }}>(shown to user)</span></label>
-      <textarea
-        value={note}
-        onChange={(e) => setNote(e.target.value)}
-        placeholder="Optional note visible to the citizen in their status panel..."
-        rows={3}
-        style={{ ...inputStyle, resize: "vertical", lineHeight: 1.6 }}
-      />
+      {/* Admin Note Section */}
+      <div className="space-y-3">
+        <label className="flex items-center gap-2 text-xs font-bold text-slate-400 uppercase tracking-wider">
+          <MessageSquare className="w-3.5 h-3.5 text-indigo-400" />
+          Internal Remarks / User Note
+        </label>
+        <textarea
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+          placeholder="Enter comments that will be visible to the citizen..."
+          className="w-full h-28 p-4 bg-slate-900 border border-slate-700 rounded-xl text-sm text-slate-200 placeholder:text-slate-600 focus:outline-none focus:ring-2 focus:ring-indigo-500/50 focus:border-indigo-500 transition-all resize-none"
+        />
+        <p className="text-[10px] text-slate-500 italic">
+          * This note will be synchronized with the citizen-side AI chatbot.
+        </p>
+      </div>
 
-      {/* Buttons */}
-      <div style={{ display: "flex", gap: 10, marginTop: 20 }}>
+      {/* Footer Actions */}
+      <div className="flex gap-3 pt-2">
         <button
           onClick={onClose}
-          style={{
-            flex: 1, padding: "11px",
-            background: "#F9FAFB", border: "1.5px solid #E5E7EB",
-            borderRadius: 10, fontSize: 13, fontWeight: 700, color: "#374151",
-          }}
+          className="flex-1 px-4 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-sm font-bold transition-all"
         >
-          Cancel
+          Discard
         </button>
         <button
           onClick={() => onSave({ status, admin_note: note.trim() || null })}
           disabled={saving}
-          style={{
-            flex: 2, padding: "11px",
-            background: saving ? "#E5E7EB" : "linear-gradient(135deg, #1A237E, #0048A8)",
-            border: "none", borderRadius: 10,
-            fontSize: 13, fontWeight: 800,
-            color: saving ? "#9CA3AF" : "#fff",
-            cursor: saving ? "not-allowed" : "pointer",
-          }}
+          className="flex-[2] flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 disabled:bg-slate-700 disabled:text-slate-500 text-white text-sm font-bold transition-all shadow-lg shadow-indigo-600/20 active:scale-[0.98]"
         >
-          {saving ? "Saving…" : "💾 Save Changes"}
+          {saving ? (
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ repeat: Infinity, duration: 1, ease: "linear" }}
+              className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full"
+            />
+          ) : (
+            <>
+              <Save className="w-4 h-4" />
+              Confirm Changes
+            </>
+          )}
         </button>
       </div>
     </div>
