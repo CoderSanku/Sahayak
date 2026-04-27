@@ -8,6 +8,8 @@ import ComplaintPanel from "./ComplaintPanel";
 import FaqPanel from "./FaqPanel";
 import StatusPanel from "./StatusPanel";
 import ComplaintStatusPanel from "./ComplaintStatusPanel";
+import { HelpCircle } from "lucide-react";
+import { motion } from "framer-motion";
 import {
   fetchCertificateList,
   fetchCertificateInfo,
@@ -484,43 +486,33 @@ export default function ChatBox() {
         <div className="chat-header">
           <div className="header-avatar">🏛️</div>
           <div className="header-info">
-            <div className="header-title">Sahayak · सहायक</div>
+            <div className="header-title">Gram-Sevak Bot · ग्राम-सेवक बॉट</div>
             <div className="header-sub">
               <span className="status-dot" />
               Maharashtra Certificate Guidance
             </div>
           </div>
           {/* FAQ icon button — top right of header */}
-          <button
+          <motion.button
             onClick={() => setFaqOpen(true)}
             title="FAQs / Help"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
             style={{
-              width: 36, height: 36,
+              width: 38, height: 38,
               borderRadius: "50%",
               background: "rgba(255,255,255,0.15)",
               border: "2px solid rgba(255,255,255,0.35)",
               color: "#fff",
-              fontSize: 18,
-              fontWeight: 800,
               cursor: "pointer",
-              display: "flex", alignItems: "center", justifyContent: "center",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
               flexShrink: 0,
-              transition: "background 0.18s, border-color 0.18s, transform 0.18s",
-              lineHeight: 1,
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = "rgba(255,255,255,0.3)";
-              e.currentTarget.style.borderColor = "#fff";
-              e.currentTarget.style.transform = "scale(1.1)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = "rgba(255,255,255,0.15)";
-              e.currentTarget.style.borderColor = "rgba(255,255,255,0.35)";
-              e.currentTarget.style.transform = "scale(1)";
             }}
           >
-            ?
-          </button>
+            <HelpCircle className="w-5 h-5" />
+          </motion.button>
         </div>
 
         <div className="chat-body" ref={bodyRef}>

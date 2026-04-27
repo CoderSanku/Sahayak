@@ -86,9 +86,12 @@ export default function DocTracker({ open, onClose, certName, certId, lang, mand
     : "#16A34A";
 
   // ── Upload handler ───────────────────────────────────────────────────────
-  function handleFileChange(docId, e) {
+  // ✅ REPLACE:
+  function handleFileChange(docId, docName, e) {
     const file = e.target.files?.[0];
     if (!file) return;
+    // ✅ Attach the requirement name to the file object
+    file._docName = docName;
     setUploads((prev) => ({ ...prev, [docId]: file }));
   }
 
@@ -158,7 +161,7 @@ export default function DocTracker({ open, onClose, certName, certId, lang, mand
               accept=".pdf,.jpg,.jpeg,.png"
               style={{ display: "none" }}
               ref={(el) => (fileRefs.current[doc.id] = el)}
-              onChange={(e) => handleFileChange(doc.id, e)}
+                onChange={(e) => handleFileChange(doc.id, doc.name, e)}
             />
             <button onClick={() => fileRefs.current[doc.id]?.click()} style={{
               background: "linear-gradient(135deg, #0048A8, #1A237E)",

@@ -1,50 +1,72 @@
-// src/components/LocationCard.jsx
-// Renders office location from GET /location/nearest-office response
-// Response shape: { office_id, taluka, village, address, incharge, contact, map:{url} }
-// or { message: "not found" }
+import { motion } from "framer-motion";
+import {
+  MapPin, Home, Navigation, User,
+  Phone, Map, AlertCircle,
+} from "lucide-react";
 
 export default function LocationCard({ data }) {
   if (!data) return null;
 
-  // Backend might return a plain message string when not found
   if (data.message && !data.office_id) {
-    return <div className="bubble bot">📍 {data.message}</div>;
+    return (
+      <div className="bubble bot" style={{ display: "flex", alignItems: "center", gap: 6 }}>
+        <AlertCircle style={{ width: 15, height: 15, color: "#f59e0b" }} />
+        {data.message}
+      </div>
+    );
   }
 
+  const rows = [
+    { icon: MapPin, label: "Taluka", value: data.taluka },
+    { icon: Home, label: "Village", value: data.village },
+    { icon: Navigation, label: "Address", value: data.address },
+    { icon: User, label: "Incharge", value: data.incharge },
+    { icon: Phone, label: "Contact", value: data.contact },
+  ];
+
   return (
-    <div className="loc-card">
-      <div className="loc-row">
-        <span className="loc-icon">📍</span>
-        <span className="loc-label">Taluka</span>
-        <span className="loc-value">{data.taluka || "N/A"}</span>
-      </div>
-      <div className="loc-row">
-        <span className="loc-icon">🏡</span>
-        <span className="loc-label">Village</span>
-        <span className="loc-value">{data.village || "N/A"}</span>
-      </div>
-      <div className="loc-row">
-        <span className="loc-icon">📌</span>
-        <span className="loc-label">Address</span>
-        <span className="loc-value">{data.address || "N/A"}</span>
-      </div>
-      <div className="loc-row">
-        <span className="loc-icon">👤</span>
-        <span className="loc-label">Incharge</span>
-        <span className="loc-value">{data.incharge || "N/A"}</span>
-      </div>
-      <div className="loc-row">
-        <span className="loc-icon">📞</span>
-        <span className="loc-label">Contact</span>
-        <span className="loc-value">{data.contact || "N/A"}</span>
-      </div>
+    <motion.div
+      className="loc-card"
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.3, ease: "easeOut" }}
+    >
+      {rows.map((row, i) => (
+        <motion.div
+          key={row.label}
+          className="loc-row"
+          initial={{ opacity: 0, x: -8 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: i * 0.06 }}
+        >
+          <span className="loc-icon">
+            <row.icon style={{ width: 16, height: 16 }} />
+          </span>
+          <span className="loc-label">{row.label}</span>
+          <span className="loc-value">{row.value || "N/A"}</span>
+        </motion.div>
+      ))}
+
       {data.map?.url && (
-        <div style={{ marginTop: 10 }}>
-          <a className="map-btn" href={data.map.url} target="_blank" rel="noreferrer">
-            🗺️ Open in Google Maps
-          </a>
-        </div>
+        <motion.div
+          style={{ marginTop: 12 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.35 }}
+        >
+          <motion.a
+            className="map-btn"
+            href={data.map.url}
+            target="_blank"
+            rel="noreferrer"
+            whileHover={{ scale: 1.04, y: -2 }}
+            whileTap={{ scale: 0.96 }}
+          >
+            <Map style={{ width: 14, height: 14 }} />
+            Open in Google Maps
+          </motion.a>
+        </motion.div>
       )}
-    </div>
+    </motion.div>
   );
 }

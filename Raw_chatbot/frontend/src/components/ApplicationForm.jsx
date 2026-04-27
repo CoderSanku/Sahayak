@@ -1,100 +1,110 @@
-// src/components/ApplicationForm.jsx
-// Shown when user clicks "Apply for Certificate" after 100% document upload.
-// Collects: name, phone, email (optional), taluka, village
-// On submit: inserts into Supabase applications + application_documents tables,
-// uploads files to Supabase Storage, and shows confirmation with Application ID.
-
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  X, User, Phone, Mail, MapPin, Home,
+  FileText, Send, Loader2, CheckCircle, Camera,
+} from "lucide-react";
 import { supabase } from "../supabaseClient";
 
 function generateAppId() {
   const date = new Date();
-  const dd   = String(date.getDate()).padStart(2, "0");
-  const mm   = String(date.getMonth() + 1).padStart(2, "0");
-  const yy   = String(date.getFullYear()).slice(2);
+  const dd = String(date.getDate()).padStart(2, "0");
+  const mm = String(date.getMonth() + 1).padStart(2, "0");
+  const yy = String(date.getFullYear()).slice(2);
   const rand = Math.floor(1000 + Math.random() * 9000);
   return `APP-${yy}${mm}${dd}-${rand}`;
 }
 
 const LABELS = {
   en: {
-    title:       "Apply for Certificate",
-    subtitle:    "Fill your details to submit the application",
-    name:        "Full Name *",
-    phone:       "Phone Number *",
-    email:       "Email Address (optional)",
-    taluka:      "Taluka *",
-    village:     "Village / Area *",
-    submit:      "Submit Application",
-    submitting:  "Submitting...",
-    namePh:      "e.g. Rahul Sharma",
-    phonePh:     "e.g. 9876543210",
-    emailPh:     "e.g. rahul@email.com",
-    talukaPh:    "e.g. Borivali",
-    villagePh:   "e.g. Dahisar East",
-    successTitle:"Application Submitted! 🎉",
-    successMsg:  "Your application has been received. Save your Application ID.",
-    appIdLabel:  "Your Application ID",
-    close:       "Close",
-    note:        "📋 Note: Documents uploaded in this session are saved with your application.",
+    title: "Apply for Certificate",
+    subtitle: "Fill your details to submit",
+    name: "Full Name *",
+    phone: "Phone Number *",
+    email: "Email Address (optional)",
+    taluka: "Taluka *",
+    village: "Village / Area *",
+    submit: "Submit Application",
+    submitting: "Submitting...",
+    namePh: "e.g. Rahul Sharma",
+    phonePh: "e.g. 9876543210",
+    emailPh: "e.g. rahul@email.com",
+    talukaPh: "e.g. Borivali",
+    villagePh: "e.g. Dahisar East",
+    successTitle: "Application Submitted!",
+    successMsg: "Your application has been received. Save your Application ID.",
+    appIdLabel: "Your Application ID",
+    close: "Close",
+    note: "Documents uploaded in this session are saved with your application.",
   },
   hi: {
-    title:       "प्रमाण पत्र के लिए आवेदन करें",
-    subtitle:    "आवेदन जमा करने के लिए विवरण भरें",
-    name:        "पूरा नाम *",
-    phone:       "फोन नंबर *",
-    email:       "ईमेल पता (वैकल्पिक)",
-    taluka:      "तालुका *",
-    village:     "गाँव / क्षेत्र *",
-    submit:      "आवेदन जमा करें",
-    submitting:  "जमा हो रहा है...",
-    namePh:      "जैसे राहुल शर्मा",
-    phonePh:     "जैसे 9876543210",
-    emailPh:     "जैसे rahul@email.com",
-    talukaPh:    "जैसे बोरिवली",
-    villagePh:   "जैसे दहिसर पूर्व",
-    successTitle:"आवेदन जमा हो गया! 🎉",
-    successMsg:  "आपका आवेदन प्राप्त हो गया है। अपना आवेदन ID सुरक्षित रखें।",
-    appIdLabel:  "आपका आवेदन ID",
-    close:       "बंद करें",
-    note:        "📋 नोट: इस सत्र में अपलोड किए गए दस्तावेज़ आपके आवेदन के साथ सहेजे गए हैं।",
+    title: "प्रमाण पत्र के लिए आवेदन",
+    subtitle: "आवेदन जमा करने के लिए विवरण भरें",
+    name: "पूरा नाम *",
+    phone: "फोन नंबर *",
+    email: "ईमेल पता (वैकल्पिक)",
+    taluka: "तालुका *",
+    village: "गाँव / क्षेत्र *",
+    submit: "आवेदन जमा करें",
+    submitting: "जमा हो रहा है...",
+    namePh: "जैसे राहुल शर्मा",
+    phonePh: "जैसे 9876543210",
+    emailPh: "जैसे rahul@email.com",
+    talukaPh: "जैसे बोरिवली",
+    villagePh: "जैसे दहिसर पूर्व",
+    successTitle: "आवेदन जमा हो गया! 🎉",
+    successMsg: "आपका आवेदन प्राप्त हो गया है। अपना आवेदन ID सुरक्षित रखें।",
+    appIdLabel: "आपका आवेदन ID",
+    close: "बंद करें",
+    note: "इस सत्र में अपलोड किए गए दस्तावेज़ आवेदन के साथ सहेजे गए हैं।",
   },
   mr: {
-    title:       "प्रमाणपत्रासाठी अर्ज करा",
-    subtitle:    "अर्ज सादर करण्यासाठी तपशील भरा",
-    name:        "पूर्ण नाव *",
-    phone:       "फोन नंबर *",
-    email:       "ईमेल पत्ता (पर्यायी)",
-    taluka:      "तालुका *",
-    village:     "गाव / क्षेत्र *",
-    submit:      "अर्ज सादर करा",
-    submitting:  "सादर होत आहे...",
-    namePh:      "उदा. राहुल शर्मा",
-    phonePh:     "उदा. 9876543210",
-    emailPh:     "उदा. rahul@email.com",
-    talukaPh:    "उदा. बोरिवली",
-    villagePh:   "उदा. दहिसर पूर्व",
-    successTitle:"अर्ज सादर झाला! 🎉",
-    successMsg:  "तुमचा अर्ज प्राप्त झाला आहे. तुमचा अर्ज ID जतन करा.",
-    appIdLabel:  "तुमचा अर्ज ID",
-    close:       "बंद करा",
-    note:        "📋 टीप: या सत्रात अपलोड केलेली कागदपत्रे तुमच्या अर्जासोबत जतन केली आहेत.",
+    title: "प्रमाणपत्रासाठी अर्ज",
+    subtitle: "अर्ज सादर करण्यासाठी तपशील भरा",
+    name: "पूर्ण नाव *",
+    phone: "फोन नंबर *",
+    email: "ईमेल पत्ता (पर्यायी)",
+    taluka: "तालुका *",
+    village: "गाव / क्षेत्र *",
+    submit: "अर्ज सादर करा",
+    submitting: "सादर होत आहे...",
+    namePh: "उदा. राहुल शर्मा",
+    phonePh: "उदा. 9876543210",
+    emailPh: "उदा. rahul@email.com",
+    talukaPh: "उदा. बोरिवली",
+    villagePh: "उदा. दहिसर पूर्व",
+    successTitle: "अर्ज सादर झाला! 🎉",
+    successMsg: "तुमचा अर्ज प्राप्त झाला आहे. तुमचा अर्ज ID जतन करा.",
+    appIdLabel: "तुमचा अर्ज ID",
+    close: "बंद करा",
+    note: "या सत्रात अपलोड केलेली कागदपत्रे अर्जासोबत जतन केली आहेत.",
   },
+};
+
+const inputStyle = (hasError) => ({
+  width: "100%", padding: "11px 14px", marginTop: 4,
+  border: `2px solid ${hasError ? "#f87171" : "#bfdbfe"}`,
+  borderRadius: 10, fontFamily: "inherit", fontSize: 13,
+  color: "#334155", background: "#eff6ff", outline: "none",
+  boxSizing: "border-box", transition: "border-color 0.2s",
+});
+
+const labelStyle = {
+  fontSize: 12, fontWeight: 700,
+  color: "#475569", display: "block", marginTop: 14,
 };
 
 export default function ApplicationForm({
   open, onClose,
   certName, certId,
-  uploadedDocs,   // { doc_id: File } from DocTracker
+  uploadedDocs,
   lang = "en",
 }) {
-  const [fields, setFields] = useState({
-    name: "", phone: "", email: "", taluka: "", village: "",
-  });
+  const [fields, setFields] = useState({ name: "", phone: "", email: "", taluka: "", village: "" });
   const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted]   = useState(false);
-  const [appId, setAppId]           = useState("");
-  const [errors, setErrors]         = useState({});
+  const [submitted, setSubmitted] = useState(false);
+  const [appId, setAppId] = useState("");
+  const [errors, setErrors] = useState({});
 
   const L = LABELS[lang] || LABELS.en;
 
@@ -107,36 +117,33 @@ export default function ApplicationForm({
 
   function validate() {
     const e = {};
-    if (!fields.name.trim())   e.name   = true;
-    
-    const phoneRegex = /^\d{10}$/;
+    if (!fields.name.trim()) e.name = true;
     if (!fields.phone.trim()) e.phone = true;
-    else if (!phoneRegex.test(fields.phone.trim())) e.phone = true;
-    
-    if (fields.email.trim()) {
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(fields.email.trim())) e.email = true;
-    }
-    
+    else if (!/^\d{10}$/.test(fields.phone.trim())) e.phone = true;
+    if (fields.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email.trim())) e.email = true;
     if (!fields.taluka.trim()) e.taluka = true;
     if (!fields.village.trim()) e.village = true;
     setErrors(e);
     return Object.keys(e).length === 0;
   }
 
+  function handleClose() {
+    setFields({ name: "", phone: "", email: "", taluka: "", village: "" });
+    setSubmitted(false); setAppId(""); setErrors({});
+    onClose();
+  }
+
   async function handleSubmit() {
     if (!validate()) return;
-
     setSubmitting(true);
 
     const id = generateAppId();
 
-    // 1. Upload each document file to Supabase Storage
+    // 1. Upload documents
     const docList = [];
     for (const [docId, file] of Object.entries(uploadedDocs || {})) {
       const filePath = `${id}/${docId}_${file.name}`;
-      const { error: uploadError } = await supabase
-        .storage
+      const { error: uploadError } = await supabase.storage
         .from("application-docs")
         .upload(filePath, file, { upsert: true });
 
@@ -144,28 +151,30 @@ export default function ApplicationForm({
         ? null
         : supabase.storage.from("application-docs").getPublicUrl(filePath).data.publicUrl;
 
+      // ✅ REPLACE:
       docList.push({
         application_id: id,
-        doc_id:         docId,
-        file_name:      file.name,
-        file_url:       fileUrl,
-        file_type:      file.type,
+        doc_id: docId,
+        // ✅ Use requirement name if available, fallback to uploaded filename
+        file_name: file._docName || file.name,
+        file_url: fileUrl,
+        file_type: file.type,
       });
     }
 
-    // 2. Insert application row
+    // 2. Insert application
     const { error: appError } = await supabase
       .from("applications")
       .insert({
-        application_id:   id,
-        certificate_id:   certId,
+        application_id: id,
+        certificate_id: certId,
         certificate_name: certName,
-        applicant_name:   fields.name.trim(),
-        phone:            fields.phone.trim(),
-        email:            fields.email.trim() || null,
-        taluka:           fields.taluka.trim(),
-        village:          fields.village.trim(),
-        status:           "pending",
+        applicant_name: fields.name.trim(),
+        phone: fields.phone.trim(),
+        email: fields.email.trim() || null,
+        taluka: fields.taluka.trim(),
+        village: fields.village.trim(),
+        status: "pending",
       });
 
     if (appError) {
@@ -175,7 +184,7 @@ export default function ApplicationForm({
       return;
     }
 
-    // 3. Insert document rows
+    // 3. Insert documents
     if (docList.length > 0) {
       const { error: docError } = await supabase
         .from("application_documents")
@@ -188,190 +197,312 @@ export default function ApplicationForm({
     setSubmitted(true);
   }
 
-  const inputStyle = (hasError) => ({
-    width: "100%", padding: "10px 12px", marginTop: 4,
-    border: `1.5px solid ${hasError ? "#EF4444" : "#E5E7EB"}`,
-    borderRadius: 8, fontFamily: "inherit", fontSize: 13,
-    color: "#1C1C2E", background: "#FAFAFA", outline: "none",
-    boxSizing: "border-box",
-  });
-
-  const labelStyle = {
-    fontSize: 12, fontWeight: 700, color: "#374151",
-    display: "block", marginTop: 12,
-  };
-
   return (
-    <>
+    <AnimatePresence>
       {/* Overlay */}
-      <div onClick={!submitted ? undefined : onClose} style={{
-        position: "fixed", inset: 0,
-        background: "rgba(0,0,0,0.5)", zIndex: 1300,
-      }} />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        onClick={handleClose}
+        style={{
+          position: "fixed", inset: 0,
+          background: "rgba(0,0,0,0.4)",
+          zIndex: 1300, backdropFilter: "blur(4px)",
+        }}
+      />
 
-      {/* Modal box — centered */}
-      <div style={{
-        position: "fixed",
-        top: "50%", left: "50%",
-        transform: "translate(-50%, -50%)",
-        width: 420, maxWidth: "94vw",
-        maxHeight: "90vh",
-        background: "#fff", zIndex: 1400,
-        borderRadius: 16, overflow: "hidden",
-        display: "flex", flexDirection: "column",
-        boxShadow: "0 24px 64px rgba(0,0,0,0.35)",
-        animation: "scaleIn 0.22s ease",
-      }}>
-
+      {/* Slide-in Panel */}
+      <motion.div
+        initial={{ x: "100%" }}
+        animate={{ x: 0 }}
+        exit={{ x: "100%" }}
+        transition={{ type: "spring", stiffness: 300, damping: 30 }}
+        style={{
+          position: "fixed", top: 0, right: 0, bottom: 0,
+          width: 420, maxWidth: "95vw",
+          background: "#fff", zIndex: 1400,
+          display: "flex", flexDirection: "column",
+          boxShadow: "-8px 0 40px rgba(22,163,74,0.2)",
+        }}
+      >
         {/* ── HEADER ── */}
         <div style={{
-          background: "linear-gradient(135deg, #16A34A, #15803D)",
-          padding: "16px 20px", flexShrink: 0, position: "relative",
+          background: "linear-gradient(135deg, #047857 0%, #10b981 100%)",
+          padding: "18px 20px 14px",
+          flexShrink: 0, position: "relative",
         }}>
+          {/* Tricolor */}
           <div style={{
             position: "absolute", top: 0, left: 0, right: 0, height: 3,
-            background: "linear-gradient(90deg, #FF6B00 33%, #fff 33% 66%, #138808 66%)",
+            background: "linear-gradient(90deg, #ff6b00 33%, #fff 33% 66%, #10b981 66%)",
           }} />
+
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div>
-              <div style={{ color: "#fff", fontWeight: 800, fontSize: 15 }}>
-                🎉 {L.title}
+              <div style={{
+                color: "#fff", fontWeight: 800, fontSize: 16,
+                display: "flex", alignItems: "center", gap: 8,
+              }}>
+                <FileText style={{ width: 18, height: 18 }} />
+                {L.title}
               </div>
-              <div style={{ color: "rgba(255,255,255,0.75)", fontSize: 11, marginTop: 2 }}>
+              <div style={{ color: "rgba(255,255,255,0.7)", fontSize: 12, marginTop: 2 }}>
                 {certName}
               </div>
             </div>
-            <button onClick={onClose} style={{
-              background: "rgba(255,255,255,0.2)", border: "none", color: "#fff",
-              width: 30, height: 30, borderRadius: "50%", fontSize: 16,
-              cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
-            }}>✕</button>
+
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={handleClose}
+              style={{
+                background: "rgba(255,255,255,0.15)", border: "none",
+                color: "#fff", width: 32, height: 32, borderRadius: "50%",
+                cursor: "pointer", display: "flex", alignItems: "center", justifyContent: "center",
+              }}
+            >
+              <X style={{ width: 16, height: 16 }} />
+            </motion.button>
+          </div>
+
+          {/* Step indicator */}
+          <div style={{ display: "flex", gap: 6, marginTop: 12 }}>
+            <motion.div
+              animate={{ background: "#fff" }}
+              style={{ flex: 1, height: 4, borderRadius: 2 }}
+            />
+            <motion.div
+              animate={{ background: submitted ? "#fff" : "rgba(255,255,255,0.25)" }}
+              style={{ flex: 1, height: 4, borderRadius: 2 }}
+            />
           </div>
         </div>
 
         {/* ── BODY ── */}
         <div style={{ flex: 1, overflowY: "auto", padding: "16px 20px" }}>
 
-          {/* SUCCESS STATE */}
+          {/* ── SUCCESS STATE ── */}
           {submitted ? (
-            <div style={{ textAlign: "center", padding: "20px 0" }}>
-              <div style={{ fontSize: 48, marginBottom: 12 }}>✅</div>
-              <div style={{ fontSize: 17, fontWeight: 800, color: "#16A34A", marginBottom: 8 }}>
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              style={{ textAlign: "center", padding: "20px 0" }}
+            >
+              <div style={{
+                width: 64, height: 64, borderRadius: "50%",
+                background: "#f0fdf4", border: "3px solid #86efac",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                margin: "0 auto 16px",
+              }}>
+                <CheckCircle style={{ width: 32, height: 32, color: "#16a34a" }} />
+              </div>
+
+              <div style={{ fontSize: 18, fontWeight: 800, color: "#16a34a", marginBottom: 8 }}>
                 {L.successTitle}
               </div>
-              <div style={{ fontSize: 13, color: "#6B7280", marginBottom: 20, lineHeight: 1.6 }}>
+              <div style={{ fontSize: 13, color: "#64748b", marginBottom: 20, lineHeight: 1.6 }}>
                 {L.successMsg}
               </div>
 
-              {/* Application ID box */}
+              {/* Application ID */}
               <div style={{
-                background: "#F0FDF4", border: "2px solid #86EFAC",
-                borderRadius: 12, padding: "16px",
+                background: "#f0fdf4", border: "2px solid #86efac",
+                borderRadius: 14, padding: "16px",
               }}>
-                <div style={{ fontSize: 11, fontWeight: 700, color: "#16A34A",
-                  textTransform: "uppercase", letterSpacing: 1, marginBottom: 6 }}>
+                <div style={{
+                  fontSize: 11, fontWeight: 700, color: "#16a34a",
+                  textTransform: "uppercase", letterSpacing: 1, marginBottom: 8,
+                }}>
                   {L.appIdLabel}
                 </div>
                 <div style={{
-                  fontSize: 22, fontWeight: 800, color: "#15803D",
+                  fontSize: 24, fontWeight: 800, color: "#15803d",
                   letterSpacing: 2, fontFamily: "monospace",
+                  background: "#fff", border: "1.5px solid #86efac",
+                  borderRadius: 8, padding: "10px 16px", display: "inline-block",
                 }}>
                   {appId}
                 </div>
-                <div style={{ fontSize: 11, color: "#6B7280", marginTop: 8 }}>
-                  📸 Take a screenshot to save this ID
+                <div style={{
+                  fontSize: 11, color: "#64748b", marginTop: 10,
+                  display: "flex", alignItems: "center", justifyContent: "center", gap: 4,
+                }}>
+                  <Camera style={{ width: 12, height: 12 }} />
+                  Take a screenshot to save this ID
                 </div>
               </div>
 
-              <div style={{ marginTop: 14, fontSize: 11, color: "#6B7280",
-                background: "#FFFBEB", padding: "8px 12px", borderRadius: 8,
-                textAlign: "left", lineHeight: 1.6 }}>
+              {/* Note */}
+              <div style={{
+                marginTop: 14, fontSize: 12, color: "#065f46",
+                background: "#ecfdf5", padding: "10px 14px",
+                borderRadius: 10, textAlign: "left", lineHeight: 1.6,
+                border: "1px solid #a7f3d0",
+                display: "flex", alignItems: "flex-start", gap: 6,
+              }}>
+                <FileText style={{ width: 13, height: 13, flexShrink: 0, marginTop: 2 }} />
                 {L.note}
               </div>
-            </div>
+            </motion.div>
+
           ) : (
-            /* FORM STATE */
-            <div>
-              <div style={{ fontSize: 12, color: "#6B7280", marginBottom: 4 }}>
+            /* ── FORM STATE ── */
+            <motion.div
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+            >
+              <div style={{ fontSize: 12, color: "#64748b", marginBottom: 4, fontWeight: 600 }}>
                 {L.subtitle}
               </div>
 
-              <label style={labelStyle}>{L.name}</label>
+              {/* Name */}
+              <label style={labelStyle}>
+                <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                  <User style={{ width: 12, height: 12 }} />
+                  {L.name}
+                </span>
+              </label>
               <input style={inputStyle(errors.name)} value={fields.name}
                 onChange={e => setField("name", e.target.value)}
-                placeholder={L.namePh} />
-              {errors.name && <div style={{ fontSize: 11, color: "#EF4444", marginTop: 2 }}>Required</div>}
+                placeholder={L.namePh}
+              />
+              {errors.name && <div style={{ fontSize: 11, color: "#ef4444", marginTop: 2 }}>Required</div>}
 
-              <label style={labelStyle}>{L.phone}</label>
+              {/* Phone */}
+              <label style={labelStyle}>
+                <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                  <Phone style={{ width: 12, height: 12 }} />
+                  {L.phone}
+                </span>
+              </label>
               <input style={inputStyle(errors.phone)} value={fields.phone}
                 onChange={e => setField("phone", e.target.value)}
-                placeholder={L.phonePh} type="tel" maxLength={10} />
-              {errors.phone && <div style={{ fontSize: 11, color: "#EF4444", marginTop: 2 }}>
-                {!fields.phone.trim() ? "Required" : "Enter valid 10-digit phone number"}
+                placeholder={L.phonePh} type="tel" maxLength={10}
+              />
+              {errors.phone && <div style={{ fontSize: 11, color: "#ef4444", marginTop: 2 }}>
+                {!fields.phone.trim() ? "Required" : "Enter valid 10-digit number"}
               </div>}
 
-              <label style={labelStyle}>{L.email}</label>
+              {/* Email */}
+              <label style={labelStyle}>
+                <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                  <Mail style={{ width: 12, height: 12 }} />
+                  {L.email}
+                </span>
+              </label>
               <input style={inputStyle(errors.email)} value={fields.email}
                 onChange={e => setField("email", e.target.value)}
-                placeholder={L.emailPh} type="email" />
-              {errors.email && <div style={{ fontSize: 11, color: "#EF4444", marginTop: 2 }}>Enter valid email format</div>}
+                placeholder={L.emailPh} type="email"
+              />
+              {errors.email && <div style={{ fontSize: 11, color: "#ef4444", marginTop: 2 }}>Enter valid email</div>}
 
-              <label style={labelStyle}>{L.taluka}</label>
+              {/* Taluka */}
+              <label style={labelStyle}>
+                <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                  <MapPin style={{ width: 12, height: 12 }} />
+                  {L.taluka}
+                </span>
+              </label>
               <input style={inputStyle(errors.taluka)} value={fields.taluka}
                 onChange={e => setField("taluka", e.target.value)}
-                placeholder={L.talukaPh} />
-              {errors.taluka && <div style={{ fontSize: 11, color: "#EF4444", marginTop: 2 }}>Required</div>}
+                placeholder={L.talukaPh}
+              />
+              {errors.taluka && <div style={{ fontSize: 11, color: "#ef4444", marginTop: 2 }}>Required</div>}
 
-              <label style={labelStyle}>{L.village}</label>
+              {/* Village */}
+              <label style={labelStyle}>
+                <span style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                  <Home style={{ width: 12, height: 12 }} />
+                  {L.village}
+                </span>
+              </label>
               <input style={inputStyle(errors.village)} value={fields.village}
                 onChange={e => setField("village", e.target.value)}
-                placeholder={L.villagePh} />
-              {errors.village && <div style={{ fontSize: 11, color: "#EF4444", marginTop: 2 }}>Required</div>}
+                placeholder={L.villagePh}
+              />
+              {errors.village && <div style={{ fontSize: 11, color: "#ef4444", marginTop: 2 }}>Required</div>}
 
-              {/* Doc count summary */}
+              {/* Doc count */}
               <div style={{
-                marginTop: 14, background: "#F0FDF4",
-                border: "1px solid #86EFAC", borderRadius: 8,
-                padding: "8px 12px", fontSize: 12, color: "#16A34A", fontWeight: 600,
+                marginTop: 16, background: "#ecfdf5",
+                border: "2px solid #a7f3d0", borderRadius: 10,
+                padding: "10px 14px", fontSize: 12, color: "#065f46", fontWeight: 600,
+                display: "flex", alignItems: "center", gap: 6,
               }}>
-                📂 {Object.keys(uploadedDocs || {}).length} document(s) will be submitted with this application
+                <FileText style={{ width: 14, height: 14 }} />
+                {Object.keys(uploadedDocs || {}).length} document(s) will be submitted
               </div>
-            </div>
+
+              <div style={{ height: 16 }} />
+            </motion.div>
           )}
         </div>
 
         {/* ── FOOTER ── */}
         <div style={{
-          padding: "12px 20px", borderTop: "1px solid #F3F4F6", flexShrink: 0,
+          padding: "12px 20px",
+          borderTop: "2px solid #ecfdf5",
+          flexShrink: 0,
         }}>
           {submitted ? (
-            <button onClick={onClose} style={{
-              width: "100%", padding: "12px",
-              background: "linear-gradient(135deg, #16A34A, #15803D)",
-              border: "none", borderRadius: 10, color: "#fff",
-              fontSize: 14, fontWeight: 700, cursor: "pointer", fontFamily: "inherit",
-            }}>{L.close}</button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={handleClose}
+              style={{
+                width: "100%", padding: "12px",
+                background: "linear-gradient(135deg, #047857, #10b981)",
+                border: "none", borderRadius: 12, color: "#fff",
+                fontSize: 14, fontWeight: 700, cursor: "pointer",
+                fontFamily: "inherit",
+                boxShadow: "0 4px 15px rgba(16,185,129,0.3)",
+              }}
+            >
+              {L.close}
+            </motion.button>
           ) : (
-            <button onClick={handleSubmit} disabled={submitting} style={{
-              width: "100%", padding: "12px",
-              background: submitting ? "#E5E7EB" : "linear-gradient(135deg, #16A34A, #15803D)",
-              border: "none", borderRadius: 10, color: submitting ? "#9CA3AF" : "#fff",
-              fontSize: 14, fontWeight: 700,
-              cursor: submitting ? "not-allowed" : "pointer",
-              fontFamily: "inherit",
-            }}>
-              {submitting ? L.submitting : L.submit}
-            </button>
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={handleSubmit}
+              disabled={submitting}
+              style={{
+                width: "100%", padding: "12px",
+                background: submitting
+                  ? "#e2e8f0"
+                  : "linear-gradient(135deg, #047857, #10b981)",
+                border: "none", borderRadius: 12,
+                color: submitting ? "#94a3b8" : "#fff",
+                fontSize: 14, fontWeight: 700,
+                cursor: submitting ? "not-allowed" : "pointer",
+                fontFamily: "inherit",
+                display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
+                boxShadow: submitting ? "none" : "0 4px 15px rgba(16,185,129,0.3)",
+              }}
+            >
+              {submitting ? (
+                <>
+                  <Loader2 style={{ width: 16, height: 16, animation: "spin 1s linear infinite" }} />
+                  {L.submitting}
+                </>
+              ) : (
+                <>
+                  <Send style={{ width: 16, height: 16 }} />
+                  {L.submit}
+                </>
+              )}
+            </motion.button>
           )}
         </div>
-      </div>
+      </motion.div>
 
       <style>{`
-        @keyframes scaleIn {
-          from { transform: translate(-50%, -50%) scale(0.92); opacity: 0; }
-          to   { transform: translate(-50%, -50%) scale(1);    opacity: 1; }
+        @keyframes spin {
+          from { transform: rotate(0deg); }
+          to   { transform: rotate(360deg); }
         }
       `}</style>
-    </>
+    </AnimatePresence>
   );
 }

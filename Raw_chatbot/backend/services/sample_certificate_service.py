@@ -8,15 +8,15 @@ class SampleCertificateService:
         file_path = base_dir.parent / "knowledge_base" / "T3_documents" / "sample_certificates_index.json"
         self.data = self._load_data(file_path)
 
-        def _load_data(self, file_path):
-            if not file_path.exists():
+    def _load_data(self, file_path):
+        if not file_path.exists():
             print(f"Warning: Sample certificates file not found at {file_path}")
             return []
         
-            with open(file_path, "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
 
-        def get_sample_certificate(self, certificate_id: str, language: str = "en"):
+    def get_sample_certificate(self, certificate_id: str, language: str = "en"):
         """
         Returns sample certificate details based on certificate_id
         """

@@ -1,8 +1,6 @@
-// src/components/InputBar.jsx
-// Text input + mic button. Voice uses browser MediaRecorder → POST /voice/voice-input
-// On transcript received, text is placed in the input field for user to confirm & send.
-
 import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import { Send, Mic, Square } from "lucide-react";
 import { sendVoiceInput } from "../api";
 
 export default function InputBar({ onSend, disabled, placeholder }) {
@@ -19,7 +17,10 @@ export default function InputBar({ onSend, disabled, placeholder }) {
   }
 
   function handleKey(e) {
-    if (e.key === "Enter" && !e.shiftKey) handleSend();
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSend();
+    }
   }
 
   async function handleMic() {
@@ -29,6 +30,7 @@ export default function InputBar({ onSend, disabled, placeholder }) {
       setRecording(false);
       return;
     }
+
     // ── START ──
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -50,24 +52,27 @@ export default function InputBar({ onSend, disabled, placeholder }) {
         stream.getTracks().forEach((t) => t.stop());
         const blob = new Blob(chunksRef.current, { type: mimeType });
 
-        if (blob.size < 1000) return; // too short, ignore
+        if (blob.size < 1000) return;
 
         try {
           const result = await sendVoiceInput(blob);
           if (result.success && result.voice_input?.trim()) {
-            setText(result.voice_input.trim()); // put in box, user presses send
+            setText(result.voice_input.trim());
           }
         } catch {
-          // voice server error — silently ignore, user can type instead
+          // Silently ignore voice errors
         }
       };
 
-      mr.start(250); // timeslice so chunks accumulate correctly
+      mr.start(250);
       mrRef.current = mr;
       setRecording(true);
     } catch (e) {
-      if (e.name === "NotAllowedError") alert("Microphone permission denied.");
-      else alert("Could not start recording: " + e.message);
+      if (e.name === "NotAllowedError") {
+        alert("Microphone permission denied.");
+      } else {
+        alert("Could not start recording: " + e.message);
+      }
     }
   }
 
@@ -81,21 +86,27 @@ export default function InputBar({ onSend, disabled, placeholder }) {
         placeholder={placeholder || "Type a message..."}
         disabled={disabled}
       />
-      <button
+
+      <motion.button
         className={`icon-btn mic-btn ${recording ? "recording" : ""}`}
         onClick={handleMic}
         title={recording ? "Stop recording" : "Voice input"}
+        whileHover={{ scale: 1.08 }}
+        whileTap={{ scale: 0.92 }}
       >
-        {recording ? "⏹" : "🎤"}
-      </button>
-      <button
+        {recording ? <Square className="w-5 h-5" /> : <Mic className="w-5 h-5" />}
+      </motion.button>
+
+      <motion.button
         className="icon-btn send-btn"
         onClick={handleSend}
-        disabled={disabled}
+        disabled={disabled || !text.trim()}
         title="Send"
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
       >
-        ➤
-      </button>
+        <Send className="w-5 h-5" />
+      </motion.button>
     </div>
   );
 }

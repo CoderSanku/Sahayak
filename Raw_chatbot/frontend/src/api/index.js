@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = "https://sahayak-backend-tcc1.onrender.com";
+const BASE = "http://127.0.0.1:8000";
 
 // ─── 1. Get certificate list from registry ───────────────────────────────────
 // GET /chat/ does not return a list; we fetch the registry JSON directly via
