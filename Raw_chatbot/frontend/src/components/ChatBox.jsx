@@ -19,7 +19,7 @@ import {
 
 const UI = {
   en: {
-    welcome: "Welcome to Sahayak! 🙏\nI help you with government certificates and office locations in Maharashtra.",
+    welcome: "Welcome to GramSevak Bot! 🙏\nI help you with government certificates and office locations in Maharashtra.",
     chooseLang: "Please choose your language:",
     chooseService: "What would you like help with?",
     chooseCert: "Select the certificate you need:",
@@ -39,7 +39,7 @@ const UI = {
     placeholder: "Type a message...",
   },
   hi: {
-    welcome: "सहायक में आपका स्वागत है! 🙏\nमैं महाराष्ट्र में सरकारी प्रमाण पत्र और कार्यालय स्थान में मदद करता हूँ।",
+    welcome: "ग्रामसेवक बॉट में आपका स्वागत है! 🙏\nमैं महाराष्ट्र में सरकारी प्रमाण पत्र और कार्यालय स्थान में मदद करता हूँ।",
     chooseLang: "कृपया अपनी भाषा चुनें:",
     chooseService: "आप किसमें मदद चाहते हैं?",
     chooseCert: "कृपया प्रमाण पत्र चुनें:",
@@ -59,7 +59,7 @@ const UI = {
     placeholder: "संदेश लिखें...",
   },
   mr: {
-    welcome: "सहायकमध्ये आपले स्वागत आहे! 🙏\nमहाराष्ट्रातील शासकीय प्रमाणपत्रे आणि कार्यालय स्थानासाठी मी मदत करतो.",
+    welcome: "ग्रामसेवक बॉट मध्ये आपले स्वागत आहे! 🙏\nमहाराष्ट्रातील शासकीय प्रमाणपत्रे आणि कार्यालय स्थानासाठी मी मदत करतो.",
     chooseLang: "कृपया आपली भाषा निवडा:",
     chooseService: "आपल्याला कशात मदत हवी आहे?",
     chooseCert: "कृपया प्रमाणपत्र निवडा:",
