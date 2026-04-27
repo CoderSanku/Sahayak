@@ -1,138 +1,165 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../lib/auth.jsx";
-import { motion, AnimatePresence } from "framer-motion";
-import { Lock, ShieldCheck, AlertCircle, ArrowRight, Landmark } from "lucide-react";
+
+import { Lock, Shield, AlertCircle, Building2 } from "lucide-react";
+import { motion } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export default function LoginPage() {
   const { login } = useAuth();
   const navigate = useNavigate();
+
   const [pw, setPw] = useState("");
   const [error, setError] = useState(false);
-  const [isLoggingIn, setIsLoggingIn] = useState(false);
+  const [shake, setShake] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e) {
+  function handleSubmit(e) {
     e.preventDefault();
-    setIsLoggingIn(true);
-    
-    // Artificial delay to match the "Secure Signing In" feel
+    setLoading(true);
+
     setTimeout(() => {
       if (login(pw)) {
         navigate("/dashboard", { replace: true });
       } else {
         setError(true);
-        setIsLoggingIn(false);
-        // Reset password field on error for security
-        setPw("");
+        setShake(true);
+        setTimeout(() => setShake(false), 500);
       }
-    }, 800);
+      setLoading(false);
+    }, 300);
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 bg-[#020617] relative overflow-hidden">
-      {/* Background Glows to match your screenshot's depth */}
-      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-violet-600/10 rounded-full blur-[120px]" />
-      <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-blue-600/10 rounded-full blur-[120px]" />
+    <div
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      style={{ background: "linear-gradient(135deg, #dbeafe 0%, #eff6ff 40%, #e0f2fe 100%)" }}
+    >
 
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ 
-          opacity: 1, 
+      {/* Background decorations */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute top-20 right-20 w-72 h-72 bg-blue-300/30 rounded-full blur-3xl" />
+        <div className="absolute bottom-20 left-20 w-80 h-80 bg-indigo-300/20 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-sky-200/20 rounded-full blur-3xl" />
+      </div>
+
+      {/* Login Card */}
+      <motion.div
+        initial={{ opacity: 0, y: 30, scale: 0.95 }}
+        animate={{
+          opacity: 1,
+          y: 0,
           scale: 1,
-          x: error ? [0, -10, 10, -10, 10, 0] : 0 
+          x: shake ? [0, -8, 8, -5, 5, 0] : 0,
         }}
-        transition={{ duration: error ? 0.4 : 0.6 }}
-        className="relative z-10 w-full max-w-[420px]"
+        transition={{ duration: 0.4, ease: "easeOut" }}
+        className="relative z-10 w-[420px] max-w-[92vw] rounded-2xl overflow-hidden shadow-2xl border border-white/30"
       >
-        {/* Header Section */}
-        <div className="text-center mb-10">
-          <motion.div 
-            initial={{ y: -20 }}
-            animate={{ y: 0 }}
-            className="inline-flex p-4 rounded-[2rem] bg-gradient-to-br from-violet-600 to-indigo-700 shadow-2xl shadow-violet-900/40 mb-6"
+
+        {/* ── TOP — exact sidebar color ── */}
+        <div
+          className="px-8 pt-8 pb-7 text-center"
+          style={{ background: "linear-gradient(160deg, #1e3a6e 0%, #1a3460 100%)" }}
+        >
+          {/* Indian tricolor */}
+          <div className="h-[3px] rounded-full mb-6 bg-gradient-to-r from-orange-400 via-white to-green-400 opacity-90" />
+
+          <motion.div
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ delay: 0.2, type: "spring", stiffness: 200 }}
+            className="inline-flex p-4 rounded-2xl mb-4"
+            style={{ background: "rgba(96,165,250,0.2)" }}
           >
-            <Landmark className="w-12 h-12 text-white" />
+            <Building2 className="w-8 h-8 text-blue-300" />
           </motion.div>
-          
-          <h1 className="text-4xl font-black text-white tracking-tight mb-2">
-            Sahayak Admin
+
+          <h1 className="text-xl font-extrabold text-white tracking-wide">
+            GramSevak Bot Admin
           </h1>
-          <p className="text-slate-500 text-[11px] font-bold uppercase tracking-[0.3em]">
+          <p className="text-xs mt-1 tracking-wide" style={{ color: "rgba(147,197,253,0.7)" }}>
             Maharashtra Certificate Portal
-          </p>
-          
-          {/* Decorative Tricolor underline */}
-          <div className="flex justify-center gap-1.5 mt-5">
-            <div className="w-10 h-1 rounded-full bg-orange-500/80" />
-            <div className="w-10 h-1 rounded-full bg-slate-200/80" />
-            <div className="w-10 h-1 rounded-full bg-emerald-500/80" />
-          </div>
+          </p> 
         </div>
 
-        {/* Login Glass Card */}
-        <div className="bg-[#0F172A]/80 backdrop-blur-xl border border-slate-800 p-10 rounded-[2.5rem] shadow-2xl border-t-slate-700/50">
-          <form onSubmit={handleSubmit} className="space-y-8">
-            <div className="space-y-3">
-              <label className="block text-[10px] font-black text-slate-500 uppercase tracking-widest ml-1">
-                Access Credentials
-              </label>
-              
-              <div className="relative group">
-                <div className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 group-focus-within:text-violet-400 transition-colors">
-                  <Lock className="w-5 h-5" />
-                </div>
-                <input
-                  type="password"
-                  value={pw}
-                  onChange={(e) => { setPw(e.target.value); setError(false); }}
-                  placeholder="Enter Admin Password"
-                  autoFocus
-                  className={`w-full bg-slate-900/50 border ${error ? 'border-rose-500' : 'border-slate-800'} rounded-2xl py-4 pl-12 pr-4 text-sm text-white placeholder:text-slate-600 focus:ring-4 focus:ring-violet-500/10 focus:border-violet-500 outline-none transition-all`}
-                />
-              </div>
-              
-              <AnimatePresence>
-                {error && (
-                  <motion.div 
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0 }}
-                    className="flex items-center gap-2 text-rose-400 text-xs font-bold px-1"
-                  >
-                    <AlertCircle className="w-3.5 h-3.5" />
-                    Authentication failed. Please try again.
-                  </motion.div>
-                )}
-              </AnimatePresence>
+        {/* ── BOTTOM — light blue matching app background ── */}
+        <div
+          className="px-8 py-8"
+          style={{
+            background: "rgba(219, 234, 254, 0.92)",
+            backdropFilter: "blur(20px)",
+            WebkitBackdropFilter: "blur(20px)",
+          }}
+        >
+          <form onSubmit={handleSubmit}>
+
+            <label className="text-xs font-semibold text-slate-500 mb-2 block uppercase tracking-wider">
+              Admin Password
+            </label>
+
+            <div className="relative">
+              <Lock className="absolute left-3 top-3 w-4 h-4 text-slate-400" />
+              <Input
+                type="password"
+                value={pw}
+                onChange={(e) => {
+                  setPw(e.target.value);
+                  setError(false);
+                }}
+                placeholder="Enter admin password"
+                autoFocus
+                className={`pl-10 h-11 bg-white/70 text-slate-800 placeholder:text-slate-400
+                  ${error
+                    ? "border-rose-400 focus-visible:ring-rose-400"
+                    : "border-blue-200 focus-visible:ring-blue-400"
+                  }`}
+              />
             </div>
 
-            <button
-              type="submit"
-              disabled={isLoggingIn || !pw}
-              className="relative w-full overflow-hidden bg-violet-600 disabled:bg-slate-800 text-white py-4.5 rounded-2xl font-black text-sm tracking-[0.1em] uppercase transition-all hover:bg-violet-500 active:scale-[0.97] shadow-xl shadow-violet-900/20 group"
+            {/* Error */}
+            {error && (
+              <motion.div
+                initial={{ opacity: 0, y: -5 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mt-3 flex items-center gap-2 text-xs text-rose-600 font-medium bg-rose-50 px-3 py-2 rounded-lg border border-rose-200"
+              >
+                <AlertCircle className="w-3.5 h-3.5" />
+                Incorrect password. Please try again.
+              </motion.div>
+            )}
+
+            {/* Submit */}
+            <motion.div
+              whileHover={{ scale: 1.01 }}
+              whileTap={{ scale: 0.98 }}
+              className="mt-5"
             >
-              <div className="relative z-10 flex items-center justify-center gap-3">
-                {isLoggingIn ? (
+              <Button
+                type="submit"
+                disabled={loading}
+                className="w-full h-11 text-white font-bold tracking-wide border border-blue-300/20"
+                style={{
+                  background: "linear-gradient(135deg, #1e3a6e 0%, #2563eb 100%)",
+                  boxShadow: "0 4px 20px rgba(30,58,110,0.35)",
+                }}
+              >
+                {loading ? (
                   <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                 ) : (
                   <>
-                    Secure Sign In <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    <Shield className="w-4 h-4 mr-2" />
+                    Sign In
                   </>
                 )}
-              </div>
-            </button>
+              </Button>
+            </motion.div>
           </form>
-        </div>
 
-        {/* Security Badge */}
-        <div className="mt-10 flex flex-col items-center gap-2">
-          <div className="flex items-center gap-2 text-slate-600 font-bold text-[10px] uppercase tracking-wider">
-            <ShieldCheck className="w-4 h-4 text-emerald-500/50" />
-            AES-256 Encrypted Session
-          </div>
-          <div className="text-slate-700 font-bold text-[9px] uppercase tracking-[0.2em]">
-            Authorised Personnel Only
-          </div>
+          <p className="mt-6 text-[11px] text-slate-400 text-center leading-relaxed">
+            Restricted access — authorised personnel only
+          </p>
         </div>
       </motion.div>
     </div>

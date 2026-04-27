@@ -1,189 +1,350 @@
-// src/pages/DashboardPage.jsx
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { supabase } from "../lib/supabase.js";
 import { motion } from "framer-motion";
+import { supabase } from "../lib/supabase.js";
+
 import {
-  FileText, Clock, CheckCircle, PartyPopper,
-  XCircle, MessageSquare, ShieldCheck, ChevronRight,
-  ArrowUpRight, BarChart3, Activity
+  FileText, CheckCircle, Clock, AlertCircle,
+  TrendingUp, Activity, ArrowRight, Server, Database, Wifi,
 } from "lucide-react";
 
-function StatCard({ icon: Icon, label, value, color, bg, border, onClick }) {
-  return (
-    <motion.div
-      whileHover={{ y: -4, boxShadow: "0 12px 20px -10px rgba(0,0,0,0.1)" }}
-      onClick={onClick}
-      className={`relative overflow-hidden bg-[#0F172A] border ${border} p-5 rounded-2xl cursor-pointer transition-all group`}
-    >
-      <div className="flex items-start justify-between">
-        <div className={`p-3 rounded-xl ${bg} ${color}`}>
-          <Icon className="w-6 h-6" />
-        </div>
-        <div className={`text-2xl font-black ${color}`}>
-          {value ?? <div className="w-5 h-5 border-2 border-slate-700 border-t-slate-400 rounded-full animate-spin" />}
-        </div>
-      </div>
-      <div className="mt-4">
-        <div className="text-[10px] uppercase tracking-widest font-black text-slate-500 mb-1">{label}</div>
-        <div className="flex items-center text-xs font-bold text-slate-300 group-hover:text-white transition-colors">
-          View Details <ChevronRight className="w-3 h-3 ml-1" />
-        </div>
-      </div>
-      {/* Decorative Background Glow */}
-      <div className={`absolute -right-4 -bottom-4 w-24 h-24 rounded-full blur-3xl opacity-10 ${bg}`} />
-    </motion.div>
-  );
-}
+import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+
+const container = {
+  hidden: { opacity: 0 },
+  show: { opacity: 1, transition: { staggerChildren: 0.08 } },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 },
+};
+
+// ── DENSE GLOW — increased opacity + spread ──
+const glowStyle = (glowColor) => ({
+  blue: "0 12px 50px rgba(37,99,235,0.65), 0 4px 20px rgba(37,99,235,0.3)",
+  emerald: "0 12px 50px rgba(5,150,105,0.65), 0 4px 20px rgba(5,150,105,0.3)",
+  amber: "0 12px 50px rgba(217,119,6,0.65), 0 4px 20px rgba(217,119,6,0.3)",
+  rose: "0 12px 50px rgba(225,29,72,0.65), 0 4px 20px rgba(225,29,72,0.3)",
+}[glowColor]);
 
 export default function DashboardPage() {
   const navigate = useNavigate();
-  const [stats, setStats] = useState(null);
-  const [recent, setRecent] = useState([]);
+
+  const [stats, setStats] = useState({ total: 0, approved: 0, pending: 0, complaints: 0 });
+  const [recentApps, setRecentApps] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function loadStats() {
-      const queries = [
-        supabase.from("applications").select("*", { count: "exact", head: true }),
-        supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "pending"),
-        supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "approved"),
-        supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "generated"),
-        supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "rejected"),
-        supabase.from("complaints").select("*", { count: "exact", head: true }),
-        supabase.from("complaints").select("*", { count: "exact", head: true }).eq("status", "pending"),
-        supabase.from("complaints").select("*", { count: "exact", head: true }).eq("status", "resolved"),
-      ];
+    async function fetchStats() {
+      setLoading(true);
+      try {
+        const { count: total } = await supabase.from("applications").select("*", { count: "exact", head: true });
+        const { count: approved } = await supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "approved");
+        const { count: pending } = await supabase.from("applications").select("*", { count: "exact", head: true }).eq("status", "pending");
+        const { count: complaints } = await supabase.from("complaints").select("*", { count: "exact", head: true });
+        const { data: recent } = await supabase.from("applications")
+          .select("application_id, applicant_name, certificate_name, status, submitted_at")
+          .order("submitted_at", { ascending: false })
+          .limit(5);
 
-      const results = await Promise.all(queries);
-      setStats({
-        totalApps: results[0].count,
-        pendingApps: results[1].count,
-        approvedApps: results[2].count,
-        generatedApps: results[3].count,
-        rejectedApps: results[4].count,
-        totalCmps: results[5].count,
-        pendingCmps: results[6].count,
-        resolvedCmps: results[7].count,
-      });
-
-      // Load Recent Apps
-      const { data } = await supabase
-        .from("applications")
-        .select("application_id, certificate_name, applicant_name, status, submitted_at")
-        .order("submitted_at", { ascending: false })
-        .limit(6);
-
-      setRecent(data || []);
+        setStats({ total: total || 0, approved: approved || 0, pending: pending || 0, complaints: complaints || 0 });
+        setRecentApps(recent || []);
+      } catch (err) {
+        console.error("Dashboard fetch error:", err);
+      }
       setLoading(false);
     }
-    loadStats();
+    fetchStats();
   }, []);
 
+  const statCards = [
+    {
+      label: "Total Applications", value: stats.total,
+      icon: FileText, color: "text-blue-600", bg: "bg-blue-50",
+      border: "border-blue-200", glowColor: "blue",
+      link: "/applications",
+    },
+    {
+      label: "Approved", value: stats.approved,
+      icon: CheckCircle, color: "text-emerald-600", bg: "bg-emerald-50",
+      border: "border-emerald-200", glowColor: "emerald",
+      link: "/applications?status=approved",
+    },
+    {
+      label: "Pending", value: stats.pending,
+      icon: Clock, color: "text-amber-600", bg: "bg-amber-50",
+      border: "border-amber-200", glowColor: "amber",
+      link: "/applications?status=pending",
+    },
+    {
+      label: "Complaints", value: stats.complaints,
+      icon: AlertCircle, color: "text-rose-600", bg: "bg-rose-50",
+      border: "border-rose-200", glowColor: "rose",
+      link: "/complaints",
+    },
+  ];
+
+  const statusColor = (s) => {
+    switch (s) {
+      case "approved": return "bg-emerald-50 text-emerald-700 border-emerald-200";
+      case "pending": return "bg-amber-50 text-amber-700 border-amber-200";
+      case "rejected": return "bg-rose-50 text-rose-700 border-rose-200";
+      case "generated": return "bg-blue-50 text-blue-700 border-blue-200";
+      default: return "bg-slate-50 text-slate-700 border-slate-200";
+    }
+  };
+
   const fmt = (iso) => iso
-    ? new Date(iso).toLocaleDateString("en-IN", { day: "2-digit", month: "short" })
+    ? new Date(iso).toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" })
     : "—";
 
   return (
-    <div className="p-6 space-y-8 max-w-[1600px] mx-auto">
-      {/* Welcome Header */}
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+    <div className="space-y-6 fade-in">
+
+      {/* ── HEADER ── */}
+      <div className="flex items-center justify-between">
         <div>
-          <div className="flex items-center gap-2 mb-2 text-violet-400 font-bold text-xs uppercase tracking-[0.2em]">
-            <Activity className="w-4 h-4" /> System Overview
-          </div>
-          <h1 className="text-3xl font-black text-white tracking-tight">Admin Dashboard</h1>
-          <p className="text-slate-500 text-sm font-medium mt-1 italic">Real-time metrics for citizen service requests</p>
+          <h1 className="text-2xl font-extrabold text-gradient tracking-tight">Dashboard</h1>
+          <p className="text-sm text-slate-500 mt-1">Overview of system activity</p>
         </div>
-        <div className="bg-slate-800/50 border border-slate-700 px-4 py-2 rounded-xl text-xs font-mono text-slate-400">
-          Last Refresh: {new Date().toLocaleTimeString()}
-        </div>
+
+        <Badge
+          className="bg-blue-50 text-blue-600 border border-blue-200 px-3 py-1 text-xs flex items-center gap-2"
+          style={{ boxShadow: "0 0 25px rgba(37,99,235,0.7), 0 0 8px rgba(37,99,235,0.4)" }}
+        >
+          <Activity className="w-3.5 h-3.5" />
+          Live
+        </Badge>
       </div>
 
-      {/* Application Metrics Grid */}
-      <section>
-        <div className="flex items-center gap-3 mb-4">
-          <div className="h-[1px] flex-1 bg-slate-800" />
-          <h2 className="text-[10px] font-black text-slate-500 uppercase tracking-[3px]">Service Applications</h2>
-          <div className="h-[1px] flex-1 bg-slate-800" />
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-          <StatCard icon={FileText} label="Total Volume" value={stats?.totalApps} color="text-indigo-400" bg="bg-indigo-400/10" border="border-indigo-400/20" onClick={() => navigate("/applications")} />
-          <StatCard icon={Clock} label="Awaiting Review" value={stats?.pendingApps} color="text-amber-400" bg="bg-amber-400/10" border="border-amber-400/20" onClick={() => navigate("/applications?status=pending")} />
-          <StatCard icon={CheckCircle} label="Verified" value={stats?.approvedApps} color="text-blue-400" bg="bg-blue-400/10" border="border-blue-400/20" onClick={() => navigate("/applications?status=approved")} />
-          <StatCard icon={PartyPopper} label="Certificates Issued" value={stats?.generatedApps} color="text-emerald-400" bg="bg-emerald-400/10" border="border-emerald-400/20" onClick={() => navigate("/applications?status=generated")} />
-          <StatCard icon={XCircle} label="Discrepancies" value={stats?.rejectedApps} color="text-rose-400" bg="bg-rose-400/10" border="border-rose-400/20" onClick={() => navigate("/applications?status=rejected")} />
-        </div>
-      </section>
+      {/* ── STAT CARDS ── */}
+      <motion.div
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+        variants={container}
+        initial="hidden"
+        animate="show"
+      >
+        {statCards.map((stat) => {
+          const Icon = stat.icon;
+          return (
+            <motion.div key={stat.label} variants={item}>
+              <motion.div
+                whileHover={{ y: -6, boxShadow: glowStyle(stat.glowColor) }}
+                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                className="h-full rounded-xl"
+                style={{
+                  boxShadow: `0 4px 15px ${{ blue: "rgba(37,99,235,0.15)", emerald: "rgba(5,150,105,0.15)", amber: "rgba(217,119,6,0.15)", rose: "rgba(225,29,72,0.15)" }[stat.glowColor]
+                    }`
+                }}
+              >
+                <Card
+                  className={`bg-white/90 backdrop-blur-sm border ${stat.border}
+                    transition-all duration-300 cursor-pointer group h-full`}
+                  onClick={() => navigate(stat.link)}
+                >
+                  <CardContent className="p-5 flex items-center justify-between">
+                    <div>
+                      <div className="text-xs text-slate-500 font-medium mb-1">
+                        {stat.label}
+                      </div>
+                      <div className="text-3xl font-extrabold text-slate-800">
+                        {loading ? "—" : stat.value}
+                      </div>
+                    </div>
 
-      {/* Complaint Metrics Grid */}
-      <section>
-        <div className="flex items-center gap-3 mb-4">
-          <div className="h-[1px] flex-1 bg-slate-800" />
-          <h2 className="text-[10px] font-black text-slate-500 uppercase tracking-[3px]">Grievance Desk</h2>
-          <div className="h-[1px] flex-1 bg-slate-800" />
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          <StatCard icon={MessageSquare} label="Total Complaints" value={stats?.totalCmps} color="text-violet-400" bg="bg-violet-400/10" border="border-violet-400/20" onClick={() => navigate("/complaints")} />
-          <StatCard icon={Clock} label="Open Issues" value={stats?.pendingCmps} color="text-amber-400" bg="bg-amber-400/10" border="border-amber-400/20" onClick={() => navigate("/complaints?status=pending")} />
-          <StatCard icon={ShieldCheck} label="Resolved" value={stats?.resolvedCmps} color="text-emerald-400" bg="bg-emerald-400/10" border="border-emerald-400/20" onClick={() => navigate("/complaints?status=resolved")} />
-        </div>
-      </section>
+                    <motion.div
+                      className={`p-3 rounded-xl ${stat.bg}`}
+                      whileHover={{ rotate: 10, scale: 1.15 }}
+                      transition={{ type: "spring", stiffness: 400 }}
+                      style={{ boxShadow: glowStyle(stat.glowColor) }}
+                    >
+                      <Icon className={`w-6 h-6 ${stat.color}`} />
+                    </motion.div>
+                  </CardContent>
 
-      {/* Recent Activity Table */}
-      <section className="bg-[#0F172A] border border-slate-800 rounded-3xl overflow-hidden shadow-2xl shadow-black/50">
-        <div className="px-6 py-5 border-b border-slate-800 flex items-center justify-between bg-slate-800/20">
-          <div className="flex items-center gap-3">
-            <div className="p-2 bg-violet-600 rounded-lg text-white">
-              <BarChart3 className="w-4 h-4" />
-            </div>
-            <h3 className="text-sm font-black text-white uppercase tracking-wider">Live Activity Feed</h3>
-          </div>
-          <button
-            onClick={() => navigate("/applications")}
-            className="group flex items-center gap-2 text-xs font-bold text-violet-400 hover:text-violet-300 transition-colors"
+                  {/* Hover arrow */}
+                  <div className="px-5 pb-3 flex items-center gap-1 text-xs text-slate-400
+                    opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                    View details
+                    <ArrowRight className="w-3 h-3" />
+                  </div>
+                </Card>
+              </motion.div>
+            </motion.div>
+          );
+        })}
+      </motion.div>
+
+      {/* ── BOTTOM PANELS ── */}
+      <motion.div
+        className="grid grid-cols-1 lg:grid-cols-3 gap-4"
+        variants={container}
+        initial="hidden"
+        animate="show"
+      >
+        {/* Recent Applications */}
+        <motion.div variants={item} className="lg:col-span-2">
+          <Card
+            className="bg-white/70 backdrop-blur-md border border-blue-200/70 transition-all duration-300"
+            style={{ boxShadow: "0 6px 30px rgba(37,99,235,0.2)" }}
+            onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 15px 55px rgba(37,99,235,0.4)"}
+            onMouseLeave={(e) => e.currentTarget.style.boxShadow = "0 6px 30px rgba(37,99,235,0.2)"}
           >
-            Full Ledger <ArrowUpRight className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
-          </button>
-        </div>
+            <CardContent className="p-5 space-y-4">
 
-        <div className="overflow-x-auto">
-          <table className="w-full text-left border-collapse">
-            <thead>
-              <tr className="bg-[#1E293B]/30">
-                {["Reference ID", "Service Category", "Citizen Name", "Timestamp", "Current Status"].map((h) => (
-                  <th key={h} className="px-6 py-4 text-[10px] font-black text-slate-500 uppercase tracking-widest">{h}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-slate-800/50 text-slate-300">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <TrendingUp className="w-4 h-4 text-blue-500" />
+                  <span className="text-sm font-bold text-slate-700">Recent Applications</span>
+                </div>
+
+                <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.96 }}>
+                  <Button
+                    variant="ghost"
+                    size="sm"
+                    onClick={() => navigate("/applications")}
+                    className="text-xs text-blue-600 hover:text-blue-700 hover:bg-blue-100/70 transition-all rounded-lg"
+                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 0 25px rgba(37,99,235,0.55)"}
+                    onMouseLeave={(e) => e.currentTarget.style.boxShadow = "none"}
+                  >
+                    View all
+                    <ArrowRight className="w-3 h-3 ml-1" />
+                  </Button>
+                </motion.div>
+              </div>
+
               {loading ? (
-                <tr><td colSpan="5" className="py-12 text-center text-slate-500 italic text-sm">Synchronizing data...</td></tr>
-              ) : recent.length === 0 ? (
-                <tr><td colSpan="5" className="py-12 text-center text-slate-500 italic text-sm">No recent data found</td></tr>
+                <div className="py-8 text-center">
+                  <div className="w-6 h-6 border-2 border-blue-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-2" />
+                  <div className="text-sm text-slate-400">Loading...</div>
+                </div>
+              ) : recentApps.length === 0 ? (
+                <div className="text-sm text-slate-400 py-8 text-center">No applications yet</div>
               ) : (
-                recent.map((r) => (
-                  <tr key={r.application_id} className="hover:bg-slate-800/30 transition-colors cursor-pointer group" onClick={() => navigate("/applications")}>
-                    <td className="px-6 py-4 font-mono text-[11px] font-bold text-violet-400">{r.application_id}</td>
-                    <td className="px-6 py-4">
-                      <span className="text-sm font-bold text-slate-200 group-hover:text-white transition-colors capitalize">
-                        {r.certificate_name?.replace(/_/g, " ") || "—"}
-                      </span>
-                    </td>
-                    <td className="px-6 py-4 text-sm font-medium text-slate-400">{r.applicant_name}</td>
-                    <td className="px-6 py-4 text-xs font-mono text-slate-500 uppercase">{fmt(r.submitted_at)}</td>
-                    <td className="px-6 py-4">
-                      <span className={`inline-flex items-center px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-tighter border pill ${r.status}`}>
-                        {r.status}
-                      </span>
-                    </td>
-                  </tr>
-                ))
+                <div className="space-y-2">
+                  {recentApps.map((app, i) => (
+                    <motion.div
+                      key={app.application_id}
+                      initial={{ opacity: 0, x: -10 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: i * 0.06 }}
+                      whileHover={{ x: 4 }}
+                      className="flex items-center justify-between p-3 rounded-xl bg-white/80
+                        border border-blue-100 hover:border-blue-300
+                        transition-all cursor-pointer"
+                      style={{ boxShadow: "0 3px 15px rgba(37,99,235,0.15)" }}
+                      onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 6px 25px rgba(37,99,235,0.35)"}
+                      onMouseLeave={(e) => e.currentTarget.style.boxShadow = "0 3px 15px rgba(37,99,235,0.15)"}
+                      onClick={() => navigate("/applications")}
+                    >
+                      <div className="flex-1 min-w-0">
+                        <div className="text-sm font-semibold text-slate-700 truncate">
+                          {app.applicant_name || "Unknown"}
+                        </div>
+                        <div className="text-xs text-slate-400 truncate">
+                          {app.certificate_name || "—"} · {fmt(app.submitted_at)}
+                        </div>
+                      </div>
+
+                      <Badge className={`text-[10px] capitalize px-2 py-0.5 border ml-3 ${statusColor(app.status)}`}>
+                        {app.status}
+                      </Badge>
+                    </motion.div>
+                  ))}
+                </div>
               )}
-            </tbody>
-          </table>
-        </div>
-      </section>
+            </CardContent>
+          </Card>
+        </motion.div>
+
+        {/* System Status */}
+        <motion.div variants={item}>
+          <Card
+            className="bg-white/70 backdrop-blur-md border border-blue-200/70 transition-all duration-300 h-full"
+            style={{ boxShadow: "0 6px 30px rgba(37,99,235,0.2)" }}
+            onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 15px 55px rgba(37,99,235,0.4)"}
+            onMouseLeave={(e) => e.currentTarget.style.boxShadow = "0 6px 30px rgba(37,99,235,0.2)"}
+          >
+            <CardContent className="p-5 space-y-4">
+
+              <div className="flex items-center gap-2">
+                <Server className="w-4 h-4 text-blue-500" />
+                <span className="text-sm font-bold text-slate-700">System Status</span>
+              </div>
+
+              <div className="space-y-3">
+                {[
+                  { label: "Server", icon: Server, status: "Online" },
+                  { label: "Database", icon: Database, status: "Connected" },
+                  { label: "API", icon: Wifi, status: "Operational" },
+                ].map((sys, i) => (
+                  <motion.div
+                    key={sys.label}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.3 + i * 0.1 }}
+                    whileHover={{ scale: 1.02 }}
+                    className="flex items-center justify-between p-3 rounded-xl bg-white/80 border border-blue-100"
+                    style={{ boxShadow: "0 3px 15px rgba(16,185,129,0.35), 0 1px 5px rgba(16,185,129,0.15)" }}
+                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 6px 25px rgba(16,185,129,0.55), 0 2px 10px rgba(16,185,129,0.25)"}
+                    onMouseLeave={(e) => e.currentTarget.style.boxShadow = "0 3px 15px rgba(16,185,129,0.35), 0 1px 5px rgba(16,185,129,0.15)"}
+                  >
+                    <div className="flex items-center gap-2.5">
+                      <sys.icon className="w-4 h-4 text-slate-400" />
+                      <span className="text-sm text-slate-600">{sys.label}</span>
+                    </div>
+
+                    <div className="flex items-center gap-1.5">
+                      <span
+                        className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse-dot"
+                        style={{ boxShadow: "0 0 14px rgba(16,185,129,1), 0 0 6px rgba(16,185,129,0.8)" }}
+                      />
+                      <span className="text-xs font-semibold text-emerald-600">{sys.status}</span>
+                    </div>
+                  </motion.div>
+                ))}
+              </div>
+
+              {/* Quick stats summary */}
+              <div className="pt-3 border-t border-slate-100">
+                <div className="text-xs text-slate-400 mb-2">Quick Summary</div>
+                <div className="grid grid-cols-2 gap-2">
+
+                  <motion.div
+                    whileHover={{ scale: 1.06 }}
+                    className="text-center p-2 rounded-lg bg-white/80 border border-blue-200 cursor-default"
+                    style={{ boxShadow: "0 5px 22px rgba(37,99,235,0.3), 0 2px 8px rgba(37,99,235,0.15)" }}
+                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 8px 35px rgba(37,99,235,0.55), 0 3px 12px rgba(37,99,235,0.25)"}
+                    onMouseLeave={(e) => e.currentTarget.style.boxShadow = "0 5px 22px rgba(37,99,235,0.3), 0 2px 8px rgba(37,99,235,0.15)"}
+                  >
+                    <div className="text-lg font-bold text-blue-600">
+                      {loading ? "—" : stats.total}
+                    </div>
+                    <div className="text-[10px] text-blue-400">Total</div>
+                  </motion.div>
+
+                  <motion.div
+                    whileHover={{ scale: 1.06 }}
+                    className="text-center p-2 rounded-lg bg-white/80 border border-emerald-200 cursor-default"
+                    style={{ boxShadow: "0 5px 22px rgba(16,185,129,0.3), 0 2px 8px rgba(16,185,129,0.15)" }}
+                    onMouseEnter={(e) => e.currentTarget.style.boxShadow = "0 8px 35px rgba(16,185,129,0.55), 0 3px 12px rgba(16,185,129,0.25)"}
+                    onMouseLeave={(e) => e.currentTarget.style.boxShadow = "0 5px 22px rgba(16,185,129,0.3), 0 2px 8px rgba(16,185,129,0.15)"}
+                  >
+                    <div className="text-lg font-bold text-emerald-600">
+                      {loading ? "—" : Math.round(stats.total ? (stats.approved / stats.total) * 100 : 0)}%
+                    </div>
+                    <div className="text-[10px] text-emerald-400">Approved</div>
+                  </motion.div>
+
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }

@@ -1,29 +1,28 @@
-import React, { useState } from "react";
-import { Outlet, NavLink, useNavigate, useLocation } from "react-router-dom";
+import { Outlet, NavLink, useNavigate } from "react-router-dom";
 import { useAuth } from "../lib/auth.jsx";
-import { motion, AnimatePresence } from "framer-motion";
-import { 
-  LayoutDashboard, 
-  FileText, 
-  MessageSquareWarning, 
-  LogOut, 
+
+import {
+  LayoutDashboard,
+  FileText,
+  AlertCircle,
+  LogOut,
+  Building2,
   ChevronRight,
-  ShieldCheck,
-  Bell
 } from "lucide-react";
 
-// --- Configuration ---
-const NAV_ITEMS = [
-  { to: "/dashboard",    icon: LayoutDashboard, label: "Dashboard"    },
-  { to: "/applications", icon: FileText,        label: "Applications" },
-  { to: "/complaints",   icon: MessageSquareWarning, label: "Complaints"   },
+import { motion, AnimatePresence } from "framer-motion";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+
+const NAV = [
+  { to: "/dashboard", icon: LayoutDashboard, label: "Dashboard" },
+  { to: "/applications", icon: FileText, label: "Applications" },
+  { to: "/complaints", icon: AlertCircle, label: "Complaints" },
 ];
 
 export default function Layout() {
   const { logout } = useAuth();
   const navigate = useNavigate();
-  const location = useLocation();
-  const [isHovered, setIsHovered] = useState(null);
 
   function handleLogout() {
     logout();
@@ -31,135 +30,130 @@ export default function Layout() {
   }
 
   return (
-    <div className="flex min-h-screen bg-[#0B1120] text-slate-200 font-sans">
-      
-      {/* ── SIDEBAR ── */}
-      <aside className="w-64 flex-shrink-0 bg-[#0F172A] border-r border-slate-800 flex flex-col sticky top-0 h-screen z-20">
-        
-        {/* Branding Section */}
-        <div className="p-6 mb-4">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="relative">
-              <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center shadow-lg shadow-indigo-500/20">
-                <ShieldCheck className="text-white w-6 h-6" />
-              </div>
-              {/* Subtle Pulsing Aura */}
-              <motion.div 
-                animate={{ scale: [1, 1.2, 1], opacity: [0.5, 0, 0.5] }}
-                transition={{ duration: 2, repeat: Infinity }}
-                className="absolute inset-0 bg-indigo-500 rounded-xl -z-10"
-              />
+    <div className="flex min-h-screen text-slate-800 relative overflow-hidden"
+      style={{ background: "linear-gradient(135deg, #bfdbfe 0%, #dbeafe 50%, #bae6fd 100%)" }}
+    >
+      {/* Background decorations */}
+      <div className="pointer-events-none absolute inset-0">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-300/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-0 left-64 w-80 h-80 bg-indigo-300/15 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 right-1/4 w-64 h-64 bg-sky-200/20 rounded-full blur-3xl" />
+      </div>
+
+      {/* ── SIDEBAR (Darker blue, not black) ── */}
+      <aside
+        className="w-60 flex-shrink-0 flex flex-col relative z-10 shadow-2xl"
+        style={{ background: "linear-gradient(180deg, #1e3a5f 0%, #1e3a6e 50%, #1a3460 100%)" }}
+      >
+        {/* Logo */}
+        <div className="px-5 py-6 border-b border-white/10">
+          {/* Indian tricolor stripe */}
+          <div className="h-[3px] rounded-full mb-5 bg-gradient-to-r from-orange-400 via-white to-green-400 opacity-90" />
+
+          <motion.div
+            className="flex items-center gap-3"
+            whileHover={{ scale: 1.02 }}
+            transition={{ type: "spring", stiffness: 400 }}
+          >
+            <div className="p-2 rounded-xl bg-blue-400/20">
+              <Building2 className="w-6 h-6 text-blue-300" />
             </div>
             <div>
-              <h1 className="text-white font-bold text-lg tracking-tight leading-none">Sahayak</h1>
-              <p className="text-[10px] text-slate-500 font-bold tracking-widest mt-1 uppercase">Admin Command</p>
+              <div className="font-extrabold text-sm text-white tracking-wide">
+                GramSevak Bot
+              </div>
+              <div className="text-[10px] text-blue-200/60 tracking-[0.2em] uppercase">
+                Admin Panel
+              </div>
             </div>
-          </div>
-
-          {/* Tricolor Accent - Professional Subtle Version */}
-          <div className="flex h-[2px] w-full rounded-full overflow-hidden opacity-60">
-            <div className="flex-1 bg-orange-500" />
-            <div className="flex-1 bg-white" />
-            <div className="flex-1 bg-green-600" />
-          </div>
+          </motion.div>
         </div>
 
-        {/* Navigation */}
-        <nav className="flex-1 px-4 space-y-2">
-          {NAV_ITEMS.map((item) => {
-            const isActive = location.pathname === item.to;
-            return (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                onMouseEnter={() => setIsHovered(item.to)}
-                onMouseLeave={() => setIsHovered(null)}
-                className="relative group flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 no-underline"
-              >
-                {/* Active Background Glow */}
-                {isActive && (
-                  <motion.div 
-                    layoutId="activeNav"
-                    className="absolute inset-0 bg-indigo-500/10 border border-indigo-500/20 rounded-xl"
-                  />
-                )}
+        {/* Nav */}
+        <nav className="flex-1 px-3 py-5 space-y-1">
+          {NAV.map(({ to, icon: Icon, label }, index) => (
+            <NavLink key={to} to={to}>
+              {({ isActive }) => (
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: index * 0.08 }}
+                  whileHover={{ x: 4 }}
+                  className={`
+                    group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold
+                    cursor-pointer relative overflow-hidden transition-all duration-200
+                    ${isActive
+                      ? "text-white bg-blue-400/25 border border-blue-300/30 shadow-lg"
+                      : "text-blue-100/70 hover:text-white hover:bg-white/10"}
+                  `}
+                >
+                  {/* Active indicator */}
+                  {isActive && (
+                    <motion.div
+                      layoutId="activeNav"
+                      className="absolute left-0 top-1/2 -translate-y-1/2 w-[3px] h-5 rounded-r-full bg-blue-300"
+                      transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                    />
+                  )}
 
-                <item.icon className={`w-5 h-5 z-10 transition-colors ${isActive ? 'text-indigo-400' : 'text-slate-400 group-hover:text-slate-200'}`} />
-                
-                <span className={`text-sm font-semibold z-10 transition-colors ${isActive ? 'text-white' : 'text-slate-400 group-hover:text-slate-200'}`}>
-                  {item.label}
-                </span>
+                  <Icon className={`w-[18px] h-[18px] ${isActive ? "text-blue-200" : "group-hover:text-blue-300"}`} />
+                  <span className="flex-1">{label}</span>
 
-                {isActive && (
-                  <motion.div 
-                    initial={{ x: -10, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    className="ml-auto z-10"
-                  >
-                    <ChevronRight className="w-4 h-4 text-indigo-400" />
-                  </motion.div>
-                )}
-              </NavLink>
-            );
-          })}
+                  {isActive && (
+                    <ChevronRight className="w-3.5 h-3.5 text-blue-200 opacity-60" />
+                  )}
+                </motion.div>
+              )}
+            </NavLink>
+          ))}
         </nav>
 
-        {/* Bottom Section / Logout */}
-        <div className="p-4 border-t border-slate-800">
-          <button
-            onClick={handleLogout}
-            className="w-full flex items-center gap-3 px-4 py-3 rounded-xl text-slate-400 hover:text-red-400 hover:bg-red-400/5 transition-all duration-200 font-semibold text-sm group"
-          >
-            <LogOut className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
-            Logout
-          </button>
+        {/* Logout */}
+        <div className="p-3 border-t border-white/10">
+          <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
+            <Button
+              onClick={handleLogout}
+              variant="ghost"
+              className="w-full justify-start gap-2 text-blue-100/60 hover:text-red-300 hover:bg-red-500/10 rounded-xl transition-all"
+            >
+              <LogOut className="w-4 h-4" />
+              Logout
+            </Button>
+          </motion.div>
         </div>
       </aside>
 
       {/* ── MAIN CONTENT ── */}
-      <main className="flex-1 flex flex-col min-w-0 overflow-hidden">
-        
-        {/* Modern Topbar (Glassmorphism) */}
-        <header className="h-16 flex items-center px-8 gap-4 bg-[#0B1120]/80 backdrop-blur-md border-b border-slate-800 sticky top-0 z-10">
-          <div className="flex-1">
-            <h2 className="text-xs font-bold text-slate-500 uppercase tracking-widest">
-              Digital India <span className="mx-2 text-slate-700">•</span> Maharashtra Portal
-            </h2>
+      <main className="flex-1 flex flex-col min-w-0 relative z-10">
+
+        {/* Topbar */}
+        <div className="h-14 backdrop-blur-xl border-b border-blue-200/60 flex items-center px-6 shadow-sm"
+          style={{ background: "rgba(219, 234, 254, 0.6)" }}
+        >
+          <div className="flex-1 text-xs text-blue-700/70 font-medium tracking-wide">
+            Maharashtra Government — Certificate Portal
           </div>
 
-          <div className="flex items-center gap-6">
-            {/* Notification Icon */}
-            <div className="relative p-2 rounded-full hover:bg-slate-800 cursor-pointer transition-colors">
-              <Bell className="w-5 h-5 text-slate-400" />
-              <span className="absolute top-2 right-2 w-2 h-2 bg-indigo-500 rounded-full border-2 border-[#0B1120]" />
-            </div>
-
-            {/* Status Badge */}
-            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20">
-              <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-              <span className="text-[11px] font-bold text-emerald-500 uppercase tracking-wider">System Live</span>
-            </div>
-
-            {/* Profile Avatar Placeholder */}
-            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-slate-700 to-slate-600 border border-slate-500 flex items-center justify-center text-[10px] font-bold text-white uppercase">
-              AD
-            </div>
+          <div className="flex items-center gap-3">
+            <Badge className="bg-emerald-100 text-emerald-700 border border-emerald-300 px-3 py-1 text-xs flex items-center gap-2 font-semibold">
+              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse-dot" />
+              Admin
+            </Badge>
           </div>
-        </header>
+        </div>
 
-        {/* Page Content with Entrance Animation */}
-        <div className="flex-1 p-8 overflow-y-auto">
+        {/* Page Content */}
+        <AnimatePresence mode="wait">
           <motion.div
-            key={location.pathname}
-            initial={{ opacity: 0, y: 15 }}
+            className="flex-1 p-6 overflow-y-auto"
+            initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            transition={{ duration: 0.3, ease: "easeOut" }}
-            className="max-w-7xl mx-auto"
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.25, ease: "easeOut" }}
           >
             <Outlet />
           </motion.div>
-        </div>
+        </AnimatePresence>
       </main>
     </div>
   );
